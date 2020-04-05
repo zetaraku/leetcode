@@ -4,8 +4,8 @@
 //     <Indent every line.>
 // Link: <Put the link to the problem here>
 
-// Time complexity: <O(?)>
-// Space complexity: <O(?)>
+// Time complexity: O(<?>)
+// Space complexity: O(<?>)
 class Solution {
 public:
     /* PASTE YOUR SOLUTION CODE */
