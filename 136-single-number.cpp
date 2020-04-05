@@ -8,13 +8,7 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        int result = 0;
-        
         // we can XOR every number so that integers which appear twice will cancel each other out, leaving the single one.
-        for (int num: nums) {
-            result ^= num;
-        }
-        
-        return result;
+        return std::accumulate(nums.begin(), nums.end(), 0, std::bit_xor<int>());
     }
 };
