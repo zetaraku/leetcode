@@ -1,4 +1,5 @@
-// Problem:
+// Title: Single Number
+// Description:
 //     Given a non-empty array of integers, every element appears twice except for one. Find that single one.
 // Link: https://leetcode.com/problems/single-number/
 
