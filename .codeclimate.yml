@@ -2,3 +2,8 @@ version: "2"
 plugins:
   cppcheck:
     enabled: true
+    checks:
+      functionStatic:
+        enabled: false
+      unusedFunction:
+        enabled: false
