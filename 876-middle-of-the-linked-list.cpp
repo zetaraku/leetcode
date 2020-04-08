@@ -17,19 +17,21 @@
 class Solution {
 public:
     ListNode *middleNode(ListNode *head) {        
+        // (index of the middle node + 1) = (index of the last node + 1) / 2
+        
         // dummy node to shift the starting point with +1 index
-        ListNode dummyHead(-1); {
+        ListNode dummyHead; {
             dummyHead.next = head;
         }
         
-        // (index of the middle node + 1) = (index of the last node + 1) / 2
+        // it just looks cool :D
         ListNode *slowNode = &dummyHead, *fastNode = &dummyHead;
-        while (true) {
-            slowNode = slowNode->next;
-            if ((fastNode = fastNode->next) == NULL)
-                return slowNode;
-            if ((fastNode = fastNode->next) == NULL)
-                return slowNode;
-        }
+        while (
+            (slowNode = slowNode->next)
+         && (fastNode = fastNode->next)
+         && (fastNode = fastNode->next)
+        );
+        
+        return slowNode;
     }
 };
