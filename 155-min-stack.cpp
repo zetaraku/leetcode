@@ -12,8 +12,8 @@
 // Space complexity: O(n)
 class MinStack {
 private:
-    stack<int> data;
-    stack<int> minData;
+    enum { DATA_SLOT, MIN_DATA_SLOT };
+    stack<tuple<int,int>> data;
     
 public:
     MinStack() {
@@ -21,21 +21,22 @@ public:
     }
     
     void push(int x) {
-        data.push(x);
-        minData.push(!minData.empty() ? std::min(minData.top(), x) : x);
+        data.push(std::make_tuple(
+            /* DATA_SLOT */ x,
+            /* MIN_DATA_SLOT */ !data.empty() ? std::min(getMin(), x) : x
+        ));
     }
     
     void pop() {
         data.pop();
-        minData.pop();
     }
     
     int top() {
-        return data.top();
+        return std::get<DATA_SLOT>(data.top());
     }
     
     int getMin() {
-        return minData.top();
+        return std::get<MIN_DATA_SLOT>(data.top());
     }
 };
 
