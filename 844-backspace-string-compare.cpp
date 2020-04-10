@@ -35,7 +35,7 @@ public:
         while (rit != rend) {
             if (*rit == '#') {
                 numOfCharsToDelete++, rit++;
-            } else if (numOfCharsToDelete > 0) {
+            } else if (numOfCharsToDelete != 0) {   // do not use > 0, that is slow!
                 numOfCharsToDelete--, rit++;
             } else {
                 return;
