@@ -19,38 +19,37 @@
  */
 class Solution {
 private:
-    enum { MAX_HEIGHT_SLOT, MAX_DIAMETER_SLOT };
+    struct Result {
+        int maxHeight;
+        int maxDiameter;
+        
+        Result(int maxHeight, int maxDiameter) :
+            maxHeight(maxHeight),
+            maxDiameter(maxDiameter)
+        {}
+    };
     
 public:
     int diameterOfBinaryTree(TreeNode *root) {
-        return std::get<MAX_DIAMETER_SLOT>(maxHeightAndDiameter(root));
+        return maxHeightAndDiameter(root).maxDiameter;
     }
     
-    tuple<int,int> maxHeightAndDiameter(TreeNode *node) {
+    Result maxHeightAndDiameter(TreeNode *node) {
         if (node == NULL)
-            return std::make_tuple(-1, 0);
+            return Result(-1, 0);
         
-        tuple<int,int> left = maxHeightAndDiameter(node->left);
-        tuple<int,int> right = maxHeightAndDiameter(node->right);
+        Result left = maxHeightAndDiameter(node->left);
+        Result right = maxHeightAndDiameter(node->right);
         
-        return std::make_tuple(
+        return Result(
             /* max height: */
-            // equals the max height of two sub trees + 1
-            std::max(
-                std::get<MAX_HEIGHT_SLOT>(left),
-                std::get<MAX_HEIGHT_SLOT>(right)
-            ) + 1,
+            std::max(left.maxHeight, right.maxHeight) + 1,
             /* max diameter: */
             std::max(
                 // if max diameter does pass this node
-                std::get<MAX_HEIGHT_SLOT>(left) + 2 + std::get<MAX_HEIGHT_SLOT>(right),
+                left.maxHeight + 2 + right.maxHeight,
                 // if max diameter doesn't pass this node
-                std::max(
-                    // if max diameter is in the left tree
-                    std::get<MAX_DIAMETER_SLOT>(left),
-                    // if max diameter is in the right tree
-                    std::get<MAX_DIAMETER_SLOT>(right)
-                )
+                std::max(left.maxDiameter, right.maxDiameter)
             )
         );
     }
