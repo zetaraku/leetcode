@@ -25,7 +25,7 @@ public:
     bool isValidSequence(TreeNode *root, vector<int> &arr) {
         return isValidSequence(root, arr.begin(), arr.end());
     }
-    bool isValidSequence(TreeNode* root, vector<int>::iterator begin, vector<int>::iterator end) {
+    bool isValidSequence(TreeNode *root, vector<int>::iterator begin, vector<int>::iterator end) {
         // the match failed because we know the sequence is non-empty and success will be handled before reaching NULL
         if (root == NULL)
             return false;
