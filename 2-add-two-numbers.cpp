@@ -24,6 +24,7 @@ public:
         ListNode *dummyHead = new ListNode(-1), *dummyTail = dummyHead;
         int carry = 0;
         
+        // add up digits with carry as indicated
         for (
             ListNode *n1 = l1, *n2 = l2;
             n1 != NULL || n2 != NULL || carry != 0;
@@ -34,6 +35,10 @@ public:
             carry = num / 10;
         }
         
-        return dummyHead->next;
+        // remember to free the dummyHead!
+        ListNode *resultHead = dummyHead->next;
+        delete dummyHead;
+        
+        return resultHead;
     }
 };
