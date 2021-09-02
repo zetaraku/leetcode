@@ -8,7 +8,7 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        std::set<char> currentChars;
+        std::unordered_set<char> currentChars;
         std::size_t beginIndex = 0;
         std::size_t maxLength = 0;
         
