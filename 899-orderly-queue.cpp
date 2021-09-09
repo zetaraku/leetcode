@@ -21,6 +21,9 @@ public:
                 }
             }
             
+            // * There exist some efficient algorithms that can find the lexicographically minimal string rotation in O(n) time
+            // Link: https://en.wikipedia.org/wiki/Lexicographically_minimal_string_rotation
+            
             // return the rotated string
             return s2.substr(minIndex, s.size());
         } else {
