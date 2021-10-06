@@ -46,7 +46,7 @@ public:
         }
         
         // match the reversed left half values with the right half values
-        while (nodeStack.size() > 0) {
+        while (!nodeStack.empty()) {
             if (slowNode->val != nodeStack.top()) {
                 return false;
             }
