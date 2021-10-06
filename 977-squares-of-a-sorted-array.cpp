@@ -11,7 +11,7 @@ public:
         std::vector<int> result;
         
         // handle edge case
-        if (nums.size() == 0) return vector<int>();
+        if (nums.empty()) return vector<int>();
         
         // merge numbers from both sides
         std::size_t i = 0, j = nums.size() - 1;
