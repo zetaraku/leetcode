@@ -28,4 +28,9 @@ public:
             }
         }
     }
+    
+    // void rotate(vector<int>& nums, int k) {
+    //     // utilize the standard library to solve the problem
+    //     std::rotate(nums.begin(), nums.end() - k % nums.size(), nums.end());
+    // }
 };
