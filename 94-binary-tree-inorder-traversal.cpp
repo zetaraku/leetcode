@@ -33,7 +33,7 @@ public:
                 node = node->left;
             } else {
                 // stop if no more node to process
-                if (path.size() == 0) break;
+                if (path.empty()) break;
 
                 // restore the middle node
                 node = path.top(); path.pop();
