@@ -9,17 +9,13 @@
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        // the end index of consecutive non-zero elements starting from the beginning
-        vector<int>::size_type tail = 0;
+        // the next insertion point of non-0 sub array
+        std::size_t i = 0;
         
-        // starting from left to right
-        for (auto i = 0; i < nums.size(); i++) {
-            // if we encounter a non-zero element
-            if (nums.at(i) != 0) {
-                // move it back to the tail of the consecutive non-zero partition
-                std::swap(nums.at(tail), nums.at(i));
-                // extend the right bound of the consecutive non-zero partition
-                tail++;
+        for (std::size_t j = 0; j != nums.size(); ++j) {
+            // move each non-0 element to the begin so all other 0 will be at the end
+            if (nums[j] != 0) {
+                std::swap(nums[i], nums[j]); i++;
             }
         }
     }
