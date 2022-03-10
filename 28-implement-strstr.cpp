@@ -11,7 +11,7 @@
 //     n = length of the text
 class Solution {
 public:
-    // by using KMP algorithm
+    // using KMP algorithm
     int strStr(std::string text, std::string pattern) {
         // ensure the length of the pattern to be at least 1 for Step 1 to work properly
         // (an empty pattern can always be matched at the beginning of any text)
