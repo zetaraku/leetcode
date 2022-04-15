@@ -74,9 +74,9 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [1046-last-stone-weight.cpp](./code/1046-last-stone-weight.cpp) | `O(n*log(n))` | `O(n)` |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [1143-longest-common-subsequence.cpp](./code/1143-longest-common-subsequence.cpp) | `O(n1*n2)` | `O(n1*n2)` |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [1189-maximum-number-of-balloons.cpp](./code/1189-maximum-number-of-balloons.cpp) | `O(n)` | `O(1)` |
+| 1426 | Counting Elements | [1426-counting-elements.cpp](./code/1426-counting-elements.cpp) | `O(n)` | `O(n)` |
 | 1430 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/) | [1430-check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp](./code/1430-check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp) | `O(n)` | `O(n)` |
 | 1629 | [Slowest Key](https://leetcode.com/problems/slowest-key/) | [1629-slowest-key.cpp](./code/1629-slowest-key.cpp) | `O(n)` | `O(1)` |
-| 9999 | Counting Elements | [U-counting-elements.cpp](./code/U-counting-elements.cpp) | `O(n)` | `O(n)` |
 | 9999 | [First Unique Number](https://leetcode.com/problems/first-unique-number/) | [U-first-unique-number.cpp](./code/U-first-unique-number.cpp) | `O(1) for { showFirstUnique(), add(value) }` | `O(n)` |
 | 9999 | Leftmost Column with at Least a One | [U-leftmost-column-with-at-least-a-one.cpp](./code/U-leftmost-column-with-at-least-a-one.cpp) | `O(r+c)` | `O(1)` |
 | 9999 | Perform String Shifts | [U-perform-string-shifts.cpp](./code/U-perform-string-shifts.cpp) | `O(m+n)` | `O(n)` |
