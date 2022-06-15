@@ -14,6 +14,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [8-string-to-integer-atoi.cpp](./code/8-string-to-integer-atoi.cpp) | `O(n)` | `O(1)` |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [19-remove-nth-node-from-end-of-list.cpp](./code/19-remove-nth-node-from-end-of-list.cpp) | `O(n)` | `O(1)` |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [20-valid-parentheses.cpp](./code/20-valid-parentheses.cpp) | `O(n)` | `O(n)` |
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [22-generate-parentheses.cpp](./code/22-generate-parentheses.cpp) | `O(C(n)), where C(n) = the n-th Catalan number` | `O(C(n)), where C(n) = the n-th Catalan number` |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [28-implement-strstr.cpp](./code/28-implement-strstr.cpp) | `O(m+n)` | `O(m)` |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [33-search-in-rotated-sorted-array.cpp](./code/33-search-in-rotated-sorted-array.cpp) | `O(log(n))` | `O(log(n))` |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [35-search-insert-position.cpp](./code/35-search-insert-position.cpp) | `O(log(n))` | `O(1)` |
