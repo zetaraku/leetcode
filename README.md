@@ -16,6 +16,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [20-valid-parentheses.cpp](./code/20-valid-parentheses.cpp) | `O(n)` | `O(n)` |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [22-generate-parentheses.cpp](./code/22-generate-parentheses.cpp) | `O(C(n)), where C(n) = the n-th Catalan number` | `O(C(n)), where C(n) = the n-th Catalan number` |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [28-implement-strstr.cpp](./code/28-implement-strstr.cpp) | `O(m+n)` | `O(m)` |
+| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [31-next-permutation.cpp](./code/31-next-permutation.cpp) | `O(n)` | `O(1)` |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [33-search-in-rotated-sorted-array.cpp](./code/33-search-in-rotated-sorted-array.cpp) | `O(log(n))` | `O(log(n))` |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [35-search-insert-position.cpp](./code/35-search-insert-position.cpp) | `O(log(n))` | `O(1)` |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [48-rotate-image.cpp](./code/48-rotate-image.cpp) | `O(n^2)` | `O(1)` |
