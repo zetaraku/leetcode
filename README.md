@@ -20,6 +20,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [33-search-in-rotated-sorted-array.cpp](./code/33-search-in-rotated-sorted-array.cpp) | `O(log(n))` | `O(log(n))` |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [35-search-insert-position.cpp](./code/35-search-insert-position.cpp) | `O(log(n))` | `O(1)` |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [39-combination-sum.cpp](./code/39-combination-sum.cpp) | `O(2^(n+t)*t)` | `O(2^(n+t)*t)` |
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) | [46-permutations.cpp](./code/46-permutations.cpp) | `O(n*n!)` | `O(n*n!)` |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [48-rotate-image.cpp](./code/48-rotate-image.cpp) | `O(n^2)` | `O(1)` |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [49-group-anagrams.cpp](./code/49-group-anagrams.cpp) | `O(n*m*log(m))` | `O(n*m)` |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [50-powx-n.cpp](./code/50-powx-n.cpp) | `O(log(n))` | `O(log(n))` |
