@@ -6,7 +6,7 @@
 //         A left shift by 1 means remove the first character of s and append it to the end.
 //         Similarly, a right shift by 1 means remove the last character of s and add it to the beginning.
 //     Return the final string after all operations.
-// Link: <Put the link to the problem here>
+// Link: https://leetcode.com/problems/perform-string-shifts/
 
 // Time complexity: O(m+n)
 // Space complexity: O(n)
