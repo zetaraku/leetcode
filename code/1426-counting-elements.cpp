@@ -2,7 +2,7 @@
 // Description:
 //     Given an integer array arr, count element x such that x + 1 is also in arr.
 //     If there're duplicates in arr, count them seperately.
-// Link: <Put the link to the problem here>
+// Link: https://leetcode.com/problems/counting-elements/
 
 // Time complexity: O(n)
 // Space complexity: O(n)
