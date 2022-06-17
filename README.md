@@ -78,7 +78,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [1046-last-stone-weight.cpp](./code/1046-last-stone-weight.cpp) | `O(n*log(n))` | `O(n)` |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [1143-longest-common-subsequence.cpp](./code/1143-longest-common-subsequence.cpp) | `O(n1*n2)` | `O(n1*n2)` |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [1189-maximum-number-of-balloons.cpp](./code/1189-maximum-number-of-balloons.cpp) | `O(n)` | `O(1)` |
-| 1426 | Counting Elements | [1426-counting-elements.cpp](./code/1426-counting-elements.cpp) | `O(n)` | `O(n)` |
+| 1426 | [Counting Elements](https://leetcode.com/problems/counting-elements/) | [1426-counting-elements.cpp](./code/1426-counting-elements.cpp) | `O(n)` | `O(n)` |
 | 1427 | Perform String Shifts | [1427-perform-string-shifts.cpp](./code/1427-perform-string-shifts.cpp) | `O(m+n)` | `O(n)` |
 | 1428 | Leftmost Column with at Least a One | [1428-leftmost-column-with-at-least-a-one.cpp](./code/1428-leftmost-column-with-at-least-a-one.cpp) | `O(r+c)` | `O(1)` |
 | 1429 | [First Unique Number](https://leetcode.com/problems/first-unique-number/) | [1429-first-unique-number.cpp](./code/1429-first-unique-number.cpp) | `O(1) for { showFirstUnique(), add(value) }` | `O(n)` |
