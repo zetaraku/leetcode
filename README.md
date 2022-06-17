@@ -27,7 +27,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [53-maximum-subarray.cpp](./code/53-maximum-subarray.cpp) | `O(n)` | `O(1)` |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [55-jump-game.cpp](./code/55-jump-game.cpp) | `O(n)` | `O(1)` |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [64-minimum-path-sum.cpp](./code/64-minimum-path-sum.cpp) | `O(n)` | `O(n)` |
-| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [88-merge-sorted-array.cpp](./code/88-merge-sorted-array.cpp) | `O(m + n)` | `O(1)` |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [88-merge-sorted-array.cpp](./code/88-merge-sorted-array.cpp) | `O(m+n)` | `O(1)` |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | [91-decode-ways.cpp](./code/91-decode-ways.cpp) | `O(n)` | `O(n)` |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [94-binary-tree-inorder-traversal.cpp](./code/94-binary-tree-inorder-traversal.cpp) | `O(n)` | `O(n)` |
 | 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [95-unique-binary-search-trees-ii.cpp](./code/95-unique-binary-search-trees-ii.cpp) | `O(C(n)), where C(n) = the n-th Catalan number` | `O(C(n))` |
@@ -62,7 +62,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [557-reverse-words-in-a-string-iii.cpp](./code/557-reverse-words-in-a-string-iii.cpp) | `O(n)` | `O(1)` |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [560-subarray-sum-equals-k.cpp](./code/560-subarray-sum-equals-k.cpp) | `O(n)` | `O(n)` |
 | 565 | [Array Nesting](https://leetcode.com/problems/array-nesting/) | [565-array-nesting.cpp](./code/565-array-nesting.cpp) | `O(n)` | `O(n)` |
-| 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [566-reshape-the-matrix.cpp](./code/566-reshape-the-matrix.cpp) | `O(m * n)` | `O(m * n)` |
+| 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [566-reshape-the-matrix.cpp](./code/566-reshape-the-matrix.cpp) | `O(m*n)` | `O(m*n)` |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | [595-big-countries.sql](./code/595-big-countries.sql) | `N/A` | `N/A` |
 | 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [678-valid-parenthesis-string.cpp](./code/678-valid-parenthesis-string.cpp) | `O(n)` | `O(1)` |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [704-binary-search.cpp](./code/704-binary-search.cpp) | `O(log(n))` | `O(1)` |
