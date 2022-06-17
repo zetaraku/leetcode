@@ -6,8 +6,8 @@
 //     If the reshape operation with given parameters is possible and legal, output the new reshaped matrix; Otherwise, output the original matrix.
 // Link: https://leetcode.com/problems/reshape-the-matrix/
 
-// Time complexity: O(m * n)
-// Space complexity: O(m * n)
+// Time complexity: O(m*n)
+// Space complexity: O(m*n)
 class Solution {
 public:
     vector<vector<int>> matrixReshape(vector<vector<int>>& mat, int r, int c) {
