@@ -8,7 +8,7 @@
 //     and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
 // Link: https://leetcode.com/problems/merge-sorted-array/
 
-// Time complexity: O(m + n)
+// Time complexity: O(m+n)
 // Space complexity: O(1)
 class Solution {
 public:
