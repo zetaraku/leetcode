@@ -17,7 +17,7 @@
 //         Imagine there is a pointer p(x, y) starting from top right corner.
 //         p can only move left or down. If the value at p is 0, move down. If the value at p is 1, move left.
 //         Try to figure out the correctness and time complexity of this algorithm.
-// Link: <Put the link to the problem here>
+// Link: https://leetcode.com/problems/leftmost-column-with-at-least-a-one/
 
 // Time complexity: O(r+c)
 // Space complexity: O(1)
