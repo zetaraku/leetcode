@@ -26,6 +26,6 @@ jobs:
 
       - name: Run a one-line script
         run: perl gen-readme.pl >README.md
-      
+
       - name: Add and Commit
         uses: EndBug/add-and-commit@v9
