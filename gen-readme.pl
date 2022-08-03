@@ -1,5 +1,8 @@
 #!/usr/bin/perl
+use strict;
+use warnings;
 use File::Basename;
+use JSON;
 
 my %dtag = (
   easy => '<span style="color: #00af9b;">Easy</span>',
@@ -11,6 +14,16 @@ my %dcount = (
   medium => 0,
   hard => 0,
 );
+my %dtotal = (
+  easy => 0,
+  medium => 0,
+  hard => 0,
+);
+
+my @problems = @{from_json(`bash ./fetch-problem-list.bash`)};
+foreach my $problem (@problems) {
+  $dtotal{$problem->{difficulty}}++;
+}
 
 my @fileinfo;
 
@@ -49,9 +62,9 @@ print <<EOF;
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- $dtag{easy}: $dcount{easy}
-- $dtag{medium}: $dcount{medium}
-- $dtag{hard}: $dcount{hard}
+- $dtag{easy}: $dcount{easy} / $dtotal{easy}
+- $dtag{medium}: $dcount{medium} / $dtotal{medium}
+- $dtag{hard}: $dcount{hard} / $dtotal{hard}
 
 ## Index
 
