@@ -2,7 +2,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 36 / 588
+- <span style="color: #00af9b;">Easy</span>: 37 / 588
 - <span style="color: #ffb800;">Medium</span>: 43 / 1262
 - <span style="color: #ff2d55;">Hard</span>: 3 / 520
 
@@ -34,6 +34,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 64 | <span style="color: #ffb800;">Medium</span> | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [64-minimum-path-sum.cpp](./code/medium/64-minimum-path-sum.cpp) | `O(n)` | `O(n)` |
 | 78 | <span style="color: #ffb800;">Medium</span> | [Subsets](https://leetcode.com/problems/subsets/) | [78-subsets.cpp](./code/medium/78-subsets.cpp) | `O(n*2^n)` | `O(n*2^n)` |
 | 82 | <span style="color: #ffb800;">Medium</span> | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [82-remove-duplicates-from-sorted-list-ii.cpp](./code/medium/82-remove-duplicates-from-sorted-list-ii.cpp) | `O(n)` | `O(1)` |
+| 83 | <span style="color: #00af9b;">Easy</span> | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [83-remove-duplicates-from-sorted-list.cpp](./code/easy/83-remove-duplicates-from-sorted-list.cpp) | `O(n)` | `O(1)` |
 | 88 | <span style="color: #00af9b;">Easy</span> | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [88-merge-sorted-array.cpp](./code/easy/88-merge-sorted-array.cpp) | `O(m+n)` | `O(1)` |
 | 91 | <span style="color: #ffb800;">Medium</span> | [Decode Ways](https://leetcode.com/problems/decode-ways/) | [91-decode-ways.cpp](./code/medium/91-decode-ways.cpp) | `O(n)` | `O(n)` |
 | 94 | <span style="color: #00af9b;">Easy</span> | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [94-binary-tree-inorder-traversal.cpp](./code/easy/94-binary-tree-inorder-traversal.cpp) | `O(n)` | `O(n)` |
