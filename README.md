@@ -2,9 +2,9 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 36 / 586
-- <span style="color: #ffb800;">Medium</span>: 42 / 1257
-- <span style="color: #ff2d55;">Hard</span>: 2 / 518
+- <span style="color: #00af9b;">Easy</span>: 36 / 588
+- <span style="color: #ffb800;">Medium</span>: 42 / 1262
+- <span style="color: #ff2d55;">Hard</span>: 3 / 520
 
 ## Index
 
@@ -45,6 +45,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 146 | <span style="color: #ffb800;">Medium</span> | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [146-lru-cache.cpp](./code/medium/146-lru-cache.cpp) | `O(1) for { get(key), put(key, value) }` | `O(n)` |
 | 155 | <span style="color: #ffb800;">Medium</span> | [Min Stack](https://leetcode.com/problems/min-stack/) | [155-min-stack.cpp](./code/medium/155-min-stack.cpp) | `O(1) for { push(x), pop(), top(), getMin() }` | `O(n)` |
 | 167 | <span style="color: #ffb800;">Medium</span> | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [167-two-sum-ii-input-array-is-sorted.cpp](./code/medium/167-two-sum-ii-input-array-is-sorted.cpp) | `O(n)` | `O(1)` |
+| 174 | <span style="color: #ff2d55;">Hard</span> | [Dungeon Game](https://leetcode.com/problems/dungeon-game/) | [174-dungeon-game.cpp](./code/hard/174-dungeon-game.cpp) | `O(m*n)` | `O(m*n)` |
 | 189 | <span style="color: #ffb800;">Medium</span> | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [189-rotate-array.cpp](./code/medium/189-rotate-array.cpp) | `O(n)` | `O(1)` |
 | 193 | <span style="color: #00af9b;">Easy</span> | [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/) | [193-valid-phone-numbers.bash](./code/easy/193-valid-phone-numbers.bash) | `N/A` | `N/A` |
 | 200 | <span style="color: #ffb800;">Medium</span> | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [200-number-of-islands.cpp](./code/medium/200-number-of-islands.cpp) | `O(n)` | `O(n)` |
