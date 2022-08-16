@@ -2,9 +2,9 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 39 / 588
-- <span style="color: #ffb800;">Medium</span>: 47 / 1262
-- <span style="color: #ff2d55;">Hard</span>: 3 / 521
+- <span style="color: #00af9b;">Easy</span>: 40 / 590
+- <span style="color: #ffb800;">Medium</span>: 47 / 1265
+- <span style="color: #ff2d55;">Hard</span>: 3 / 522
 
 ## Index
 
@@ -45,6 +45,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 104 | <span style="color: #00af9b;">Easy</span> | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [104-maximum-depth-of-binary-tree.cpp](./code/easy/104-maximum-depth-of-binary-tree.cpp) | `O(n)` | `O(log(n))` |
 | 105 | <span style="color: #ffb800;">Medium</span> | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [105-construct-binary-tree-from-preorder-and-inorder-traversal.cpp](./code/medium/105-construct-binary-tree-from-preorder-and-inorder-traversal.cpp) | `O(n)` | `O(n)` |
 | 108 | <span style="color: #00af9b;">Easy</span> | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [108-convert-sorted-array-to-binary-search-tree.cpp](./code/easy/108-convert-sorted-array-to-binary-search-tree.cpp) | `O(n)` | `O(n)` |
+| 111 | <span style="color: #00af9b;">Easy</span> | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [111-minimum-depth-of-binary-tree.cpp](./code/easy/111-minimum-depth-of-binary-tree.cpp) | `O(n)` | `O(log(n))` |
 | 118 | <span style="color: #00af9b;">Easy</span> | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [118-pascals-triangle.cpp](./code/easy/118-pascals-triangle.cpp) | `O(n^2)` | `O(n^2)` |
 | 121 | <span style="color: #00af9b;">Easy</span> | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [121-best-time-to-buy-and-sell-stock.cpp](./code/easy/121-best-time-to-buy-and-sell-stock.cpp) | `O(n)` | `O(1)` |
 | 122 | <span style="color: #ffb800;">Medium</span> | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [122-best-time-to-buy-and-sell-stock-ii.cpp](./code/medium/122-best-time-to-buy-and-sell-stock-ii.cpp) | `O(n)` | `O(1)` |
