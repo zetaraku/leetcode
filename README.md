@@ -2,8 +2,8 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 41 / 591
-- <span style="color: #ffb800;">Medium</span>: 49 / 1271
+- <span style="color: #00af9b;">Easy</span>: 42 / 591
+- <span style="color: #ffb800;">Medium</span>: 49 / 1272
 - <span style="color: #ff2d55;">Hard</span>: 4 / 524
 
 ## Index
@@ -76,6 +76,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 342 | <span style="color: #00af9b;">Easy</span> | [Power of Four](https://leetcode.com/problems/power-of-four/) | [342-power-of-four.cpp](./code/easy/342-power-of-four.cpp) | `O(1)` | `O(1)` |
 | 344 | <span style="color: #00af9b;">Easy</span> | [Reverse String](https://leetcode.com/problems/reverse-string/) | [344-reverse-string.cpp](./code/easy/344-reverse-string.cpp) | `O(n)` | `O(1)` |
 | 350 | <span style="color: #00af9b;">Easy</span> | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [350-intersection-of-two-arrays-ii.cpp](./code/easy/350-intersection-of-two-arrays-ii.cpp) | `O(n1+n2)` | `O(n1+n2)` |
+| 383 | <span style="color: #00af9b;">Easy</span> | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [383-ransom-note.cpp](./code/easy/383-ransom-note.cpp) | `O(m+n)` | `O(1)` |
 | 509 | <span style="color: #00af9b;">Easy</span> | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [509-fibonacci-number.cpp](./code/easy/509-fibonacci-number.cpp) | `O(log(n))` | `O(log(n))` |
 | 525 | <span style="color: #ffb800;">Medium</span> | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [525-contiguous-array.cpp](./code/medium/525-contiguous-array.cpp) | `O(n)` | `O(n)` |
 | 543 | <span style="color: #00af9b;">Easy</span> | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [543-diameter-of-binary-tree.cpp](./code/easy/543-diameter-of-binary-tree.cpp) | `O(n)` | `O(n)` |
