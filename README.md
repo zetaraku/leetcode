@@ -3,7 +3,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 42 / 591
-- <span style="color: #ffb800;">Medium</span>: 51 / 1272
+- <span style="color: #ffb800;">Medium</span>: 52 / 1272
 - <span style="color: #ff2d55;">Hard</span>: 4 / 524
 
 ## Index
@@ -62,6 +62,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 174 | <span style="color: #ff2d55;">Hard</span> | [Dungeon Game](https://leetcode.com/problems/dungeon-game/) | [174-dungeon-game.cpp](./code/hard/174-dungeon-game.cpp) | `O(m*n)` | `O(m*n)` |
 | 189 | <span style="color: #ffb800;">Medium</span> | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [189-rotate-array.cpp](./code/medium/189-rotate-array.cpp) | `O(n)` | `O(1)` |
 | 193 | <span style="color: #00af9b;">Easy</span> | [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/) | [193-valid-phone-numbers.bash](./code/easy/193-valid-phone-numbers.bash) | `N/A` | `N/A` |
+| 198 | <span style="color: #ffb800;">Medium</span> | [House Robber](https://leetcode.com/problems/house-robber/) | [198-house-robber.cpp](./code/medium/198-house-robber.cpp) | `O(n)` | `O(n)` |
 | 200 | <span style="color: #ffb800;">Medium</span> | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [200-number-of-islands.cpp](./code/medium/200-number-of-islands.cpp) | `O(n)` | `O(n)` |
 | 201 | <span style="color: #ffb800;">Medium</span> | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [201-bitwise-and-of-numbers-range.cpp](./code/medium/201-bitwise-and-of-numbers-range.cpp) | `O(log(n))` | `O(1)` |
 | 202 | <span style="color: #00af9b;">Easy</span> | [Happy Number](https://leetcode.com/problems/happy-number/) | [202-happy-number.cpp](./code/easy/202-happy-number.cpp) | `O(n)` | `O(1)` |
