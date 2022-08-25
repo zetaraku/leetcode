@@ -3,7 +3,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 42 / 591
-- <span style="color: #ffb800;">Medium</span>: 49 / 1272
+- <span style="color: #ffb800;">Medium</span>: 50 / 1272
 - <span style="color: #ff2d55;">Hard</span>: 4 / 524
 
 ## Index
@@ -54,6 +54,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 124 | <span style="color: #ff2d55;">Hard</span> | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [124-binary-tree-maximum-path-sum.cpp](./code/hard/124-binary-tree-maximum-path-sum.cpp) | `O(n)` | `O(n)` |
 | 127 | <span style="color: #ff2d55;">Hard</span> | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [127-word-ladder.cpp](./code/hard/127-word-ladder.cpp) | `O(m*n^2)` | `O(m*n)` |
 | 136 | <span style="color: #00af9b;">Easy</span> | [Single Number](https://leetcode.com/problems/single-number/) | [136-single-number.cpp](./code/easy/136-single-number.cpp) | `O(n)` | `O(1)` |
+| 139 | <span style="color: #ffb800;">Medium</span> | [Word Break](https://leetcode.com/problems/word-break/) | [139-word-break.cpp](./code/medium/139-word-break.cpp) | `O(m*n)` | `O(n)` |
 | 146 | <span style="color: #ffb800;">Medium</span> | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [146-lru-cache.cpp](./code/medium/146-lru-cache.cpp) | `O(1) for { get(key), put(key, value) }` | `O(n)` |
 | 155 | <span style="color: #ffb800;">Medium</span> | [Min Stack](https://leetcode.com/problems/min-stack/) | [155-min-stack.cpp](./code/medium/155-min-stack.cpp) | `O(1) for { push(x), pop(), top(), getMin() }` | `O(n)` |
 | 167 | <span style="color: #ffb800;">Medium</span> | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [167-two-sum-ii-input-array-is-sorted.cpp](./code/medium/167-two-sum-ii-input-array-is-sorted.cpp) | `O(n)` | `O(1)` |
