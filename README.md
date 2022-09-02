@@ -2,9 +2,9 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 42 / 591
-- <span style="color: #ffb800;">Medium</span>: 52 / 1272
-- <span style="color: #ff2d55;">Hard</span>: 4 / 524
+- <span style="color: #00af9b;">Easy</span>: 43 / 590
+- <span style="color: #ffb800;">Medium</span>: 52 / 1278
+- <span style="color: #ff2d55;">Hard</span>: 4 / 525
 
 ## Index
 
@@ -32,6 +32,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 62 | <span style="color: #ffb800;">Medium</span> | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [62-unique-paths.cpp](./code/medium/62-unique-paths.cpp) | `O(m*n)` | `O(m*n)` |
 | 63 | <span style="color: #ffb800;">Medium</span> | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [63-unique-paths-ii.cpp](./code/medium/63-unique-paths-ii.cpp) | `O(m*n)` | `O(m*n)` |
 | 64 | <span style="color: #ffb800;">Medium</span> | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [64-minimum-path-sum.cpp](./code/medium/64-minimum-path-sum.cpp) | `O(n)` | `O(n)` |
+| 70 | <span style="color: #00af9b;">Easy</span> | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [70-climbing-stairs.cpp](./code/easy/70-climbing-stairs.cpp) | `O(n)` | `O(n)` |
 | 78 | <span style="color: #ffb800;">Medium</span> | [Subsets](https://leetcode.com/problems/subsets/) | [78-subsets.cpp](./code/medium/78-subsets.cpp) | `O(n*2^n)` | `O(n*2^n)` |
 | 82 | <span style="color: #ffb800;">Medium</span> | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [82-remove-duplicates-from-sorted-list-ii.cpp](./code/medium/82-remove-duplicates-from-sorted-list-ii.cpp) | `O(n)` | `O(1)` |
 | 83 | <span style="color: #00af9b;">Easy</span> | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [83-remove-duplicates-from-sorted-list.cpp](./code/easy/83-remove-duplicates-from-sorted-list.cpp) | `O(n)` | `O(1)` |
