@@ -2,7 +2,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 44 / 606
+- <span style="color: #00af9b;">Easy</span>: 45 / 606
 - <span style="color: #ffb800;">Medium</span>: 52 / 1320
 - <span style="color: #ff2d55;">Hard</span>: 4 / 547
 
@@ -110,3 +110,4 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1429 | <span style="color: #ffb800;">Medium</span> | [First Unique Number](https://leetcode.com/problems/first-unique-number/) | [1429-first-unique-number.cpp](./code/medium/1429-first-unique-number.cpp) | `O(1) for { showFirstUnique(), add(value) }` | `O(n)` |
 | 1430 | <span style="color: #ffb800;">Medium</span> | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/) | [1430-check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp](./code/medium/1430-check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp) | `O(n)` | `O(n)` |
 | 1629 | <span style="color: #00af9b;">Easy</span> | [Slowest Key](https://leetcode.com/problems/slowest-key/) | [1629-slowest-key.cpp](./code/easy/1629-slowest-key.cpp) | `O(n)` | `O(1)` |
+| 1757 | <span style="color: #00af9b;">Easy</span> | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | [1757-recyclable-and-low-fat-products.sql](./code/easy/1757-recyclable-and-low-fat-products.sql) | `N/A` | `N/A` |
