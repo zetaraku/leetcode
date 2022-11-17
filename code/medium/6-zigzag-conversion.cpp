@@ -1,4 +1,4 @@
-// Title: ZigZag Conversion
+// Title: Zigzag Conversion
 // Description:
 //     The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this:
 //         P   A   H   N
