@@ -20,8 +20,9 @@ my %dtotal = (
   hard => 0,
 );
 
-my @problems = @{from_json(`bash ./fetch-problem-list.bash`)};
-foreach my $problem (@problems) {
+my %problems;
+foreach my $problem (@{from_json(`bash ./fetch-problem-list.bash`)}) {
+  $problems{$problem->{no}} = $problem;
   $dtotal{$problem->{difficulty}}++;
 }
 
