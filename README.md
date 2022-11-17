@@ -2,7 +2,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 47 / 606
+- <span style="color: #00af9b;">Easy</span>: 48 / 606
 - <span style="color: #ffb800;">Medium</span>: 53 / 1320
 - <span style="color: #ff2d55;">Hard</span>: 4 / 547
 
@@ -114,3 +114,4 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1430 | <span style="color: #ffb800;">Medium</span> | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/) | [1430-check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp](./code/medium/1430-check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp) | `O(n)` | `O(n)` |
 | 1629 | <span style="color: #00af9b;">Easy</span> | [Slowest Key](https://leetcode.com/problems/slowest-key/) | [1629-slowest-key.cpp](./code/easy/1629-slowest-key.cpp) | `O(n)` | `O(1)` |
 | 1757 | <span style="color: #00af9b;">Easy</span> | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | [1757-recyclable-and-low-fat-products.sql](./code/easy/1757-recyclable-and-low-fat-products.sql) | `N/A` | `N/A` |
+| 1873 | <span style="color: #00af9b;">Easy</span> | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/) | [1873-calculate-special-bonus.sql](./code/easy/1873-calculate-special-bonus.sql) | `N/A` | `N/A` |
