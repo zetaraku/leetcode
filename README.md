@@ -2,7 +2,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 49 / 606
+- <span style="color: #00af9b;">Easy</span>: 50 / 606
 - <span style="color: #ffb800;">Medium</span>: 53 / 1320
 - <span style="color: #ff2d55;">Hard</span>: 4 / 547
 
@@ -64,6 +64,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 183 | <span style="color: #00af9b;">Easy</span> | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | [183-customers-who-never-order.sql](./code/easy/183-customers-who-never-order.sql) | `N/A` | `N/A` |
 | 189 | <span style="color: #ffb800;">Medium</span> | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [189-rotate-array.cpp](./code/medium/189-rotate-array.cpp) | `O(n)` | `O(1)` |
 | 193 | <span style="color: #00af9b;">Easy</span> | [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/) | [193-valid-phone-numbers.bash](./code/easy/193-valid-phone-numbers.bash) | `N/A` | `N/A` |
+| 196 | <span style="color: #00af9b;">Easy</span> | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | [196-delete-duplicate-emails.sql](./code/easy/196-delete-duplicate-emails.sql) | `N/A` | `N/A` |
 | 198 | <span style="color: #ffb800;">Medium</span> | [House Robber](https://leetcode.com/problems/house-robber/) | [198-house-robber.cpp](./code/medium/198-house-robber.cpp) | `O(n)` | `O(n)` |
 | 200 | <span style="color: #ffb800;">Medium</span> | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [200-number-of-islands.cpp](./code/medium/200-number-of-islands.cpp) | `O(n)` | `O(n)` |
 | 201 | <span style="color: #ffb800;">Medium</span> | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [201-bitwise-and-of-numbers-range.cpp](./code/medium/201-bitwise-and-of-numbers-range.cpp) | `O(log(n))` | `O(1)` |
