@@ -43,6 +43,11 @@ foreach my $difficulty ('easy', 'medium', 'hard') {
     }
     close $fd;
 
+    my $problem = $problems{$no};
+    warn "Difficulty mismatched! ($filename)" if $difficulty ne $problem->{difficulty};
+    warn "Title mismatched! ($filename)" if $title ne $problem->{title};
+    warn "Link mismatched! ($filename)" if $link ne "https://leetcode.com/problems/$problem->{slug}/";
+
     push @fileinfo, {
       difficulty => $dtag{$difficulty},
       no => $no // 9999,
