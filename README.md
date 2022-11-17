@@ -2,8 +2,8 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 50 / 606
-- <span style="color: #ffb800;">Medium</span>: 53 / 1320
+- <span style="color: #00af9b;">Easy</span>: 49 / 606
+- <span style="color: #ffb800;">Medium</span>: 54 / 1320
 - <span style="color: #ff2d55;">Hard</span>: 4 / 547
 
 ## Index
@@ -18,7 +18,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 19 | <span style="color: #ffb800;">Medium</span> | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [19-remove-nth-node-from-end-of-list.cpp](./code/medium/19-remove-nth-node-from-end-of-list.cpp) | `O(n)` | `O(1)` |
 | 20 | <span style="color: #00af9b;">Easy</span> | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [20-valid-parentheses.cpp](./code/easy/20-valid-parentheses.cpp) | `O(n)` | `O(n)` |
 | 22 | <span style="color: #ffb800;">Medium</span> | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [22-generate-parentheses.cpp](./code/medium/22-generate-parentheses.cpp) | `O(C(n)), where C(n) = the n-th Catalan number` | `O(C(n)), where C(n) = the n-th Catalan number` |
-| 28 | <span style="color: #00af9b;">Easy</span> | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [28-implement-strstr.cpp](./code/easy/28-implement-strstr.cpp) | `O(m+n)` | `O(m)` |
+| 28 | <span style="color: #ffb800;">Medium</span> | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [28-find-the-index-of-the-first-occurrence-in-a-string.cpp](./code/medium/28-find-the-index-of-the-first-occurrence-in-a-string.cpp) | `O(m+n)` | `O(m)` |
 | 31 | <span style="color: #ffb800;">Medium</span> | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [31-next-permutation.cpp](./code/medium/31-next-permutation.cpp) | `O(n)` | `O(1)` |
 | 33 | <span style="color: #ffb800;">Medium</span> | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [33-search-in-rotated-sorted-array.cpp](./code/medium/33-search-in-rotated-sorted-array.cpp) | `O(log(n))` | `O(log(n))` |
 | 35 | <span style="color: #00af9b;">Easy</span> | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [35-search-insert-position.cpp](./code/easy/35-search-insert-position.cpp) | `O(log(n))` | `O(1)` |
