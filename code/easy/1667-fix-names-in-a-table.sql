@@ -4,10 +4,9 @@
 --     Return the result table ordered by user_id.
 -- Link: https://leetcode.com/problems/fix-names-in-a-table/
 
--- Write your MySQL query statement below
+-- Write your PL/SQL query statement below
 SELECT
     user_id,
-    -- You can use INITCAP() instead if available
-    CONCAT(UPPER(SUBSTRING(name, 1, 1)), LOWER(SUBSTRING(name, 2))) AS name
+    INITCAP(name) AS name
 FROM Users
 ORDER BY user_id
