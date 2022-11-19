@@ -3,7 +3,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 54 / 606
-- <span style="color: #ffb800;">Medium</span>: 54 / 1321
+- <span style="color: #ffb800;">Medium</span>: 55 / 1321
 - <span style="color: #ff2d55;">Hard</span>: 4 / 547
 
 ## Index
@@ -93,6 +93,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 566 | <span style="color: #00af9b;">Easy</span> | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [566-reshape-the-matrix.cpp](./code/easy/566-reshape-the-matrix.cpp) | `O(m*n)` | `O(m*n)` |
 | 584 | <span style="color: #00af9b;">Easy</span> | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [584-find-customer-referee.sql](./code/easy/584-find-customer-referee.sql) | `N/A` | `N/A` |
 | 595 | <span style="color: #00af9b;">Easy</span> | [Big Countries](https://leetcode.com/problems/big-countries/) | [595-big-countries.sql](./code/easy/595-big-countries.sql) | `N/A` | `N/A` |
+| 608 | <span style="color: #ffb800;">Medium</span> | [Tree Node](https://leetcode.com/problems/tree-node/) | [608-tree-node.sql](./code/medium/608-tree-node.sql) | `N/A` | `N/A` |
 | 627 | <span style="color: #00af9b;">Easy</span> | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [627-swap-salary.sql](./code/easy/627-swap-salary.sql) | `N/A` | `N/A` |
 | 678 | <span style="color: #ffb800;">Medium</span> | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [678-valid-parenthesis-string.cpp](./code/medium/678-valid-parenthesis-string.cpp) | `O(n)` | `O(1)` |
 | 704 | <span style="color: #00af9b;">Easy</span> | [Binary Search](https://leetcode.com/problems/binary-search/) | [704-binary-search.cpp](./code/easy/704-binary-search.cpp) | `O(log(n))` | `O(1)` |
