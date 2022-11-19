@@ -2,8 +2,8 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 52 / 606
-- <span style="color: #ffb800;">Medium</span>: 54 / 1320
+- <span style="color: #00af9b;">Easy</span>: 53 / 606
+- <span style="color: #ffb800;">Medium</span>: 54 / 1321
 - <span style="color: #ff2d55;">Hard</span>: 4 / 547
 
 ## Index
@@ -120,3 +120,4 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1667 | <span style="color: #00af9b;">Easy</span> | [Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | [1667-fix-names-in-a-table.sql](./code/easy/1667-fix-names-in-a-table.sql) | `N/A` | `N/A` |
 | 1757 | <span style="color: #00af9b;">Easy</span> | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | [1757-recyclable-and-low-fat-products.sql](./code/easy/1757-recyclable-and-low-fat-products.sql) | `N/A` | `N/A` |
 | 1873 | <span style="color: #00af9b;">Easy</span> | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/) | [1873-calculate-special-bonus.sql](./code/easy/1873-calculate-special-bonus.sql) | `N/A` | `N/A` |
+| 1965 | <span style="color: #00af9b;">Easy</span> | [Employees With Missing Information](https://leetcode.com/problems/employees-with-missing-information/) | [1965-employees-with-missing-information.sql](./code/easy/1965-employees-with-missing-information.sql) | `N/A` | `N/A` |
