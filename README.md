@@ -2,7 +2,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 55 / 607
+- <span style="color: #00af9b;">Easy</span>: 56 / 607
 - <span style="color: #ffb800;">Medium</span>: 57 / 1322
 - <span style="color: #ff2d55;">Hard</span>: 4 / 549
 
@@ -120,6 +120,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1430 | <span style="color: #ffb800;">Medium</span> | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/) | [1430-check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp](./code/medium/1430-check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp) | `O(n)` | `O(n)` |
 | 1484 | <span style="color: #00af9b;">Easy</span> | [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | [1484-group-sold-products-by-the-date.sql](./code/easy/1484-group-sold-products-by-the-date.sql) | `N/A` | `N/A` |
 | 1527 | <span style="color: #00af9b;">Easy</span> | [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | [1527-patients-with-a-condition.sql](./code/easy/1527-patients-with-a-condition.sql) | `N/A` | `N/A` |
+| 1581 | <span style="color: #00af9b;">Easy</span> | [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) | [1581-customer-who-visited-but-did-not-make-any-transactions.sql](./code/easy/1581-customer-who-visited-but-did-not-make-any-transactions.sql) | `N/A` | `N/A` |
 | 1629 | <span style="color: #00af9b;">Easy</span> | [Slowest Key](https://leetcode.com/problems/slowest-key/) | [1629-slowest-key.cpp](./code/easy/1629-slowest-key.cpp) | `O(n)` | `O(1)` |
 | 1667 | <span style="color: #00af9b;">Easy</span> | [Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | [1667-fix-names-in-a-table.sql](./code/easy/1667-fix-names-in-a-table.sql) | `N/A` | `N/A` |
 | 1757 | <span style="color: #00af9b;">Easy</span> | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | [1757-recyclable-and-low-fat-products.sql](./code/easy/1757-recyclable-and-low-fat-products.sql) | `N/A` | `N/A` |
