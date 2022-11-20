@@ -2,7 +2,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 58 / 607
+- <span style="color: #00af9b;">Easy</span>: 59 / 607
 - <span style="color: #ffb800;">Medium</span>: 57 / 1322
 - <span style="color: #ff2d55;">Hard</span>: 4 / 549
 
@@ -85,6 +85,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 326 | <span style="color: #00af9b;">Easy</span> | [Power of Three](https://leetcode.com/problems/power-of-three/) | [326-power-of-three.cpp](./code/easy/326-power-of-three.cpp) | `O(1)` | `O(1)` |
 | 342 | <span style="color: #00af9b;">Easy</span> | [Power of Four](https://leetcode.com/problems/power-of-four/) | [342-power-of-four.cpp](./code/easy/342-power-of-four.cpp) | `O(1)` | `O(1)` |
 | 344 | <span style="color: #00af9b;">Easy</span> | [Reverse String](https://leetcode.com/problems/reverse-string/) | [344-reverse-string.cpp](./code/easy/344-reverse-string.cpp) | `O(n)` | `O(1)` |
+| 349 | <span style="color: #00af9b;">Easy</span> | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [349-intersection-of-two-arrays.cpp](./code/easy/349-intersection-of-two-arrays.cpp) | `O(n1+n2)` | `O(n1+n2)` |
 | 350 | <span style="color: #00af9b;">Easy</span> | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [350-intersection-of-two-arrays-ii.cpp](./code/easy/350-intersection-of-two-arrays-ii.cpp) | `O(n1+n2)` | `O(n1+n2)` |
 | 383 | <span style="color: #00af9b;">Easy</span> | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [383-ransom-note.cpp](./code/easy/383-ransom-note.cpp) | `O(m+n)` | `O(1)` |
 | 392 | <span style="color: #00af9b;">Easy</span> | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [392-is-subsequence.cpp](./code/easy/392-is-subsequence.cpp) | `O(m+n)` | `O(1)` |
