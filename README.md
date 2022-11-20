@@ -2,7 +2,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 56 / 607
+- <span style="color: #00af9b;">Easy</span>: 57 / 607
 - <span style="color: #ffb800;">Medium</span>: 57 / 1322
 - <span style="color: #ff2d55;">Hard</span>: 4 / 549
 
@@ -112,6 +112,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1046 | <span style="color: #00af9b;">Easy</span> | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [1046-last-stone-weight.cpp](./code/easy/1046-last-stone-weight.cpp) | `O(n*log(n))` | `O(n)` |
 | 1137 | <span style="color: #00af9b;">Easy</span> | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [1137-n-th-tribonacci-number.cpp](./code/easy/1137-n-th-tribonacci-number.cpp) | `O(n)` | `O(n)` |
 | 1143 | <span style="color: #ffb800;">Medium</span> | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [1143-longest-common-subsequence.cpp](./code/medium/1143-longest-common-subsequence.cpp) | `O(n1*n2)` | `O(n1*n2)` |
+| 1148 | <span style="color: #00af9b;">Easy</span> | [Article Views I](https://leetcode.com/problems/article-views-i/) | [1148-article-views-i.sql](./code/easy/1148-article-views-i.sql) | `N/A` | `N/A` |
 | 1189 | <span style="color: #00af9b;">Easy</span> | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [1189-maximum-number-of-balloons.cpp](./code/easy/1189-maximum-number-of-balloons.cpp) | `O(n)` | `O(1)` |
 | 1426 | <span style="color: #00af9b;">Easy</span> | [Counting Elements](https://leetcode.com/problems/counting-elements/) | [1426-counting-elements.cpp](./code/easy/1426-counting-elements.cpp) | `O(n)` | `O(n)` |
 | 1427 | <span style="color: #00af9b;">Easy</span> | [Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/) | [1427-perform-string-shifts.cpp](./code/easy/1427-perform-string-shifts.cpp) | `O(m+n)` | `O(n)` |
