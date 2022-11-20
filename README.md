@@ -2,7 +2,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 54 / 607
+- <span style="color: #00af9b;">Easy</span>: 55 / 607
 - <span style="color: #ffb800;">Medium</span>: 57 / 1322
 - <span style="color: #ff2d55;">Hard</span>: 4 / 549
 
@@ -61,6 +61,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 155 | <span style="color: #ffb800;">Medium</span> | [Min Stack](https://leetcode.com/problems/min-stack/) | [155-min-stack.cpp](./code/medium/155-min-stack.cpp) | `O(1) for { push(x), pop(), top(), getMin() }` | `O(n)` |
 | 167 | <span style="color: #ffb800;">Medium</span> | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [167-two-sum-ii-input-array-is-sorted.cpp](./code/medium/167-two-sum-ii-input-array-is-sorted.cpp) | `O(n)` | `O(1)` |
 | 174 | <span style="color: #ff2d55;">Hard</span> | [Dungeon Game](https://leetcode.com/problems/dungeon-game/) | [174-dungeon-game.cpp](./code/hard/174-dungeon-game.cpp) | `O(m*n)` | `O(m*n)` |
+| 175 | <span style="color: #00af9b;">Easy</span> | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [175-combine-two-tables.sql](./code/easy/175-combine-two-tables.sql) | `N/A` | `N/A` |
 | 176 | <span style="color: #ffb800;">Medium</span> | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | [176-second-highest-salary.sql](./code/medium/176-second-highest-salary.sql) | `N/A` | `N/A` |
 | 183 | <span style="color: #00af9b;">Easy</span> | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | [183-customers-who-never-order.sql](./code/easy/183-customers-who-never-order.sql) | `N/A` | `N/A` |
 | 189 | <span style="color: #ffb800;">Medium</span> | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [189-rotate-array.cpp](./code/medium/189-rotate-array.cpp) | `O(n)` | `O(1)` |
