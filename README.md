@@ -2,9 +2,9 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 54 / 606
-- <span style="color: #ffb800;">Medium</span>: 56 / 1321
-- <span style="color: #ff2d55;">Hard</span>: 4 / 547
+- <span style="color: #00af9b;">Easy</span>: 54 / 607
+- <span style="color: #ffb800;">Medium</span>: 57 / 1322
+- <span style="color: #ff2d55;">Hard</span>: 4 / 549
 
 ## Index
 
@@ -80,6 +80,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 238 | <span style="color: #ffb800;">Medium</span> | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [238-product-of-array-except-self.cpp](./code/medium/238-product-of-array-except-self.cpp) | `O(n)` | `O(n)` |
 | 278 | <span style="color: #00af9b;">Easy</span> | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [278-first-bad-version.cpp](./code/easy/278-first-bad-version.cpp) | `O(log(n))` | `O(1)` |
 | 283 | <span style="color: #00af9b;">Easy</span> | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [283-move-zeroes.cpp](./code/easy/283-move-zeroes.cpp) | `O(n)` | `O(1)` |
+| 300 | <span style="color: #ffb800;">Medium</span> | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [300-longest-increasing-subsequence.cpp](./code/medium/300-longest-increasing-subsequence.cpp) | `O(n*log(n))` | `O(n)` |
 | 326 | <span style="color: #00af9b;">Easy</span> | [Power of Three](https://leetcode.com/problems/power-of-three/) | [326-power-of-three.cpp](./code/easy/326-power-of-three.cpp) | `O(1)` | `O(1)` |
 | 342 | <span style="color: #00af9b;">Easy</span> | [Power of Four](https://leetcode.com/problems/power-of-four/) | [342-power-of-four.cpp](./code/easy/342-power-of-four.cpp) | `O(1)` | `O(1)` |
 | 344 | <span style="color: #00af9b;">Easy</span> | [Reverse String](https://leetcode.com/problems/reverse-string/) | [344-reverse-string.cpp](./code/easy/344-reverse-string.cpp) | `O(n)` | `O(1)` |
