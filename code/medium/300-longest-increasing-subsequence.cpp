@@ -31,7 +31,7 @@ public:
             auto it = std::lower_bound(
                 dp.begin(), dp.end(),
                 std::vector<int>(1, num),
-                [] (auto &seq, auto &valSeq) {
+                [](auto &seq, auto &valSeq) {
                     return seq.empty() || seq.back() < valSeq.back();
                 }
             );

@@ -21,7 +21,7 @@ public:
         int islandCount = 0;
         vector<vector<bool>> isTraversed(r, vector<bool>(c, false));
         
-        std::function<bool(int,int)> searchIsland = [&] (int i, int j) -> bool {
+        std::function<bool(int,int)> searchIsland = [&](int i, int j) -> bool {
             // this grid is water, no new island found
             if (grid.at(i).at(j) == '0')
                 return false;

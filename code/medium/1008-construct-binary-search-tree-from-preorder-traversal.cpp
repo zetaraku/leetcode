@@ -37,7 +37,7 @@ public:
         // we partition the remaining part into two sub-tree traversals by the rootValue
         vector<int>::iterator cutPoint = std::partition_point(
             begin+1, end,
-            [=] (int n) { return n < rootValue; }
+            [=](int n) { return n < rootValue; }
         );
         
         // then construct two sub-trees with the two sub-ranges and link them to the root
