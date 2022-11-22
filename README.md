@@ -2,7 +2,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 62 / 607
+- <span style="color: #00af9b;">Easy</span>: 63 / 607
 - <span style="color: #ffb800;">Medium</span>: 59 / 1322
 - <span style="color: #ff2d55;">Hard</span>: 4 / 549
 
@@ -118,6 +118,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1008 | <span style="color: #ffb800;">Medium</span> | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [1008-construct-binary-search-tree-from-preorder-traversal.cpp](./code/medium/1008-construct-binary-search-tree-from-preorder-traversal.cpp) | `O(n*log(n)) maybe?` | `O(n)` |
 | 1046 | <span style="color: #00af9b;">Easy</span> | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [1046-last-stone-weight.cpp](./code/easy/1046-last-stone-weight.cpp) | `O(n*log(n))` | `O(n)` |
 | 1137 | <span style="color: #00af9b;">Easy</span> | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [1137-n-th-tribonacci-number.cpp](./code/easy/1137-n-th-tribonacci-number.cpp) | `O(n)` | `O(n)` |
+| 1141 | <span style="color: #00af9b;">Easy</span> | [User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | [1141-user-activity-for-the-past-30-days-i.sql](./code/easy/1141-user-activity-for-the-past-30-days-i.sql) | `N/A` | `N/A` |
 | 1143 | <span style="color: #ffb800;">Medium</span> | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [1143-longest-common-subsequence.cpp](./code/medium/1143-longest-common-subsequence.cpp) | `O(n1*n2)` | `O(n1*n2)` |
 | 1148 | <span style="color: #00af9b;">Easy</span> | [Article Views I](https://leetcode.com/problems/article-views-i/) | [1148-article-views-i.sql](./code/easy/1148-article-views-i.sql) | `N/A` | `N/A` |
 | 1189 | <span style="color: #00af9b;">Easy</span> | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [1189-maximum-number-of-balloons.cpp](./code/easy/1189-maximum-number-of-balloons.cpp) | `O(n)` | `O(1)` |
