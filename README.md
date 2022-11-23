@@ -3,7 +3,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 69 / 607
-- <span style="color: #ffb800;">Medium</span>: 59 / 1322
+- <span style="color: #ffb800;">Medium</span>: 60 / 1322
 - <span style="color: #ff2d55;">Hard</span>: 4 / 549
 
 ## Index
@@ -90,6 +90,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 347 | <span style="color: #ffb800;">Medium</span> | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [347-top-k-frequent-elements.cpp](./code/medium/347-top-k-frequent-elements.cpp) | `O(n)` | `O(n)` |
 | 349 | <span style="color: #00af9b;">Easy</span> | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [349-intersection-of-two-arrays.cpp](./code/easy/349-intersection-of-two-arrays.cpp) | `O(n1+n2)` | `O(n1+n2)` |
 | 350 | <span style="color: #00af9b;">Easy</span> | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [350-intersection-of-two-arrays-ii.cpp](./code/easy/350-intersection-of-two-arrays-ii.cpp) | `O(n1+n2)` | `O(n1+n2)` |
+| 373 | <span style="color: #ffb800;">Medium</span> | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [373-find-k-pairs-with-smallest-sums.cpp](./code/medium/373-find-k-pairs-with-smallest-sums.cpp) | `O(k*log(k))` | `O(k)` |
 | 383 | <span style="color: #00af9b;">Easy</span> | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [383-ransom-note.cpp](./code/easy/383-ransom-note.cpp) | `O(m+n)` | `O(1)` |
 | 387 | <span style="color: #00af9b;">Easy</span> | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [387-first-unique-character-in-a-string.cpp](./code/easy/387-first-unique-character-in-a-string.cpp) | `O(n)` | `O(1)` |
 | 392 | <span style="color: #00af9b;">Easy</span> | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [392-is-subsequence.cpp](./code/easy/392-is-subsequence.cpp) | `O(m+n)` | `O(1)` |
