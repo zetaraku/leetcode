@@ -3,7 +3,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 70 / 608
-- <span style="color: #ffb800;">Medium</span>: 61 / 1322
+- <span style="color: #ffb800;">Medium</span>: 62 / 1322
 - <span style="color: #ff2d55;">Hard</span>: 4 / 550
 
 ## Index
@@ -124,6 +124,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1141 | <span style="color: #00af9b;">Easy</span> | [User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | [1141-user-activity-for-the-past-30-days-i.sql](./code/easy/1141-user-activity-for-the-past-30-days-i.sql) | `N/A` | `N/A` |
 | 1143 | <span style="color: #ffb800;">Medium</span> | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [1143-longest-common-subsequence.cpp](./code/medium/1143-longest-common-subsequence.cpp) | `O(n1*n2)` | `O(n1*n2)` |
 | 1148 | <span style="color: #00af9b;">Easy</span> | [Article Views I](https://leetcode.com/problems/article-views-i/) | [1148-article-views-i.sql](./code/easy/1148-article-views-i.sql) | `N/A` | `N/A` |
+| 1158 | <span style="color: #ffb800;">Medium</span> | [Market Analysis I](https://leetcode.com/problems/market-analysis-i/) | [1158-market-analysis-i.sql](./code/medium/1158-market-analysis-i.sql) | `N/A` | `N/A` |
 | 1189 | <span style="color: #00af9b;">Easy</span> | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [1189-maximum-number-of-balloons.cpp](./code/easy/1189-maximum-number-of-balloons.cpp) | `O(n)` | `O(1)` |
 | 1393 | <span style="color: #ffb800;">Medium</span> | [Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/) | [1393-capital-gainloss.sql](./code/medium/1393-capital-gainloss.sql) | `N/A` | `N/A` |
 | 1407 | <span style="color: #00af9b;">Easy</span> | [Top Travellers](https://leetcode.com/problems/top-travellers/) | [1407-top-travellers.sql](./code/easy/1407-top-travellers.sql) | `N/A` | `N/A` |
