@@ -2,7 +2,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 69 / 608
+- <span style="color: #00af9b;">Easy</span>: 70 / 608
 - <span style="color: #ffb800;">Medium</span>: 61 / 1322
 - <span style="color: #ff2d55;">Hard</span>: 4 / 550
 
@@ -126,6 +126,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1148 | <span style="color: #00af9b;">Easy</span> | [Article Views I](https://leetcode.com/problems/article-views-i/) | [1148-article-views-i.sql](./code/easy/1148-article-views-i.sql) | `N/A` | `N/A` |
 | 1189 | <span style="color: #00af9b;">Easy</span> | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [1189-maximum-number-of-balloons.cpp](./code/easy/1189-maximum-number-of-balloons.cpp) | `O(n)` | `O(1)` |
 | 1393 | <span style="color: #ffb800;">Medium</span> | [Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/) | [1393-capital-gainloss.sql](./code/medium/1393-capital-gainloss.sql) | `N/A` | `N/A` |
+| 1407 | <span style="color: #00af9b;">Easy</span> | [Top Travellers](https://leetcode.com/problems/top-travellers/) | [1407-top-travellers.sql](./code/easy/1407-top-travellers.sql) | `N/A` | `N/A` |
 | 1426 | <span style="color: #00af9b;">Easy</span> | [Counting Elements](https://leetcode.com/problems/counting-elements/) | [1426-counting-elements.cpp](./code/easy/1426-counting-elements.cpp) | `O(n)` | `O(n)` |
 | 1427 | <span style="color: #00af9b;">Easy</span> | [Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/) | [1427-perform-string-shifts.cpp](./code/easy/1427-perform-string-shifts.cpp) | `O(m+n)` | `O(n)` |
 | 1428 | <span style="color: #ffb800;">Medium</span> | [Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/) | [1428-leftmost-column-with-at-least-a-one.cpp](./code/medium/1428-leftmost-column-with-at-least-a-one.cpp) | `O(r+c)` | `O(1)` |
