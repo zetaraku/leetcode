@@ -6,8 +6,8 @@
 //     You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 // Link: https://leetcode.com/problems/add-two-numbers/
 
-// Time complexity: O(max(n1, n2))
-// Space complexity: O(max(n1, n2))
+// Time complexity: O(n1+n2)
+// Space complexity: O(n1+n2)
 /**
  * Definition for singly-linked list.
  * struct ListNode {
