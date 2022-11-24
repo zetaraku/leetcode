@@ -2,9 +2,9 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 69 / 607
-- <span style="color: #ffb800;">Medium</span>: 60 / 1322
-- <span style="color: #ff2d55;">Hard</span>: 4 / 549
+- <span style="color: #00af9b;">Easy</span>: 69 / 608
+- <span style="color: #ffb800;">Medium</span>: 61 / 1322
+- <span style="color: #ff2d55;">Hard</span>: 4 / 550
 
 ## Index
 
@@ -125,6 +125,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1143 | <span style="color: #ffb800;">Medium</span> | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [1143-longest-common-subsequence.cpp](./code/medium/1143-longest-common-subsequence.cpp) | `O(n1*n2)` | `O(n1*n2)` |
 | 1148 | <span style="color: #00af9b;">Easy</span> | [Article Views I](https://leetcode.com/problems/article-views-i/) | [1148-article-views-i.sql](./code/easy/1148-article-views-i.sql) | `N/A` | `N/A` |
 | 1189 | <span style="color: #00af9b;">Easy</span> | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [1189-maximum-number-of-balloons.cpp](./code/easy/1189-maximum-number-of-balloons.cpp) | `O(n)` | `O(1)` |
+| 1393 | <span style="color: #ffb800;">Medium</span> | [Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/) | [1393-capital-gainloss.sql](./code/medium/1393-capital-gainloss.sql) | `N/A` | `N/A` |
 | 1426 | <span style="color: #00af9b;">Easy</span> | [Counting Elements](https://leetcode.com/problems/counting-elements/) | [1426-counting-elements.cpp](./code/easy/1426-counting-elements.cpp) | `O(n)` | `O(n)` |
 | 1427 | <span style="color: #00af9b;">Easy</span> | [Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/) | [1427-perform-string-shifts.cpp](./code/easy/1427-perform-string-shifts.cpp) | `O(m+n)` | `O(n)` |
 | 1428 | <span style="color: #ffb800;">Medium</span> | [Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/) | [1428-leftmost-column-with-at-least-a-one.cpp](./code/medium/1428-leftmost-column-with-at-least-a-one.cpp) | `O(r+c)` | `O(1)` |
