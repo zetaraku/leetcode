@@ -11,7 +11,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | No. | Difficulty | Title | Code | Time complexity | Space complexity |
 | ---:| ---------- | ----- | ---- | --------------- | ---------------- |
 | 1 | <span style="color: #00af9b;">Easy</span> | [Two Sum](https://leetcode.com/problems/two-sum/) | [1-two-sum.cpp](./code/easy/1-two-sum.cpp) | `O(n)` | `O(n)` |
-| 2 | <span style="color: #ffb800;">Medium</span> | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [2-add-two-numbers.cpp](./code/medium/2-add-two-numbers.cpp) | `O(max(n1, n2))` | `O(max(n1, n2))` |
+| 2 | <span style="color: #ffb800;">Medium</span> | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [2-add-two-numbers.cpp](./code/medium/2-add-two-numbers.cpp) | `O(n1+n2)` | `O(n1+n2)` |
 | 3 | <span style="color: #ffb800;">Medium</span> | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [3-longest-substring-without-repeating-characters.cpp](./code/medium/3-longest-substring-without-repeating-characters.cpp) | `O(n)` | `O(n)` |
 | 6 | <span style="color: #ffb800;">Medium</span> | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [6-zigzag-conversion.cpp](./code/medium/6-zigzag-conversion.cpp) | `O(n)` | `O(n)` |
 | 8 | <span style="color: #ffb800;">Medium</span> | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [8-string-to-integer-atoi.cpp](./code/medium/8-string-to-integer-atoi.cpp) | `O(n)` | `O(1)` |
