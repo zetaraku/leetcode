@@ -2,9 +2,9 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 75 / 611
-- <span style="color: #ffb800;">Medium</span>: 62 / 1330
-- <span style="color: #ff2d55;">Hard</span>: 4 / 554
+- <span style="color: #00af9b;">Easy</span>: 76 / 618
+- <span style="color: #ffb800;">Medium</span>: 62 / 1344
+- <span style="color: #ff2d55;">Hard</span>: 4 / 561
 
 ## Index
 
@@ -137,6 +137,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1428 | <span style="color: #ffb800;">Medium</span> | [Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/) | [1428-leftmost-column-with-at-least-a-one.cpp](./code/medium/1428-leftmost-column-with-at-least-a-one.cpp) | `O(r+c)` | `O(1)` |
 | 1429 | <span style="color: #ffb800;">Medium</span> | [First Unique Number](https://leetcode.com/problems/first-unique-number/) | [1429-first-unique-number.cpp](./code/medium/1429-first-unique-number.cpp) | `O(1) for { showFirstUnique(), add(value) }` | `O(n)` |
 | 1430 | <span style="color: #ffb800;">Medium</span> | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/) | [1430-check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp](./code/medium/1430-check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp) | `O(n)` | `O(n)` |
+| 1480 | <span style="color: #00af9b;">Easy</span> | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [1480-running-sum-of-1d-array.cpp](./code/easy/1480-running-sum-of-1d-array.cpp) | `O(n)` | `O(n)` |
 | 1484 | <span style="color: #00af9b;">Easy</span> | [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | [1484-group-sold-products-by-the-date.sql](./code/easy/1484-group-sold-products-by-the-date.sql) | `N/A` | `N/A` |
 | 1527 | <span style="color: #00af9b;">Easy</span> | [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | [1527-patients-with-a-condition.sql](./code/easy/1527-patients-with-a-condition.sql) | `N/A` | `N/A` |
 | 1581 | <span style="color: #00af9b;">Easy</span> | [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) | [1581-customer-who-visited-but-did-not-make-any-transactions.sql](./code/easy/1581-customer-who-visited-but-did-not-make-any-transactions.sql) | `N/A` | `N/A` |
