@@ -2,9 +2,9 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 77 / 618
+- <span style="color: #00af9b;">Easy</span>: 78 / 618
 - <span style="color: #ffb800;">Medium</span>: 62 / 1344
-- <span style="color: #ff2d55;">Hard</span>: 4 / 561
+- <span style="color: #ff2d55;">Hard</span>: 4 / 562
 
 ## Index
 
@@ -73,6 +73,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 200 | <span style="color: #ffb800;">Medium</span> | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [200-number-of-islands.cpp](./code/medium/200-number-of-islands.cpp) | `O(n)` | `O(n)` |
 | 201 | <span style="color: #ffb800;">Medium</span> | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [201-bitwise-and-of-numbers-range.cpp](./code/medium/201-bitwise-and-of-numbers-range.cpp) | `O(log(n))` | `O(1)` |
 | 202 | <span style="color: #00af9b;">Easy</span> | [Happy Number](https://leetcode.com/problems/happy-number/) | [202-happy-number.cpp](./code/easy/202-happy-number.cpp) | `O(n)` | `O(1)` |
+| 205 | <span style="color: #00af9b;">Easy</span> | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [205-isomorphic-strings.cpp](./code/easy/205-isomorphic-strings.cpp) | `O(n)` | `O(1)` |
 | 206 | <span style="color: #00af9b;">Easy</span> | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [206-reverse-linked-list.cpp](./code/easy/206-reverse-linked-list.cpp) | `O(n)` | `O(1)` |
 | 208 | <span style="color: #ffb800;">Medium</span> | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [208-implement-trie-prefix-tree.cpp](./code/medium/208-implement-trie-prefix-tree.cpp) | `O(n) for { insert(word), search(word), startsWith(prefix) }` | `O(n)` |
 | 213 | <span style="color: #ffb800;">Medium</span> | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [213-house-robber-ii.cpp](./code/medium/213-house-robber-ii.cpp) | `O(n)` | `O(n)` |
