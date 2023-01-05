@@ -2,7 +2,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 78 / 618
+- <span style="color: #00af9b;">Easy</span>: 79 / 618
 - <span style="color: #ffb800;">Medium</span>: 62 / 1344
 - <span style="color: #ff2d55;">Hard</span>: 4 / 562
 
@@ -17,6 +17,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 8 | <span style="color: #ffb800;">Medium</span> | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [8-string-to-integer-atoi.cpp](./code/medium/8-string-to-integer-atoi.cpp) | `O(n)` | `O(1)` |
 | 19 | <span style="color: #ffb800;">Medium</span> | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [19-remove-nth-node-from-end-of-list.cpp](./code/medium/19-remove-nth-node-from-end-of-list.cpp) | `O(n)` | `O(1)` |
 | 20 | <span style="color: #00af9b;">Easy</span> | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [20-valid-parentheses.cpp](./code/easy/20-valid-parentheses.cpp) | `O(n)` | `O(n)` |
+| 21 | <span style="color: #00af9b;">Easy</span> | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [21-merge-two-sorted-lists.cpp](./code/easy/21-merge-two-sorted-lists.cpp) | `O(min(n1, n2))` | `O(1)` |
 | 22 | <span style="color: #ffb800;">Medium</span> | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [22-generate-parentheses.cpp](./code/medium/22-generate-parentheses.cpp) | `O(C(n)), where C(n) = the n-th Catalan number` | `O(C(n)), where C(n) = the n-th Catalan number` |
 | 28 | <span style="color: #ffb800;">Medium</span> | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [28-find-the-index-of-the-first-occurrence-in-a-string.cpp](./code/medium/28-find-the-index-of-the-first-occurrence-in-a-string.cpp) | `O(m+n)` | `O(m)` |
 | 31 | <span style="color: #ffb800;">Medium</span> | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [31-next-permutation.cpp](./code/medium/31-next-permutation.cpp) | `O(n)` | `O(1)` |
