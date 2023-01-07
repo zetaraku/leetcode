@@ -3,7 +3,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 80 / 618
-- <span style="color: #ffb800;">Medium</span>: 62 / 1344
+- <span style="color: #ffb800;">Medium</span>: 63 / 1344
 - <span style="color: #ff2d55;">Hard</span>: 4 / 562
 
 ## Index
@@ -57,6 +57,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 127 | <span style="color: #ff2d55;">Hard</span> | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [127-word-ladder.cpp](./code/hard/127-word-ladder.cpp) | `O(m*n^2)` | `O(m*n)` |
 | 136 | <span style="color: #00af9b;">Easy</span> | [Single Number](https://leetcode.com/problems/single-number/) | [136-single-number.cpp](./code/easy/136-single-number.cpp) | `O(n)` | `O(1)` |
 | 139 | <span style="color: #ffb800;">Medium</span> | [Word Break](https://leetcode.com/problems/word-break/) | [139-word-break.cpp](./code/medium/139-word-break.cpp) | `O(m*n)` | `O(n)` |
+| 142 | <span style="color: #ffb800;">Medium</span> | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [142-linked-list-cycle-ii.cpp](./code/medium/142-linked-list-cycle-ii.cpp) | `O(n)` | `O(1)` |
 | 146 | <span style="color: #ffb800;">Medium</span> | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [146-lru-cache.cpp](./code/medium/146-lru-cache.cpp) | `O(1) for { get(key), put(key, value) }` | `O(n)` |
 | 153 | <span style="color: #ffb800;">Medium</span> | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [153-find-minimum-in-rotated-sorted-array.cpp](./code/medium/153-find-minimum-in-rotated-sorted-array.cpp) | `O(log(n))` | `O(log(n))` |
 | 155 | <span style="color: #ffb800;">Medium</span> | [Min Stack](https://leetcode.com/problems/min-stack/) | [155-min-stack.cpp](./code/medium/155-min-stack.cpp) | `O(1) for { push(x), pop(), top(), getMin() }` | `O(n)` |
