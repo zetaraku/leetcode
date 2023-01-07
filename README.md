@@ -2,7 +2,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 79 / 618
+- <span style="color: #00af9b;">Easy</span>: 80 / 618
 - <span style="color: #ffb800;">Medium</span>: 62 / 1344
 - <span style="color: #ff2d55;">Hard</span>: 4 / 562
 
@@ -97,6 +97,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 383 | <span style="color: #00af9b;">Easy</span> | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [383-ransom-note.cpp](./code/easy/383-ransom-note.cpp) | `O(m+n)` | `O(1)` |
 | 387 | <span style="color: #00af9b;">Easy</span> | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [387-first-unique-character-in-a-string.cpp](./code/easy/387-first-unique-character-in-a-string.cpp) | `O(n)` | `O(1)` |
 | 392 | <span style="color: #00af9b;">Easy</span> | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [392-is-subsequence.cpp](./code/easy/392-is-subsequence.cpp) | `O(m+n)` | `O(1)` |
+| 409 | <span style="color: #00af9b;">Easy</span> | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [409-longest-palindrome.cpp](./code/easy/409-longest-palindrome.cpp) | `O(n)` | `O(1)` |
 | 509 | <span style="color: #00af9b;">Easy</span> | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [509-fibonacci-number.cpp](./code/easy/509-fibonacci-number.cpp) | `O(log(n))` | `O(log(n))` |
 | 511 | <span style="color: #00af9b;">Easy</span> | [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [511-game-play-analysis-i.sql](./code/easy/511-game-play-analysis-i.sql) | `N/A` | `N/A` |
 | 525 | <span style="color: #ffb800;">Medium</span> | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [525-contiguous-array.cpp](./code/medium/525-contiguous-array.cpp) | `O(n)` | `O(n)` |
