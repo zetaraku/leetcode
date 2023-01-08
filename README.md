@@ -2,9 +2,9 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 80 / 618
-- <span style="color: #ffb800;">Medium</span>: 63 / 1344
-- <span style="color: #ff2d55;">Hard</span>: 4 / 562
+- <span style="color: #00af9b;">Easy</span>: 81 / 620
+- <span style="color: #ffb800;">Medium</span>: 63 / 1348
+- <span style="color: #ff2d55;">Hard</span>: 4 / 564
 
 ## Index
 
@@ -109,6 +109,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 566 | <span style="color: #00af9b;">Easy</span> | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [566-reshape-the-matrix.cpp](./code/easy/566-reshape-the-matrix.cpp) | `O(m*n)` | `O(m*n)` |
 | 584 | <span style="color: #00af9b;">Easy</span> | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [584-find-customer-referee.sql](./code/easy/584-find-customer-referee.sql) | `N/A` | `N/A` |
 | 586 | <span style="color: #00af9b;">Easy</span> | [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | [586-customer-placing-the-largest-number-of-orders.sql](./code/easy/586-customer-placing-the-largest-number-of-orders.sql) | `N/A` | `N/A` |
+| 589 | <span style="color: #00af9b;">Easy</span> | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [589-n-ary-tree-preorder-traversal.cpp](./code/easy/589-n-ary-tree-preorder-traversal.cpp) | `O(n)` | `O(n)` |
 | 595 | <span style="color: #00af9b;">Easy</span> | [Big Countries](https://leetcode.com/problems/big-countries/) | [595-big-countries.sql](./code/easy/595-big-countries.sql) | `N/A` | `N/A` |
 | 607 | <span style="color: #00af9b;">Easy</span> | [Sales Person](https://leetcode.com/problems/sales-person/) | [607-sales-person.sql](./code/easy/607-sales-person.sql) | `N/A` | `N/A` |
 | 608 | <span style="color: #ffb800;">Medium</span> | [Tree Node](https://leetcode.com/problems/tree-node/) | [608-tree-node.sql](./code/medium/608-tree-node.sql) | `N/A` | `N/A` |
