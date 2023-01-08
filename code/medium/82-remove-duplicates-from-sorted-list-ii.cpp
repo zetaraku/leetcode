@@ -19,9 +19,9 @@
 class Solution {
 public:
     ListNode *deleteDuplicates(ListNode *head) {
-        ListNode *dummyHead = new ListNode(0xDEADBEEF, head);
+        ListNode dummyHead(0xDEADBEEF, head);
         
-        ListNode *prevNode = dummyHead;
+        ListNode *prevNode = &dummyHead;
         while (prevNode->next != NULL) {
             ListNode *beginNode = prevNode->next, *endNode = beginNode->next;
             
@@ -44,9 +44,6 @@ public:
             }
         }
         
-        ListNode *result = dummyHead->next;
-        delete dummyHead;
-        
-        return result;
+        return dummyHead.next;
     }
 };
