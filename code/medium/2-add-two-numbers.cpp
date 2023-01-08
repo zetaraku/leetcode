@@ -21,7 +21,7 @@
 class Solution {
 public:
     ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
-        ListNode *dummyHead = new ListNode(-1), *dummyTail = dummyHead;
+        ListNode dummyHead(-1), *dummyTail = &dummyHead;
         int carry = 0;
         
         // add up digits with carry as indicated
@@ -35,10 +35,6 @@ public:
             carry = num / 10;
         }
         
-        // remember to free the dummyHead!
-        ListNode *resultHead = dummyHead->next;
-        delete dummyHead;
-        
-        return resultHead;
+        return dummyHead.next;
     }
 };
