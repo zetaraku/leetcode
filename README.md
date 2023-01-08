@@ -2,7 +2,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 82 / 620
+- <span style="color: #00af9b;">Easy</span>: 83 / 620
 - <span style="color: #ffb800;">Medium</span>: 63 / 1348
 - <span style="color: #ff2d55;">Hard</span>: 4 / 564
 
@@ -59,6 +59,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 139 | <span style="color: #ffb800;">Medium</span> | [Word Break](https://leetcode.com/problems/word-break/) | [139-word-break.cpp](./code/medium/139-word-break.cpp) | `O(m*n)` | `O(n)` |
 | 142 | <span style="color: #ffb800;">Medium</span> | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [142-linked-list-cycle-ii.cpp](./code/medium/142-linked-list-cycle-ii.cpp) | `O(n)` | `O(1)` |
 | 144 | <span style="color: #00af9b;">Easy</span> | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [144-binary-tree-preorder-traversal.cpp](./code/easy/144-binary-tree-preorder-traversal.cpp) | `O(n)` | `O(n)` |
+| 145 | <span style="color: #00af9b;">Easy</span> | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [145-binary-tree-postorder-traversal.cpp](./code/easy/145-binary-tree-postorder-traversal.cpp) | `O(n)` | `O(n)` |
 | 146 | <span style="color: #ffb800;">Medium</span> | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [146-lru-cache.cpp](./code/medium/146-lru-cache.cpp) | `O(1) for { get(key), put(key, value) }` | `O(n)` |
 | 153 | <span style="color: #ffb800;">Medium</span> | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [153-find-minimum-in-rotated-sorted-array.cpp](./code/medium/153-find-minimum-in-rotated-sorted-array.cpp) | `O(log(n))` | `O(log(n))` |
 | 155 | <span style="color: #ffb800;">Medium</span> | [Min Stack](https://leetcode.com/problems/min-stack/) | [155-min-stack.cpp](./code/medium/155-min-stack.cpp) | `O(1) for { push(x), pop(), top(), getMin() }` | `O(n)` |
