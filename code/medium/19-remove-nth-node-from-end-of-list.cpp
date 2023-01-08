@@ -18,7 +18,7 @@
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        ListNode *dummyHead = new ListNode(0xDEADBEEF, head);
+        ListNode dummyHead(0xDEADBEEF, head);
         
         // advance fastNode n steps from the head
         ListNode *fastNode = head;
@@ -27,7 +27,7 @@ public:
         }
         
         // advance slowNode from the dummyHead with fastNode until the fastNode reaches the end 
-        ListNode *slowNode = dummyHead;
+        ListNode *slowNode = &dummyHead;
         while (fastNode != NULL) {
             slowNode = slowNode->next;
             fastNode = fastNode->next;
@@ -38,10 +38,6 @@ public:
         slowNode->next = targetNode->next;
         delete targetNode;
         
-        // save the result and delete the dummyHead
-        ListNode *result = dummyHead->next;
-        delete dummyHead;
-        
-        return result;
+        return dummyHead.next;
     }
 };
