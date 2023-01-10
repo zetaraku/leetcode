@@ -3,7 +3,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 83 / 620
-- <span style="color: #ffb800;">Medium</span>: 63 / 1348
+- <span style="color: #ffb800;">Medium</span>: 64 / 1348
 - <span style="color: #ff2d55;">Hard</span>: 5 / 564
 
 ## Index
@@ -86,6 +86,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 221 | <span style="color: #ffb800;">Medium</span> | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [221-maximal-square.cpp](./code/medium/221-maximal-square.cpp) | `O(r*c)` | `O(r*c)` |
 | 231 | <span style="color: #00af9b;">Easy</span> | [Power of Two](https://leetcode.com/problems/power-of-two/) | [231-power-of-two.cpp](./code/easy/231-power-of-two.cpp) | `O(1)` | `O(1)` |
 | 234 | <span style="color: #00af9b;">Easy</span> | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [234-palindrome-linked-list.cpp](./code/easy/234-palindrome-linked-list.cpp) | `O(n)` | `O(n)` |
+| 235 | <span style="color: #ffb800;">Medium</span> | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [235-lowest-common-ancestor-of-a-binary-search-tree.cpp](./code/medium/235-lowest-common-ancestor-of-a-binary-search-tree.cpp) | `O(h)` | `O(h) or O(1) with tail-call optimization` |
 | 238 | <span style="color: #ffb800;">Medium</span> | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [238-product-of-array-except-self.cpp](./code/medium/238-product-of-array-except-self.cpp) | `O(n)` | `O(n)` |
 | 278 | <span style="color: #00af9b;">Easy</span> | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [278-first-bad-version.cpp](./code/easy/278-first-bad-version.cpp) | `O(log(n))` | `O(1)` |
 | 283 | <span style="color: #00af9b;">Easy</span> | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [283-move-zeroes.cpp](./code/easy/283-move-zeroes.cpp) | `O(n)` | `O(1)` |
