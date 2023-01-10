@@ -4,7 +4,7 @@ My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 83 / 620
 - <span style="color: #ffb800;">Medium</span>: 63 / 1348
-- <span style="color: #ff2d55;">Hard</span>: 4 / 564
+- <span style="color: #ff2d55;">Hard</span>: 5 / 564
 
 ## Index
 
@@ -82,6 +82,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 208 | <span style="color: #ffb800;">Medium</span> | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [208-implement-trie-prefix-tree.cpp](./code/medium/208-implement-trie-prefix-tree.cpp) | `O(n) for { insert(word), search(word), startsWith(prefix) }` | `O(n)` |
 | 213 | <span style="color: #ffb800;">Medium</span> | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [213-house-robber-ii.cpp](./code/medium/213-house-robber-ii.cpp) | `O(n)` | `O(n)` |
 | 217 | <span style="color: #00af9b;">Easy</span> | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [217-contains-duplicate.cpp](./code/easy/217-contains-duplicate.cpp) | `O(n)` | `O(n)` |
+| 218 | <span style="color: #ff2d55;">Hard</span> | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [218-the-skyline-problem.cpp](./code/hard/218-the-skyline-problem.cpp) | `O(n*log(n))` | `O(n)` |
 | 221 | <span style="color: #ffb800;">Medium</span> | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [221-maximal-square.cpp](./code/medium/221-maximal-square.cpp) | `O(r*c)` | `O(r*c)` |
 | 231 | <span style="color: #00af9b;">Easy</span> | [Power of Two](https://leetcode.com/problems/power-of-two/) | [231-power-of-two.cpp](./code/easy/231-power-of-two.cpp) | `O(1)` | `O(1)` |
 | 234 | <span style="color: #00af9b;">Easy</span> | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [234-palindrome-linked-list.cpp](./code/easy/234-palindrome-linked-list.cpp) | `O(n)` | `O(n)` |
