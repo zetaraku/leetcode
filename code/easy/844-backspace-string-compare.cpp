@@ -9,36 +9,34 @@
 // Space complexity: O(1)
 class Solution {
 public:
-    bool backspaceCompare(string S, string T) {
+    bool backspaceCompare(std::string s, std::string t) {
         // we compare backward so that each backspace can immediately cancel out one next character
-        for (auto ritS = S.rbegin(), ritT = T.rbegin(); true; ritS++, ritT++) {
+        for (auto ritS = s.rbegin(), ritT = t.rbegin(); true; ++ritS, ++ritT) {
             // first we cancel out all characters with backspaces at the ends of both strings
-            skipCharsFromBack(ritS, S.rend()), skipCharsFromBack(ritT, T.rend());
+            skipCharsFromBack(ritS, s.rend());
+            skipCharsFromBack(ritT, t.rend());
             
             // two strings are equal if both strings are full matched
-            if (ritS == S.rend() && ritT == T.rend())
-                return true;
+            if (ritS == s.rend() && ritT == t.rend()) return true;
             
             // two strings are not equal if only one string is full matched but the other is not
-            if (ritS == S.rend() || ritT == T.rend())
-                return false;
+            if (ritS == s.rend() || ritT == t.rend()) return false;
             
             // two strings are not equal if they mismatch on a character
-            if (*ritS != *ritT)
-                return false;
+            if (*ritS != *ritT) return false;
         }
     }
     
-    void skipCharsFromBack(string::reverse_iterator &rit, string::reverse_iterator const &rend) {
-        int numOfCharsToDelete = 0;
+    void skipCharsFromBack(string::reverse_iterator &rit, const string::reverse_iterator &rend) {
+        std::size_t numOfCharsToDelete = 0;
         
         while (rit != rend) {
             if (*rit == '#') {
-                numOfCharsToDelete++, rit++;
-            } else if (numOfCharsToDelete != 0) {   // do not use > 0, that is slow!
-                numOfCharsToDelete--, rit++;
+                ++numOfCharsToDelete, ++rit;
+            } else if (numOfCharsToDelete != 0) {
+                --numOfCharsToDelete, ++rit;
             } else {
-                return;
+                break;
             }
         }
     }
