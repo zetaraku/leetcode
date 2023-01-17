@@ -9,22 +9,25 @@
 // Space complexity: O(n)
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        std::unordered_map<int,int> indexOfNumber;
+    std::vector<int> twoSum(std::vector<int> &nums, int target) {
+        const std::size_t N = nums.size();
+
+        std::unordered_map<int, std::size_t> indexOfNumber;
         
-        for (int i = 0; i != nums.size(); ++i) {
+        for (std::size_t i = 0; i != N; ++i) {
             int num = nums[i];
+            int anotherNum = target - num;
             
-            if (indexOfNumber.count(target - num) != 0) {
+            if (indexOfNumber.count(anotherNum) != 0) {
                 // return both indexes if the remaining half of the target exists
-                std::vector<int> result = { indexOfNumber[target - num], i };
-                return result;
+                return { (int) indexOfNumber[anotherNum], (int) i };
             } else {
                 // save the index of the number
                 indexOfNumber[num] = i;
             }
         }
         
-        return std::vector<int>();
+        // not found (should not be reached)
+        return {};
     }
 };
