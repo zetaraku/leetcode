@@ -2,9 +2,9 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 83 / 620
-- <span style="color: #ffb800;">Medium</span>: 64 / 1348
-- <span style="color: #ff2d55;">Hard</span>: 5 / 564
+- <span style="color: #00af9b;">Easy</span>: 83 / 621
+- <span style="color: #ffb800;">Medium</span>: 64 / 1351
+- <span style="color: #ff2d55;">Hard</span>: 5 / 566
 
 ## Index
 
