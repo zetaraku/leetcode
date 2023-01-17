@@ -13,9 +13,9 @@
 // Space complexity: O(n)
 class Solution {
 public:
-    int lastStoneWeight(vector<int>& stones) {
+    int lastStoneWeight(std::vector<int> &stones) {
         // put the stones into a max priority queue
-        priority_queue<int> stonesMaxHeap(stones.begin(), stones.end());
+        std::priority_queue<int> stonesMaxHeap(stones.begin(), stones.end());
         
         // while there is more than 1 stone
         while (stonesMaxHeap.size() > 1) {
@@ -25,8 +25,7 @@ public:
             
             // smash them together and put the remain back (if there is one)
             int stoneC = stoneA - stoneB;
-            if (stoneC != 0)
-                stonesMaxHeap.push(stoneC);
+            if (stoneC != 0) stonesMaxHeap.push(stoneC);
         }
         
         // return the only stone if there is any remaining
