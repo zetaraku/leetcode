@@ -11,21 +11,21 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
+  # This workflow contains a single job called "generate"
+  generate:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checks-out your repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup Perl environment
-        uses: shogo82148/actions-setup-perl@v1.15.0
+        uses: shogo82148/actions-setup-perl@v1
 
       - name: Run a one-line script
-        run: perl gen-readme.pl >README.md
+        run: perl ./gen-readme.pl >README.md
 
       - name: Add and Commit
         uses: EndBug/add-and-commit@v9
