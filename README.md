@@ -3,7 +3,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 84 / 634
-- <span style="color: #ffb800;">Medium</span>: 63 / 1376
+- <span style="color: #ffb800;">Medium</span>: 63 / 1377
 - <span style="color: #ff2d55;">Hard</span>: 5 / 579
 
 ## Index
