@@ -1,5 +1,7 @@
 # leetcode
 
+[![Generate README.md](https://github.com/zetaraku/leetcode/actions/workflows/generate-readme.yaml/badge.svg)](https://github.com/zetaraku/leetcode/actions/workflows/generate-readme.yaml)
+
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 84 / 634
