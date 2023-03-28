@@ -35,4 +35,5 @@ public:
         // you can either start from index 0 or 1, pick one with a lower cost
         return std::min(dp[0], dp[1]);
     }
+    /* Note: There is an in-place algorithm with O(1) space complexity */
 };
