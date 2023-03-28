@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 85 / 637
+- <span style="color: #00af9b;">Easy</span>: 86 / 637
 - <span style="color: #ffb800;">Medium</span>: 63 / 1386
 - <span style="color: #ff2d55;">Hard</span>: 5 / 580
 
@@ -125,6 +125,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 704 | <span style="color: #00af9b;">Easy</span> | [Binary Search](https://leetcode.com/problems/binary-search/) | [704-binary-search.cpp](./code/easy/704-binary-search.cpp) | `O(log(n))` | `O(1)` |
 | 724 | <span style="color: #00af9b;">Easy</span> | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [724-find-pivot-index.cpp](./code/easy/724-find-pivot-index.cpp) | `O(n)` | `O(1)` |
 | 733 | <span style="color: #00af9b;">Easy</span> | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [733-flood-fill.cpp](./code/easy/733-flood-fill.cpp) | `O(m*n)` | `O(m*n)` |
+| 746 | <span style="color: #00af9b;">Easy</span> | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [746-min-cost-climbing-stairs.cpp](./code/easy/746-min-cost-climbing-stairs.cpp) | `O(n)` | `O(n)` |
 | 764 | <span style="color: #ffb800;">Medium</span> | [Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/) | [764-largest-plus-sign.cpp](./code/medium/764-largest-plus-sign.cpp) | `O(n^2)` | `O(n^2)` |
 | 844 | <span style="color: #00af9b;">Easy</span> | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [844-backspace-string-compare.cpp](./code/easy/844-backspace-string-compare.cpp) | `O(n)` | `O(1)` |
 | 848 | <span style="color: #ffb800;">Medium</span> | [Shifting Letters](https://leetcode.com/problems/shifting-letters/) | [848-shifting-letters.cpp](./code/medium/848-shifting-letters.cpp) | `O(n)` | `O(n)` |
