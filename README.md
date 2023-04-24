@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 86 / 654
+- <span style="color: #00af9b;">Easy</span>: 87 / 654
 - <span style="color: #ffb800;">Medium</span>: 65 / 1410
 - <span style="color: #ff2d55;">Hard</span>: 5 / 590
 
@@ -134,6 +134,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 876 | <span style="color: #00af9b;">Easy</span> | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [876-middle-of-the-linked-list.cpp](./code/easy/876-middle-of-the-linked-list.cpp) | `O(n)` | `O(1)` |
 | 899 | <span style="color: #ff2d55;">Hard</span> | [Orderly Queue](https://leetcode.com/problems/orderly-queue/) | [899-orderly-queue.cpp](./code/hard/899-orderly-queue.cpp) | `O(n^2)` | `O(n)` |
 | 917 | <span style="color: #00af9b;">Easy</span> | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | [917-reverse-only-letters.cpp](./code/easy/917-reverse-only-letters.cpp) | `O(n)` | `O(n)` |
+| 929 | <span style="color: #00af9b;">Easy</span> | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [929-unique-email-addresses.cpp](./code/easy/929-unique-email-addresses.cpp) | `O(n)` | `O(n)` |
 | 977 | <span style="color: #00af9b;">Easy</span> | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [977-squares-of-a-sorted-array.cpp](./code/easy/977-squares-of-a-sorted-array.cpp) | `O(n)` | `O(n)` |
 | 978 | <span style="color: #ffb800;">Medium</span> | [Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/) | [978-longest-turbulent-subarray.cpp](./code/medium/978-longest-turbulent-subarray.cpp) | `O(n)` | `O(1)` |
 | 1008 | <span style="color: #ffb800;">Medium</span> | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [1008-construct-binary-search-tree-from-preorder-traversal.cpp](./code/medium/1008-construct-binary-search-tree-from-preorder-traversal.cpp) | `O(n*log(n)) maybe?` | `O(n)` |
