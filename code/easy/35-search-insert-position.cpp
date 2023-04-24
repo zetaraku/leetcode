@@ -9,7 +9,7 @@
 // Space complexity: O(1)
 class Solution {
 public:
-    int searchInsert(vector<int>& nums, int target) {
+    int searchInsert(std::vector<int> &nums, int target) {
         std::size_t begin = 0, end = nums.size();
         
         // keep searching until the interval is empty (the borders meet)
