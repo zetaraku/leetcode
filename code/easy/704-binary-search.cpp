@@ -9,7 +9,7 @@
 // Space complexity: O(1)
 class Solution {
 public:
-    int search(vector<int>& nums, int target) {
+    int search(std::vector<int> &nums, int target) {
         std::size_t begin = 0, end = nums.size();
         
         // keep searching if the interval is not empty
