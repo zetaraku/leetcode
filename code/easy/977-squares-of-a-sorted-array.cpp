@@ -15,12 +15,12 @@ public:
         // remaining range [i, j) to process
         std::size_t i = 0, j = N;
 
-        // merge squared numbers from both sides
+        // merge numbers from both sides
         while (i != j) {
             int a = nums[i], b = nums[j-1];
             
-            // take the larger squared number
-            if (a * a > b * b) {
+            // take the number with a larger absolute value
+            if (std::abs(a) > std::abs(b)) {
                 result[--prevIndex] = a * a; ++i;
             } else {
                 result[--prevIndex] = b * b; --j;
