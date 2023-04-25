@@ -7,30 +7,25 @@
 // Space complexity: O(n)
 class Solution {
 public:
-    vector<int> sortedSquares(vector<int>& nums) {
-        std::vector<int> result;
+    std::vector<int> sortedSquares(std::vector<int> &nums) {
+        const std::size_t N = nums.size();
+
+        std::vector<int> result(N); std::size_t prevIndex = N;
         
-        // handle edge case
-        if (nums.empty()) return vector<int>();
-        
-        // merge numbers from both sides
-        std::size_t i = 0, j = nums.size() - 1;
+        // remaining range [i, j) to process
+        std::size_t i = 0, j = N;
+
+        // merge squared numbers from both sides
         while (i != j) {
-            int a = nums[i], b = nums[j];
+            int a = nums[i], b = nums[j-1];
             
             // take the larger squared number
             if (a * a > b * b) {
-                result.push_back(a * a); ++i;
+                result[--prevIndex] = a * a; ++i;
             } else {
-                result.push_back(b * b); --j;
+                result[--prevIndex] = b * b; --j;
             }
         }
-        
-        // take the last number
-        result.push_back(nums[i] * nums[j]);
-        
-        // reverse the result so the result is in ascending order
-        std::reverse(result.begin(), result.end());
         
         return result;
     }
