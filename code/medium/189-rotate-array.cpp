@@ -7,29 +7,33 @@
 // Space complexity: O(1)
 class Solution {
 public:
-    void rotate(vector<int>& nums, int k) {
-        std::size_t N = nums.size();
-        
+    void rotate(std::vector<int> &nums, int k) {
         // normalize k
-        k %= N;
-        
+        k %= nums.size();
+
+        const std::size_t N = nums.size();
+        const std::size_t negK = N - k;
+        const std::size_t cycleGap = std::gcd(k, N);
+
         // early return if there is no need to rotate
-        if (k == 0) return;
-        
-        // for each disjoint cycle starting at i
-        for (std::size_t i = 0; i != std::gcd(k, N); ++i) {
-            // preserve the first value
-            int tmp = nums[i];
-            
-            // rotate the elements on the cycle
-            for (std::size_t j = (i + k) % N; true; j = (j + k) % N) {
-                std::swap(tmp, nums[j]);
-                if (j == i) break;
+        if (N == 0 || k == 0) return;
+
+        // rotate the elements for each disjoint cycle
+        for (std::size_t offset = 0; offset != cycleGap; ++offset) {
+            int tmp = nums[offset];
+
+            std::size_t destIndex = offset;
+            for (std::size_t i = 1; i != N / cycleGap; ++i) {
+                std::size_t srcIndex = (destIndex + negK) % N;
+                nums[destIndex] = nums[srcIndex];
+                destIndex = srcIndex;
             }
+
+            nums[offset + k] = tmp;
         }
     }
-    
-    // void rotate(vector<int>& nums, int k) {
+
+    // void rotate(std::vector<int> &nums, int k) {
     //     // utilize the standard library to solve the problem
     //     std::rotate(nums.begin(), nums.end() - k % nums.size(), nums.end());
     // }
