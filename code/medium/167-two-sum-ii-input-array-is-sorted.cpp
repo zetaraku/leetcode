@@ -10,7 +10,7 @@
 // Space complexity: O(1)
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& numbers, int target) {
+    std::vector<int> twoSum(std::vector<int> &numbers, int target) {
         // pick the numbers at the start and at the end
         int i = 0, j = numbers.size() - 1;
         
@@ -20,14 +20,13 @@ public:
             
             if (sum < target) {
                 // drop the one that is too small
-                i++;
+                ++i;
             } else if (sum > target) {
                 // drop the one that is too big
-                j--;
+                --j;
             } else {
                 // found the solution (guaranteed)
-                std::vector<int> result = { 1 + i, 1 + j };
-                return result;
+                return std::vector<int>({ 1 + i, 1 + j });
             }
         }
     }
