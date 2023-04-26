@@ -8,15 +8,10 @@
 // Space complexity: O(1)
 class Solution {
 public:
-    void moveZeroes(vector<int>& nums) {
-        // the next insertion point of non-0 sub array
-        std::size_t i = 0;
-        
-        for (std::size_t j = 0; j != nums.size(); ++j) {
-            // move each non-0 element to the begin so all other 0 will be at the end
-            if (nums[j] != 0) {
-                std::swap(nums[i], nums[j]); i++;
-            }
+    void moveZeroes(std::vector<int> &nums) {
+        // move each non-0 element to the beginning instead so all other 0 will be at the end
+        for (std::size_t i = 0, j = 0; j != nums.size(); ++j) {    
+            if (nums[j] != 0) std::swap(nums[i++], nums[j]);
         }
     }
 };
