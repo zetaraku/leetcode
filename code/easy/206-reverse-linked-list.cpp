@@ -17,15 +17,14 @@
  */
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head) {        
-        ListNode *prevNode = NULL, *nextNode; 
-        for (ListNode *node = head; node != NULL; node = nextNode) {
+    ListNode *reverseList(ListNode *head) {        
+        ListNode *prevNode = NULL, *nextNode;
+
+        for (ListNode *node = head; node != NULL; prevNode = node, node = nextNode) {
             // save the next node
             nextNode = node->next;
             // reverse the next pointer of the current node
             node->next = prevNode;
-            // record the current node to use later
-            prevNode = node;
         }
         
         // return the last node
