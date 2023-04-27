@@ -7,9 +7,9 @@
 // Space complexity: O(1)
 class Solution {
 public:
-    string reverseWords(string s) {
+    std::string reverseWords(std::string s) {
         // indexes to mark the begin and the end of a substring
-        int i = 0, j = 0;
+        std::size_t i = 0, j = 0;
         
         while (true) {
             // find the begin of a substring
@@ -31,9 +31,11 @@ public:
         return s;
     }
     
-    void reverseSubString(string& s, int begin, int end) {
+    void reverseSubString(std::string &s, std::size_t begin, std::size_t end) {
+        assert (begin != end);
+
         // swap each pair from both sides
-        for (int i = begin, j = end - 1; i < j; ++i, --j) {
+        for (std::size_t i = begin, j = end - 1; i < j; ++i, --j) {
             std::swap(s[i], s[j]);
         }
     }
