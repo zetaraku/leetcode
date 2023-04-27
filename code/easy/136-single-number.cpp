@@ -7,8 +7,8 @@
 // Space complexity: O(1)
 class Solution {
 public:
-    int singleNumber(vector<int>& nums) {
+    int singleNumber(std::vector<int> &nums) {
         // we can XOR every number so that integers which appear twice will cancel each other out, leaving the single one.
-        return std::accumulate(nums.begin(), nums.end(), 0, std::bit_xor<int>());
+        return std::reduce(nums.begin(), nums.end(), 0, std::bit_xor<int>());
     }
 };
