@@ -13,7 +13,7 @@ public:
     int pivotIndex(std::vector<int> &nums) {
         const std::size_t N = nums.size();
 
-        int totalSum = std::accumulate(nums.begin(), nums.end(), 0, std::plus<int>());
+        int totalSum = std::reduce(nums.begin(), nums.end(), 0, std::plus<int>());
 
         int currentSum = 0;
         for (int pivotIndex = 0; pivotIndex != N; ++pivotIndex) {
