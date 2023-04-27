@@ -12,18 +12,16 @@
 // Space complexity: O(n1*n2)
 class Solution {
 public:
-    int longestCommonSubsequence(string text1, string text2) {
+    int longestCommonSubsequence(std::string text1, std::string text2) {
         int n1 = text1.length();
         int n2 = text2.length();
         
         // dp[i][j] = the length of longest common subsequence of text1[0,i) and text2[0,j)
-        vector<vector<int>> dp(n1+1, vector<int>(n2+1)); {
+        std::vector<std::vector<int>> dp(n1+1, std::vector<int>(n2+1));{
             // dp[i][0] = 0
-            for (int i = 0; i <= n1; i++)
-                dp.at(i).at(0) = 0;
+            for (int i = 0; i <= n1; i++) dp.at(i).at(0) = 0;
             // dp[0][j] = 0
-            for (int j = 0; j <= n2; j++)
-                dp.at(0).at(j) = 0;
+            for (int j = 0; j <= n2; j++) dp.at(0).at(j) = 0;
         }
         
         /*
@@ -34,8 +32,8 @@ public:
         */
         for (int i = 0; i < n1; i++) {
             for (int j = 0; j < n2; j++) {
-                dp.at(i+1).at(j+1) = std::max(
-                    dp.at(i).at(j) + (text1.at(i) == text2.at(j) ? 1 : 0),
+                dp.at(i+1).at(j+1) = (text1.at(i) == text2.at(j) ?
+                    dp.at(i).at(j) + 1 :
                     std::max(
                         dp.at(i).at(j+1),
                         dp.at(i+1).at(j)
