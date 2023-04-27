@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 87 / 654
+- <span style="color: #00af9b;">Easy</span>: 88 / 654
 - <span style="color: #ffb800;">Medium</span>: 66 / 1411
 - <span style="color: #ff2d55;">Hard</span>: 5 / 590
 
@@ -73,6 +73,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 182 | <span style="color: #00af9b;">Easy</span> | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | [182-duplicate-emails.sql](./code/easy/182-duplicate-emails.sql) | `N/A` | `N/A` |
 | 183 | <span style="color: #00af9b;">Easy</span> | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | [183-customers-who-never-order.sql](./code/easy/183-customers-who-never-order.sql) | `N/A` | `N/A` |
 | 189 | <span style="color: #ffb800;">Medium</span> | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [189-rotate-array.cpp](./code/medium/189-rotate-array.cpp) | `O(n)` | `O(1)` |
+| 191 | <span style="color: #00af9b;">Easy</span> | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [191-number-of-1-bits.cpp](./code/easy/191-number-of-1-bits.cpp) | `O(1)` | `O(1)` |
 | 193 | <span style="color: #00af9b;">Easy</span> | [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/) | [193-valid-phone-numbers.bash](./code/easy/193-valid-phone-numbers.bash) | `N/A` | `N/A` |
 | 196 | <span style="color: #00af9b;">Easy</span> | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | [196-delete-duplicate-emails.sql](./code/easy/196-delete-duplicate-emails.sql) | `N/A` | `N/A` |
 | 197 | <span style="color: #00af9b;">Easy</span> | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | [197-rising-temperature.sql](./code/easy/197-rising-temperature.sql) | `N/A` | `N/A` |
