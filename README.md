@@ -5,7 +5,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 88 / 654
-- <span style="color: #ffb800;">Medium</span>: 66 / 1411
+- <span style="color: #ffb800;">Medium</span>: 67 / 1411
 - <span style="color: #ff2d55;">Hard</span>: 5 / 590
 
 ## Index
@@ -15,6 +15,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1 | <span style="color: #00af9b;">Easy</span> | [Two Sum](https://leetcode.com/problems/two-sum/) | [1-two-sum.cpp](./code/easy/1-two-sum.cpp) | `O(n)` | `O(n)` |
 | 2 | <span style="color: #ffb800;">Medium</span> | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [2-add-two-numbers.cpp](./code/medium/2-add-two-numbers.cpp) | `O(n1+n2)` | `O(n1+n2)` |
 | 3 | <span style="color: #ffb800;">Medium</span> | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [3-longest-substring-without-repeating-characters.cpp](./code/medium/3-longest-substring-without-repeating-characters.cpp) | `O(n)` | `O(n)` |
+| 5 | <span style="color: #ffb800;">Medium</span> | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [5-longest-palindromic-substring.cpp](./code/medium/5-longest-palindromic-substring.cpp) | `O(n^2)` | `O(n)` |
 | 6 | <span style="color: #ffb800;">Medium</span> | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [6-zigzag-conversion.cpp](./code/medium/6-zigzag-conversion.cpp) | `O(n)` | `O(n)` |
 | 8 | <span style="color: #ffb800;">Medium</span> | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [8-string-to-integer-atoi.cpp](./code/medium/8-string-to-integer-atoi.cpp) | `O(n)` | `O(1)` |
 | 19 | <span style="color: #ffb800;">Medium</span> | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [19-remove-nth-node-from-end-of-list.cpp](./code/medium/19-remove-nth-node-from-end-of-list.cpp) | `O(n)` | `O(1)` |
