@@ -39,13 +39,11 @@ public:
         for (int i = 1; i < r; i++) {
             for (int j = 1; j < c; j++) {
                 int side = dp.at(i).at(j) = (matrix.at(i).at(j) == '1' ?
-                    std::min(
+                    std::min({
                         dp.at(i-1).at(j-1),
-                        std::min(
-                            dp.at(i).at(j-1),
-                            dp.at(i-1).at(j)
-                        )
-                    ) + 1 : 0
+                        dp.at(i).at(j-1),
+                        dp.at(i-1).at(j)
+                    }) + 1 : 0
                 );
                 maxSide = std::max(maxSide, side);
             }
