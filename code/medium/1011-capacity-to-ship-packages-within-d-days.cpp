@@ -18,7 +18,7 @@ public:
         // it must at least be able to ship any single package
         int minCapacity = *std::max_element(weights.begin(), weights.end());
         // it is enough to ship all packages at once (guaranteed to satisfy the day requirement)
-        int maxCapacity = std::reduce(weights.begin(), weights.end(), 0);
+        int maxCapacity = std::reduce(weights.begin(), weights.end(), 0, std::plus<int>());
 
         // binary search the minimum capacity that satisfies the day requirement
         while (minCapacity != maxCapacity) {
