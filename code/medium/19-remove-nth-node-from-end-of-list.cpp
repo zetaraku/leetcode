@@ -17,7 +17,7 @@
  */
 class Solution {
 public:
-    ListNode* removeNthFromEnd(ListNode* head, int n) {
+    ListNode *removeNthFromEnd(ListNode *head, int n) {
         ListNode dummyHead(0xDEADBEEF, head);
         
         // advance fastNode n steps from the head
