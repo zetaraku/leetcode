@@ -9,7 +9,7 @@
 // Space complexity: O(1)
 class Solution {
 public:
-    int maxProfit(vector<int>& prices) {
+    int maxProfit(std::vector<int> &prices) {
         int minPrice = INT_MAX;
         int maxProfit = 0;
         
