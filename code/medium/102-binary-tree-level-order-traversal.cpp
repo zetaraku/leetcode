@@ -16,13 +16,24 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 public:
     std::vector<std::vector<int>> levelOrder(TreeNode *root) {
         // remaining nodes to process
         std::queue<TreeNode *> nodeQueue; {
-            // push the initial node (may be NULL)
-            nodeQueue.push(root);
+            // push the initial root node (if any)
+            if (root != NULL) nodeQueue.push(root);
             // push an end-of-level mark (NULL)
             nodeQueue.push(NULL);
         }
@@ -34,7 +45,7 @@ public:
             // take out the next node to process
             TreeNode *node = nodeQueue.front(); nodeQueue.pop();
             
-            // end if an end-of-level mark (or a NULL root) is reached before a node
+            // end if an end-of-level mark is reached before any node (the entire level is empty)
             if (node == NULL) break;
             
             // append the value to the current level
