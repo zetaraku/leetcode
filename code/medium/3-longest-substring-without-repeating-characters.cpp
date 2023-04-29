@@ -7,7 +7,7 @@
 // Space complexity: O(n)
 class Solution {
 public:
-    int lengthOfLongestSubstring(string s) {
+    int lengthOfLongestSubstring(std::string s) {
         std::unordered_set<char> currentChars;
         std::size_t beginIndex = 0;
         std::size_t maxLength = 0;
@@ -16,16 +16,18 @@ public:
             if (currentChars.count(c) == 0) {
                 // insert the char
                 currentChars.insert(c);
+
                 // update the max length
                 maxLength = std::max(maxLength, currentChars.size());
             } else {
                 // keep removing chars from the start until the repeating char is removed
                 while (true) {
-                    char charToRemove = s.at(beginIndex++);
+                    char charToRemove = s[beginIndex++];
                     currentChars.erase(charToRemove);
                     if (charToRemove == c) break;
                 }
-                // insert the char (this step can be merged with the loop above to save time)
+
+                // insert the char
                 currentChars.insert(c);
             }
         }
