@@ -5,7 +5,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 88 / 654
-- <span style="color: #ffb800;">Medium</span>: 68 / 1411
+- <span style="color: #ffb800;">Medium</span>: 69 / 1411
 - <span style="color: #ff2d55;">Hard</span>: 6 / 590
 
 ## Index
@@ -118,6 +118,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 560 | <span style="color: #ffb800;">Medium</span> | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [560-subarray-sum-equals-k.cpp](./code/medium/560-subarray-sum-equals-k.cpp) | `O(n)` | `O(n)` |
 | 565 | <span style="color: #ffb800;">Medium</span> | [Array Nesting](https://leetcode.com/problems/array-nesting/) | [565-array-nesting.cpp](./code/medium/565-array-nesting.cpp) | `O(n)` | `O(n)` |
 | 566 | <span style="color: #00af9b;">Easy</span> | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [566-reshape-the-matrix.cpp](./code/easy/566-reshape-the-matrix.cpp) | `O(m*n)` | `O(m*n)` |
+| 567 | <span style="color: #ffb800;">Medium</span> | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [567-permutation-in-string.cpp](./code/medium/567-permutation-in-string.cpp) | `O(n1+n2)` | `O(1)` |
 | 584 | <span style="color: #00af9b;">Easy</span> | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [584-find-customer-referee.sql](./code/easy/584-find-customer-referee.sql) | `N/A` | `N/A` |
 | 586 | <span style="color: #00af9b;">Easy</span> | [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | [586-customer-placing-the-largest-number-of-orders.sql](./code/easy/586-customer-placing-the-largest-number-of-orders.sql) | `N/A` | `N/A` |
 | 589 | <span style="color: #00af9b;">Easy</span> | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [589-n-ary-tree-preorder-traversal.cpp](./code/easy/589-n-ary-tree-preorder-traversal.cpp) | `O(n)` | `O(n)` |
