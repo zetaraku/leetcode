@@ -9,8 +9,6 @@
 class Solution {
 public:
     bool checkInclusion(std::string s1, std::string s2) {
-        std::size_t begin = 0, end = 0;
-        
         std::vector<int> charsToMatch(26, 0);
         std::size_t unmatchedCharCount = 0;
 
