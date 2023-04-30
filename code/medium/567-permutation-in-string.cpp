@@ -9,41 +9,43 @@
 class Solution {
 public:
     bool checkInclusion(std::string s1, std::string s2) {
-        std::vector<int> charsToMatch(26, 0);
-        std::size_t unmatchedCharCount = 0;
+        assert(s2.length() != 0);
+
+        std::vector<int> charCounts(26, 0);
+        std::size_t diffCount = 0;
 
         // require every char in s1 to be matched
         for (char c: s1) {
-            int &charCount = charsToMatch[c - 'a'];
+            int &charCount = charCounts[c - 'a'];
 
-            if (charCount == 0) ++unmatchedCharCount;
+            if (charCount == 0) ++diffCount;
             charCount -= 1;
-            // if (charCount == 0) --unmatchedCharCount;
+            // if (charCount == 0) --diffCount;
         }
 
         for (std::size_t i = 0, j = 0; j != s2.length();) {
-            // remove the left-most char if the substring is full
+            // shrink the window if the substring is full
             if (j-i == s1.length()) {
                 char c = s2[i++];
-                int &charCount = charsToMatch[c - 'a'];
+                int &charCount = charCounts[c - 'a'];
 
-                if (charCount == 0) ++unmatchedCharCount;
+                if (charCount == 0) ++diffCount;
                 charCount -= 1;
-                if (charCount == 0) --unmatchedCharCount;
+                if (charCount == 0) --diffCount;
             }
 
-            // append the next char to the substring
+            // extend the window
             if (true) {
                 char c = s2[j++];
-                int &charCount = charsToMatch[c - 'a'];
+                int &charCount = charCounts[c - 'a'];
 
-                if (charCount == 0) ++unmatchedCharCount;
+                if (charCount == 0) ++diffCount;
                 charCount += 1;
-                if (charCount == 0) --unmatchedCharCount;
+                if (charCount == 0) --diffCount;
             }
 
-            // found a permutation of s1
-            if (unmatchedCharCount == 0) return true;
+            // a permutation of s1 is found
+            if (diffCount == 0) return true;
         }
 
         // not found
