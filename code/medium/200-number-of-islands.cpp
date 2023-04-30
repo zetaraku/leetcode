@@ -9,48 +9,33 @@
 // Space complexity: O(n)
 class Solution {
 public:
-    int numIslands(vector<vector<char>> &grid) {
-        int r = grid.size();
-        if (r == 0)
-            return 0;
+    int numIslands(std::vector<std::vector<char>> &grid) {
+        if (grid.size() == 0 || grid[0].size() == 0) return 0;
+
+        const std::size_t m = grid.size();
+        const std::size_t n = grid[0].size();
         
-        int c = grid.at(0).size();
-        if (c == 0)
-            return 0;
+        std::size_t islandCount = 0;
+        std::vector<std::vector<bool>> isTraversed(m, std::vector<bool>(n, false));
         
-        int islandCount = 0;
-        vector<vector<bool>> isTraversed(r, vector<bool>(c, false));
-        
-        std::function<bool(int,int)> searchIsland = [&](int i, int j) -> bool {
-            // this grid is water, no new island found
-            if (grid.at(i).at(j) == '0')
-                return false;
+        std::function<bool(std::size_t, std::size_t)> searchIsland = [&, m, n](std::size_t i, std::size_t j) -> bool {
+            if (isTraversed[i][j] || grid[i][j] == '0') return false;
             
-            // this grid is counted before, no new island found
-            if (isTraversed.at(i).at(j))
-                return false;
+            isTraversed[i][j] = true;
             
-            // a new grid is found, now mark this grid as traversed
-            isTraversed.at(i).at(j) = true;
+            if (i != 0) searchIsland(i-1, j);
+            if (i != m-1) searchIsland(i+1, j);
+            if (j != 0) searchIsland(i, j-1);
+            if (j != n-1) searchIsland(i, j+1);
             
-            // search for all connected grids and mark them
-            if (i-1 >= 0)
-                searchIsland(i-1, j);
-            if (i+1 < r)
-                searchIsland(i+1, j);
-            if (j-1 >= 0)
-                searchIsland(i, j-1);
-            if (j+1 < c)
-                searchIsland(i, j+1);
-            
-            // we found a new island!
             return true;
         };
         
-        // increase the island count for each new island we found
-        for (int i = 0; i < r; i++)
-            for (int j = 0; j < c; j++)
-                searchIsland(i, j) && islandCount++;
+        for (std::size_t i = 0; i != m; ++i) {
+            for (std::size_t j = 0; j != n; ++j) {                
+                searchIsland(i, j) && ++islandCount;
+            }
+        }
             
         return islandCount;
     }
