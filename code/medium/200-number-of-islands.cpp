@@ -5,8 +5,8 @@
 //     You may assume all four edges of the grid are all surrounded by water.
 // Link: https://leetcode.com/problems/number-of-islands/
 
-// Time complexity: O(n)
-// Space complexity: O(n)
+// Time complexity: O(m*n)
+// Space complexity: O(m*n)
 class Solution {
 public:
     int numIslands(std::vector<std::vector<char>> &grid) {
