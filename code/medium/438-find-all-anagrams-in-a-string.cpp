@@ -9,49 +9,45 @@
 class Solution {
 public:
     std::vector<int> findAnagrams(std::string s, std::string p) {
-        std::size_t M = s.length();
-        std::size_t N = p.length();
+        assert(p.length() != 0);
 
-        // ensure p is non-empty
-        assert(N > 0);
-
-        // number of distinct unmatched letters
+        std::vector<int> charCounts(26, 0);
         std::size_t diffCount = 0;
 
-        std::vector<int> letterCounts(26, 0); {
-            // require every letter in p to be matched
-            for (char c: p) {
-                std::size_t cIndex = c - 'a';
+        // require every char in p to be matched
+        for (char c: p) {
+            int &charCount = charCounts[c - 'a'];
 
-                if (letterCounts[cIndex] == 0) diffCount += 1;
-                letterCounts[cIndex] -= 1;
-                // if (letterCounts[cIndex] == 0) diffCount -= 1;
-            }
+            if (charCount == 0) ++diffCount;
+            charCount -= 1;
+            // if (charCount == 0) --diffCount;
         }
 
         std::vector<int> result;
 
-        for (std::size_t i = 0; i != M; ++i) {
+        for (std::size_t i = 0, j = 0; j != s.length();) {
+            // shrink the window if the substring is full
+            if (j-i == p.length()) {
+                char c = s[i++];
+                int &charCount = charCounts[c - 'a'];
+
+                if (charCount == 0) ++diffCount;
+                charCount -= 1;
+                if (charCount == 0) --diffCount;
+            }
+
             // extend the window
             if (true) {
-                std::size_t cIndex = s[i] - 'a';
+                char c = s[j++];
+                int &charCount = charCounts[c - 'a'];
 
-                if (letterCounts[cIndex] == 0) diffCount += 1;
-                letterCounts[cIndex] += 1;
-                if (letterCounts[cIndex] == 0) diffCount -= 1;
+                if (charCount == 0) ++diffCount;
+                charCount += 1;
+                if (charCount == 0) --diffCount;
             }
 
-            // shrink the window (if it exceeds the max size)
-            if (i > (N - 1)) {
-                std::size_t dIndex = s[i - N] - 'a';
-
-                if (letterCounts[dIndex] == 0) diffCount += 1;
-                letterCounts[dIndex] -= 1;
-                if (letterCounts[dIndex] == 0) diffCount -= 1;
-            }
-
-            // an anagram is found, add the start index to the result
-            if (diffCount == 0) result.push_back(i - (N - 1));
+            // an anagram is found
+            if (diffCount == 0) result.push_back(i);
         }
 
         return result;
