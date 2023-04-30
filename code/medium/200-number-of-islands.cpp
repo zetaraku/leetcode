@@ -15,7 +15,6 @@ public:
         const std::size_t m = grid.size();
         const std::size_t n = grid[0].size();
         
-        std::size_t islandCount = 0;
         std::vector<std::vector<bool>> isTraversed(m, std::vector<bool>(n, false));
         
         std::function<bool (std::size_t, std::size_t)> searchIsland = [&, m, n](std::size_t i, std::size_t j) -> bool {
@@ -31,9 +30,11 @@ public:
             return true;
         };
         
+        std::size_t islandCount = 0;
+
         for (std::size_t i = 0; i != m; ++i) {
             for (std::size_t j = 0; j != n; ++j) {                
-                searchIsland(i, j) && ++islandCount;
+                if (searchIsland(i, j)) ++islandCount;
             }
         }
             
