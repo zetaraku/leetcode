@@ -17,7 +17,7 @@
 // Link: https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
 
 // Time complexity: O(n)
-// Space complexity: O(log(n))
+// Space complexity: O(1)
 /*
 // Definition for a Node.
 class Node {
@@ -38,21 +38,53 @@ public:
 class Solution {
 public:
     Node *connect(Node *root) {
-        if (root == NULL) return NULL;
+        /*
+                                        1 -----------------------------> 0
+                                   /         \
+                               /                 \
+                            2 ---------1a---------> 3 ---------1b------> 0
+                        /       \               /       \
+                      4 ---2a---> 5 ---2b---> 6 ---3a---> 7 ---3b------> 0
+                    /   \       /   \       /   \       /   \
+                   8 4a> 9 4b> A 5a> B 5b> C 6a> D 6b> E 7a> F 7b------> 0
+        */
 
-        // inner-connect left tree and right tree
-        connect(root->left);
-        connect(root->right);
+        // setup next pointer of the first level
+        if (root != NULL) root->next = NULL;
 
-        // inter-connect left tree and right tree
-        for (
-            Node *leftNode = root->left, *rightNode = root->right;
-            leftNode != NULL && rightNode != NULL;
-            leftNode = leftNode->right, rightNode = rightNode->left
-        ) {
-            leftNode->next = rightNode;
+        // traverse each level
+        for (Node *levelBegin = root; levelBegin != NULL; levelBegin = levelBegin->left) {
+            // traverse each node of the level (assume the level is already properly connected by next pointers)
+            for (Node *node = levelBegin; node != NULL; node = node->next) {
+                // (a) inner-connect left node to right node
+                if (node->left != NULL) (node->left)->next = (node->right);
+                
+                // (b) inter-connect right node to next left node (if exist)
+                if (node->right != NULL) (node->right)->next = (node->next != NULL ? (node->next->left) : NULL);
+            }
+
+            // by the time the level is traversed, the next level will be properly connected by next pointers
         }
 
         return root;
     }
+
+    // Node *connect(Node *root) {
+    //     if (root == NULL) return NULL;
+
+    //     // inner-connect left tree and right tree
+    //     connect(root->left);
+    //     connect(root->right);
+
+    //     // inter-connect left tree and right tree
+    //     for (
+    //         Node *leftNode = root->left, *rightNode = root->right;
+    //         leftNode != NULL && rightNode != NULL;
+    //         leftNode = leftNode->right, rightNode = rightNode->left
+    //     ) {
+    //         leftNode->next = rightNode;
+    //     }
+
+    //     return root;
+    // }
 };
