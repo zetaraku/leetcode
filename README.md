@@ -5,7 +5,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 88 / 656
-- <span style="color: #ffb800;">Medium</span>: 70 / 1415
+- <span style="color: #ffb800;">Medium</span>: 71 / 1415
 - <span style="color: #ff2d55;">Hard</span>: 7 / 592
 
 ## Index
@@ -55,6 +55,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 111 | <span style="color: #00af9b;">Easy</span> | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [111-minimum-depth-of-binary-tree.cpp](./code/easy/111-minimum-depth-of-binary-tree.cpp) | `O(n)` | `O(log(n))` |
 | 112 | <span style="color: #00af9b;">Easy</span> | [Path Sum](https://leetcode.com/problems/path-sum/) | [112-path-sum.cpp](./code/easy/112-path-sum.cpp) | `O(n)` | `O(n)` |
 | 113 | <span style="color: #ffb800;">Medium</span> | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [113-path-sum-ii.cpp](./code/medium/113-path-sum-ii.cpp) | `O(n^2)` | `O(n^2)` |
+| 116 | <span style="color: #ffb800;">Medium</span> | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [116-populating-next-right-pointers-in-each-node.cpp](./code/medium/116-populating-next-right-pointers-in-each-node.cpp) | `O(n)` | `O(log(n))` |
 | 118 | <span style="color: #00af9b;">Easy</span> | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [118-pascals-triangle.cpp](./code/easy/118-pascals-triangle.cpp) | `O(n^2)` | `O(n^2)` |
 | 121 | <span style="color: #00af9b;">Easy</span> | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [121-best-time-to-buy-and-sell-stock.cpp](./code/easy/121-best-time-to-buy-and-sell-stock.cpp) | `O(n)` | `O(1)` |
 | 122 | <span style="color: #ffb800;">Medium</span> | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [122-best-time-to-buy-and-sell-stock-ii.cpp](./code/medium/122-best-time-to-buy-and-sell-stock-ii.cpp) | `O(n)` | `O(1)` |
