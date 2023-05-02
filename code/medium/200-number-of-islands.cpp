@@ -12,28 +12,28 @@ public:
     int numIslands(std::vector<std::vector<char>> &grid) {
         if (grid.size() == 0 || grid[0].size() == 0) return 0;
 
-        const std::size_t m = grid.size();
-        const std::size_t n = grid[0].size();
+        const std::size_t M = grid.size();
+        const std::size_t N = grid[0].size();
         
-        std::vector<std::vector<bool>> isTraversed(m, std::vector<bool>(n, false));
+        std::vector<std::vector<bool>> isTraversed(M, std::vector<bool>(N, false));
         
-        std::function<bool (std::size_t, std::size_t)> searchIsland = [&, m, n](std::size_t i, std::size_t j) -> bool {
+        std::function<bool (std::size_t, std::size_t)> searchIsland = [&, M, N](std::size_t i, std::size_t j) -> bool {
             if (isTraversed[i][j] || grid[i][j] != '1') return false;
             
             isTraversed[i][j] = true;
             
             if (i != 0) searchIsland(i-1, j);
-            if (i != m-1) searchIsland(i+1, j);
+            if (i != M-1) searchIsland(i+1, j);
             if (j != 0) searchIsland(i, j-1);
-            if (j != n-1) searchIsland(i, j+1);
+            if (j != N-1) searchIsland(i, j+1);
             
             return true;
         };
         
         std::size_t islandCount = 0;
 
-        for (std::size_t i = 0; i != m; ++i) {
-            for (std::size_t j = 0; j != n; ++j) {                
+        for (std::size_t i = 0; i != M; ++i) {
+            for (std::size_t j = 0; j != N; ++j) {                
                 if (searchIsland(i, j)) ++islandCount;
             }
         }
