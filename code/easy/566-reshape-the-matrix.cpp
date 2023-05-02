@@ -10,25 +10,25 @@
 // Space complexity: O(m*n)
 class Solution {
 public:
-    vector<vector<int>> matrixReshape(vector<vector<int>>& mat, int r, int c) {
-        std::size_t m = mat.size();
-        std::size_t n = mat[0].size();
+    std::vector<std::vector<int>> matrixReshape(std::vector<std::vector<int>> &mat, int r, int c) {
+        std::size_t M = mat.size();
+        std::size_t N = mat[0].size();
         
         // check illegal reshape
-        if (m * n != r * c) return mat;
+        if (r * c != M * N) return mat;
         
         // initialize result matrix and indexes
         std::vector<std::vector<int>> result(r, std::vector<int>(c));
         std::size_t ri = 0, rj = 0;
         
         // read from the source matrix
-        for (std::size_t i = 0; i != m; ++i) {
-            for (std::size_t j = 0; j != n; ++j) {
+        for (std::size_t i = 0; i != M; ++i) {
+            for (std::size_t j = 0; j != N; ++j) {
                 // copy element to the result matrix
-                result[ri][rj] = mat[i][j];
+                result[ri][rj++] = mat[i][j];
                 
                 // process line wrapping for the result matrix
-                if (++rj == c) ++ri, rj = 0;
+                if (rj == c) ++ri, rj = 0;
             }
         }
         
