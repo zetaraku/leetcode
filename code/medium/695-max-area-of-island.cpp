@@ -14,12 +14,12 @@ public:
     int maxAreaOfIsland(std::vector<std::vector<int>> &grid) {
         if (grid.size() == 0 || grid[0].size() == 0) return 0;
 
-        const std::size_t m = grid.size();
-        const std::size_t n = grid[0].size();
+        const std::size_t M = grid.size();
+        const std::size_t N = grid[0].size();
         
-        std::vector<std::vector<bool>> isTraversed(m, std::vector<bool>(n, false));
+        std::vector<std::vector<bool>> isTraversed(M, std::vector<bool>(N, false));
         
-        std::function<std::size_t (std::size_t, std::size_t)> searchIsland = [&, m, n](std::size_t i, std::size_t j) -> std::size_t {
+        std::function<std::size_t (std::size_t, std::size_t)> searchIsland = [&, M, N](std::size_t i, std::size_t j) -> std::size_t {
             if (isTraversed[i][j] || grid[i][j] != 1) return 0;
             
             isTraversed[i][j] = true;
@@ -27,17 +27,17 @@ public:
             std::size_t area = 1;
             
             if (i != 0) area += searchIsland(i-1, j);
-            if (i != m-1) area += searchIsland(i+1, j);
+            if (i != M-1) area += searchIsland(i+1, j);
             if (j != 0) area += searchIsland(i, j-1);
-            if (j != n-1) area += searchIsland(i, j+1);
+            if (j != N-1) area += searchIsland(i, j+1);
             
             return area;
         };
         
         std::size_t maxArea = 0;
 
-        for (std::size_t i = 0; i != m; ++i) {
-            for (std::size_t j = 0; j != n; ++j) {                
+        for (std::size_t i = 0; i != M; ++i) {
+            for (std::size_t j = 0; j != N; ++j) {                
                 maxArea = std::max(searchIsland(i, j), maxArea);
             }
         }
