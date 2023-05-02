@@ -17,30 +17,30 @@
 class Solution {
 public:
     int calculateMinimumHP(std::vector<std::vector<int>> &dungeon) {
-        const std::size_t m = dungeon.size();
-        const std::size_t n = dungeon[0].size();
+        const std::size_t M = dungeon.size();
+        const std::size_t N = dungeon[0].size();
 
         /*
-            dp[i][j] = minimum health required at room (i, j) to reach the goal (m-1, n-1) alive
+            dp[i][j] = minimum health required at room (i, j) to reach the goal (M-1, N-1) alive
                      = minimum health required of down room (i+1, j) and right room (i, j+1)
                        - health gain at (i, j)
                        + health loss at (i, j)
                        (the value must be at least 1 to survive)
                      = max(1, min(dp[i+1][j], dp[i][j+1]) - dungeon[i][j])
         */
-        std::vector<std::vector<int>> dp(m, std::vector<int>(n));
+        std::vector<std::vector<int>> dp(M, std::vector<int>(N));
 
         /* base case: */ {
-            dp[m-1][n-1] = std::max(1, 1 - dungeon[m-1][n-1]);
+            dp[M-1][N-1] = std::max(1, 1 - dungeon[M-1][N-1]);
         }
-        for (int i = m-2; i >= 0; --i) {
-            dp[i][n-1] = std::max(1, dp[i+1][n-1] - dungeon[i][n-1]);
+        for (int i = M-2; i >= 0; --i) {
+            dp[i][N-1] = std::max(1, dp[i+1][N-1] - dungeon[i][N-1]);
         }
-        for (int j = n-2; j >= 0; --j) {
-            dp[m-1][j] = std::max(1, dp[m-1][j+1] - dungeon[m-1][j]);
+        for (int j = N-2; j >= 0; --j) {
+            dp[M-1][j] = std::max(1, dp[M-1][j+1] - dungeon[M-1][j]);
         }
-        for (int i = m-2; i >= 0; --i) {
-            for (int j = n-2; j >= 0; --j) {
+        for (int i = M-2; i >= 0; --i) {
+            for (int j = N-2; j >= 0; --j) {
                 dp[i][j] = std::max(1, std::min(dp[i+1][j], dp[i][j+1]) - dungeon[i][j]);
             }
         }
