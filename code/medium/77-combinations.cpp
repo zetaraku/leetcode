@@ -21,8 +21,11 @@ public:
                 return;
             }
             
-            // try each next possible index (number of remaining choices must >= number of choices needed)
-            for (std::size_t i = beginIndex; n - i >= k - currentCombination.size(); ++i) {
+            // try each next possible index
+            for (std::size_t i = beginIndex; i != n; ++i) {
+                // optimize: (number of remaining choices) must >= (number of choices needed) to be possible
+                if (n - i < k - currentCombination.size()) break;
+
                 currentCombination.push_back(1+i);
                 backtrack(i+1);
                 currentCombination.pop_back();
