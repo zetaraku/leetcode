@@ -5,7 +5,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 88 / 656
-- <span style="color: #ffb800;">Medium</span>: 72 / 1415
+- <span style="color: #ffb800;">Medium</span>: 73 / 1415
 - <span style="color: #ff2d55;">Hard</span>: 7 / 592
 
 ## Index
@@ -146,6 +146,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 929 | <span style="color: #00af9b;">Easy</span> | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [929-unique-email-addresses.cpp](./code/easy/929-unique-email-addresses.cpp) | `O(n)` | `O(n)` |
 | 977 | <span style="color: #00af9b;">Easy</span> | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [977-squares-of-a-sorted-array.cpp](./code/easy/977-squares-of-a-sorted-array.cpp) | `O(n)` | `O(n)` |
 | 978 | <span style="color: #ffb800;">Medium</span> | [Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/) | [978-longest-turbulent-subarray.cpp](./code/medium/978-longest-turbulent-subarray.cpp) | `O(n)` | `O(1)` |
+| 994 | <span style="color: #ffb800;">Medium</span> | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [994-rotting-oranges.cpp](./code/medium/994-rotting-oranges.cpp) | `O(m*n)` | `O(m*n)` |
 | 1008 | <span style="color: #ffb800;">Medium</span> | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [1008-construct-binary-search-tree-from-preorder-traversal.cpp](./code/medium/1008-construct-binary-search-tree-from-preorder-traversal.cpp) | `O(n*log(n)) maybe?` | `O(n)` |
 | 1011 | <span style="color: #ffb800;">Medium</span> | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | [1011-capacity-to-ship-packages-within-d-days.cpp](./code/medium/1011-capacity-to-ship-packages-within-d-days.cpp) | `O(n*log(sum(W)-max(W))), where W = the weights of packages` | `O(1)` |
 | 1046 | <span style="color: #00af9b;">Easy</span> | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [1046-last-stone-weight.cpp](./code/easy/1046-last-stone-weight.cpp) | `O(n*log(n))` | `O(n)` |
