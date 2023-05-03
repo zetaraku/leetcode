@@ -11,24 +11,21 @@
 class Solution {
 public:
     int uniquePaths(int m, int n) {
+        assert(m > 0 && n > 0);
+
         /*
             dp[i][j] = the number of possible unique paths to reach the grid (i, j)
                      = the number of paths from left + the number of paths from top
                      = dp[i][j-1] + dp[i-1][j]
         */
-        int dp[m][n];
-        
-        if (m > 0 && n > 0) {
+        std::vector<std::vector<int>> dp(m, std::vector<int>(n)); {
             dp[0][0] = 1;
+            for (std::size_t i = 1; i != m; ++i) dp[i][0] = 1;
+            for (std::size_t j = 1; j != n; ++j) dp[0][j] = 1;
         }
-        for (std::size_t i = 1; i < m; ++i) {
-            dp[i][0] = 1;
-        }
-        for (std::size_t j = 1; j < n; ++j) {
-            dp[0][j] = 1;
-        }
-        for (std::size_t i = 1; i < m; ++i) {
-            for (std::size_t j = 1; j < n; ++j) {
+        
+        for (std::size_t i = 1; i != m; ++i) {
+            for (std::size_t j = 1; j != n; ++j) {
                 dp[i][j] = dp[i][j-1] + dp[i-1][j];
             }
         }
@@ -37,6 +34,6 @@ public:
     }
     /*
         The answer is actually C((m-1)+(n-1),(n-1)), which is ((m-1)+(n-1))!/((m-1)!*(n-1)!),
-        but the intermediate results are too big to be calculated by this way.
+        but the intermediate results are too big to calculate by this way.
     */
 };
