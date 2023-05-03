@@ -5,7 +5,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 88 / 656
-- <span style="color: #ffb800;">Medium</span>: 71 / 1415
+- <span style="color: #ffb800;">Medium</span>: 72 / 1415
 - <span style="color: #ff2d55;">Hard</span>: 7 / 592
 
 ## Index
@@ -115,6 +115,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 509 | <span style="color: #00af9b;">Easy</span> | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [509-fibonacci-number.cpp](./code/easy/509-fibonacci-number.cpp) | `O(log(n))` | `O(log(n))` |
 | 511 | <span style="color: #00af9b;">Easy</span> | [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [511-game-play-analysis-i.sql](./code/easy/511-game-play-analysis-i.sql) | `N/A` | `N/A` |
 | 525 | <span style="color: #ffb800;">Medium</span> | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [525-contiguous-array.cpp](./code/medium/525-contiguous-array.cpp) | `O(n)` | `O(n)` |
+| 542 | <span style="color: #ffb800;">Medium</span> | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [542-01-matrix.cpp](./code/medium/542-01-matrix.cpp) | `O(m*n)` | `O(m*n)` |
 | 543 | <span style="color: #00af9b;">Easy</span> | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [543-diameter-of-binary-tree.cpp](./code/easy/543-diameter-of-binary-tree.cpp) | `O(n)` | `O(n)` |
 | 557 | <span style="color: #00af9b;">Easy</span> | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [557-reverse-words-in-a-string-iii.cpp](./code/easy/557-reverse-words-in-a-string-iii.cpp) | `O(n)` | `O(1)` |
 | 560 | <span style="color: #ffb800;">Medium</span> | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [560-subarray-sum-equals-k.cpp](./code/medium/560-subarray-sum-equals-k.cpp) | `O(n)` | `O(n)` |
