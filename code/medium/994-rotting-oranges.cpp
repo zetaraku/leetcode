@@ -56,11 +56,11 @@ public:
                     ++minutesElapsed;
                     // put another "end-of-minute" marker at the end
                     processingQueue.push({ SIZE_MAX, SIZE_MAX });
-                    continue;
                 } else {
                     // no orange has become rotten within this minute, the process has already ended
                     break;
                 }
+                continue;
             }
 
             // make each fresh neighbor orange rotten
