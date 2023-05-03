@@ -46,7 +46,7 @@ public:
 
         // Breadth-First Search (with multiple sources)
         while (true) {
-            // take a new rotten orange out
+            // take a new rotten orange (or an "end-of-minute" marker) out
             auto [i, j] = processingQueue.front(); processingQueue.pop();
 
             // at the end of minute, check if there is any new rotten orange:
@@ -56,11 +56,11 @@ public:
                     ++minutesElapsed;
                     // put another "end-of-minute" marker at the end
                     processingQueue.push({ SIZE_MAX, SIZE_MAX });
+                    continue;
                 } else {
                     // no orange has become rotten within this minute, the process has already ended
                     break;
                 }
-                continue;
             }
 
             // make each fresh neighbor orange rotten
