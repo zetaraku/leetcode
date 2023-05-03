@@ -10,7 +10,7 @@ class MyListNode {
 public:
     T data;
     MyListNode<T> *next;
-    MyListNode(T data) : data(data), next(nullptr) {}
+    MyListNode(T data): data(data), next(NULL) {}
 };
 
 class Solution {
@@ -25,48 +25,45 @@ public:
             }
         }
         
+        std::vector<int> currentPermutation;
+        std::vector<std::vector<int>> results;
+
+        std::function<void ()> backtrack = [&]() {
+            // the permutation is finished if there is no more choice
+            if (dummyHead->next == NULL) {
+                results.push_back(currentPermutation);
+                return;
+            }
+            
+            // select each choice and permute the remaining choices
+            for (
+                MyListNode<int> *prevNode = dummyHead, *currentNode = dummyHead->next;
+                currentNode != NULL;
+                prevNode = currentNode, currentNode = currentNode->next
+            ) {
+                currentPermutation.push_back(currentNode->data);
+                prevNode->next = currentNode->next;
+                backtrack();
+                prevNode->next = currentNode;
+                currentPermutation.pop_back();
+            }
+        };
+
         // start backtracking
-        std::vector<int> currentPermutation = {};
-        std::vector<std::vector<int>> answers = {};
-        startPermute(dummyHead, currentPermutation, answers);
+        backtrack();
         
         // free allocated memory
         for (
             MyListNode<int> *currentNode = dummyHead, *nextNode;
-            currentNode != nullptr;
+            currentNode != NULL;
             currentNode = nextNode
         ) {
             nextNode = currentNode->next;
             delete currentNode;
         }
         
-        return answers;
+        return results;
     }
     
-    void startPermute(
-        MyListNode<int> *dummyHead,
-        std::vector<int> &currentPermutation,
-        std::vector<std::vector<int>> &answers
-    ) {
-        // the permutation is finished if there is no more choice
-        if (dummyHead->next == nullptr) {
-            // record the answer and return
-            answers.push_back(currentPermutation);
-            return;
-        }
-        
-        // select each choice and permute the remaining choices
-        for (
-            MyListNode<int> *prevNode = dummyHead, *currentNode = dummyHead->next;
-            currentNode != nullptr;
-            prevNode = currentNode, currentNode = currentNode->next
-        ) {
-            currentPermutation.push_back(currentNode->data);
-            prevNode->next = currentNode->next;
-            startPermute(dummyHead, currentPermutation, answers);
-            prevNode->next = currentNode;
-            currentPermutation.pop_back();
-        }
-    }
-    /* There is an (unordered) in-place algorithm that operates like in-place Fisher–Yates shuffle */
+    /* There is an (unordered) in-place algorithm that operates like Fisher–Yates shuffle */
 };
