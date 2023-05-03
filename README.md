@@ -5,7 +5,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 88 / 656
-- <span style="color: #ffb800;">Medium</span>: 73 / 1415
+- <span style="color: #ffb800;">Medium</span>: 74 / 1415
 - <span style="color: #ff2d55;">Hard</span>: 7 / 592
 
 ## Index
@@ -39,6 +39,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 64 | <span style="color: #ffb800;">Medium</span> | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [64-minimum-path-sum.cpp](./code/medium/64-minimum-path-sum.cpp) | `O(n)` | `O(n)` |
 | 70 | <span style="color: #00af9b;">Easy</span> | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [70-climbing-stairs.cpp](./code/easy/70-climbing-stairs.cpp) | `O(n)` | `O(n)` |
 | 76 | <span style="color: #ff2d55;">Hard</span> | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [76-minimum-window-substring.cpp](./code/hard/76-minimum-window-substring.cpp) | `O(m+n)` | `O(m)` |
+| 77 | <span style="color: #ffb800;">Medium</span> | [Combinations](https://leetcode.com/problems/combinations/) | [77-combinations.cpp](./code/medium/77-combinations.cpp) | `O(k*C(n,k))` | `O(k*C(n,k))` |
 | 78 | <span style="color: #ffb800;">Medium</span> | [Subsets](https://leetcode.com/problems/subsets/) | [78-subsets.cpp](./code/medium/78-subsets.cpp) | `O(n*2^n)` | `O(n*2^n)` |
 | 82 | <span style="color: #ffb800;">Medium</span> | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [82-remove-duplicates-from-sorted-list-ii.cpp](./code/medium/82-remove-duplicates-from-sorted-list-ii.cpp) | `O(n)` | `O(1)` |
 | 83 | <span style="color: #00af9b;">Easy</span> | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [83-remove-duplicates-from-sorted-list.cpp](./code/easy/83-remove-duplicates-from-sorted-list.cpp) | `O(n)` | `O(1)` |
