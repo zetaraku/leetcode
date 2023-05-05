@@ -4,8 +4,8 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 88 / 656
-- <span style="color: #ffb800;">Medium</span>: 74 / 1416
+- <span style="color: #00af9b;">Easy</span>: 88 / 659
+- <span style="color: #ffb800;">Medium</span>: 75 / 1416
 - <span style="color: #ff2d55;">Hard</span>: 7 / 592
 
 ## Index
@@ -139,6 +139,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 733 | <span style="color: #00af9b;">Easy</span> | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [733-flood-fill.cpp](./code/easy/733-flood-fill.cpp) | `O(m*n)` | `O(m*n)` |
 | 746 | <span style="color: #00af9b;">Easy</span> | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [746-min-cost-climbing-stairs.cpp](./code/easy/746-min-cost-climbing-stairs.cpp) | `O(n)` | `O(n)` |
 | 764 | <span style="color: #ffb800;">Medium</span> | [Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/) | [764-largest-plus-sign.cpp](./code/medium/764-largest-plus-sign.cpp) | `O(n^2)` | `O(n^2)` |
+| 784 | <span style="color: #ffb800;">Medium</span> | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [784-letter-case-permutation.cpp](./code/medium/784-letter-case-permutation.cpp) | `O(n*2^n)` | `O(n*2^n)` |
 | 844 | <span style="color: #00af9b;">Easy</span> | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [844-backspace-string-compare.cpp](./code/easy/844-backspace-string-compare.cpp) | `O(n)` | `O(1)` |
 | 848 | <span style="color: #ffb800;">Medium</span> | [Shifting Letters](https://leetcode.com/problems/shifting-letters/) | [848-shifting-letters.cpp](./code/medium/848-shifting-letters.cpp) | `O(n)` | `O(n)` |
 | 876 | <span style="color: #00af9b;">Easy</span> | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [876-middle-of-the-linked-list.cpp](./code/easy/876-middle-of-the-linked-list.cpp) | `O(n)` | `O(1)` |
