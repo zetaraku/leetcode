@@ -4,8 +4,8 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 88 / 659
-- <span style="color: #ffb800;">Medium</span>: 75 / 1416
+- <span style="color: #00af9b;">Easy</span>: 88 / 660
+- <span style="color: #ffb800;">Medium</span>: 76 / 1416
 - <span style="color: #ff2d55;">Hard</span>: 7 / 592
 
 ## Index
@@ -58,6 +58,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 113 | <span style="color: #ffb800;">Medium</span> | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [113-path-sum-ii.cpp](./code/medium/113-path-sum-ii.cpp) | `O(n^2)` | `O(n^2)` |
 | 116 | <span style="color: #ffb800;">Medium</span> | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [116-populating-next-right-pointers-in-each-node.cpp](./code/medium/116-populating-next-right-pointers-in-each-node.cpp) | `O(n)` | `O(1)` |
 | 118 | <span style="color: #00af9b;">Easy</span> | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [118-pascals-triangle.cpp](./code/easy/118-pascals-triangle.cpp) | `O(n^2)` | `O(n^2)` |
+| 120 | <span style="color: #ffb800;">Medium</span> | [Triangle](https://leetcode.com/problems/triangle/) | [120-triangle.cpp](./code/medium/120-triangle.cpp) | `O(n^2)` | `O(n^2)` |
 | 121 | <span style="color: #00af9b;">Easy</span> | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [121-best-time-to-buy-and-sell-stock.cpp](./code/easy/121-best-time-to-buy-and-sell-stock.cpp) | `O(n)` | `O(1)` |
 | 122 | <span style="color: #ffb800;">Medium</span> | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [122-best-time-to-buy-and-sell-stock-ii.cpp](./code/medium/122-best-time-to-buy-and-sell-stock-ii.cpp) | `O(n)` | `O(1)` |
 | 124 | <span style="color: #ff2d55;">Hard</span> | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [124-binary-tree-maximum-path-sum.cpp](./code/hard/124-binary-tree-maximum-path-sum.cpp) | `O(n)` | `O(n)` |
