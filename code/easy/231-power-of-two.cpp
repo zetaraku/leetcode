@@ -18,5 +18,8 @@ public:
         //            ----------    ----------
         //              00000000      01000000
         return (n & (n - 1)) == 0;
+        
+        // C++20:
+        // return (n > 0) && std::has_single_bit((unsigned int) n);
     }
 };
