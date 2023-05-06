@@ -5,7 +5,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 88 / 661
-- <span style="color: #ffb800;">Medium</span>: 76 / 1416
+- <span style="color: #ffb800;">Medium</span>: 77 / 1416
 - <span style="color: #ff2d55;">Hard</span>: 7 / 592
 
 ## Index
@@ -100,6 +100,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 238 | <span style="color: #ffb800;">Medium</span> | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [238-product-of-array-except-self.cpp](./code/medium/238-product-of-array-except-self.cpp) | `O(n)` | `O(n)` |
 | 278 | <span style="color: #00af9b;">Easy</span> | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [278-first-bad-version.cpp](./code/easy/278-first-bad-version.cpp) | `O(log(n))` | `O(1)` |
 | 283 | <span style="color: #00af9b;">Easy</span> | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [283-move-zeroes.cpp](./code/easy/283-move-zeroes.cpp) | `O(n)` | `O(1)` |
+| 299 | <span style="color: #ffb800;">Medium</span> | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | [299-bulls-and-cows.cpp](./code/medium/299-bulls-and-cows.cpp) | `O(n)` | `O(1)` |
 | 300 | <span style="color: #ffb800;">Medium</span> | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [300-longest-increasing-subsequence.cpp](./code/medium/300-longest-increasing-subsequence.cpp) | `O(n*log(n))` | `O(n)` |
 | 322 | <span style="color: #ffb800;">Medium</span> | [Coin Change](https://leetcode.com/problems/coin-change/) | [322-coin-change.cpp](./code/medium/322-coin-change.cpp) | `O(K*M)` | `O(K*M)` |
 | 326 | <span style="color: #00af9b;">Easy</span> | [Power of Three](https://leetcode.com/problems/power-of-three/) | [326-power-of-three.cpp](./code/easy/326-power-of-three.cpp) | `O(1)` | `O(1)` |
