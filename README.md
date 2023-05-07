@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 89 / 662
+- <span style="color: #00af9b;">Easy</span>: 90 / 662
 - <span style="color: #ffb800;">Medium</span>: 77 / 1419
 - <span style="color: #ff2d55;">Hard</span>: 7 / 592
 
@@ -99,6 +99,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 234 | <span style="color: #00af9b;">Easy</span> | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [234-palindrome-linked-list.cpp](./code/easy/234-palindrome-linked-list.cpp) | `O(n)` | `O(n)` |
 | 235 | <span style="color: #ffb800;">Medium</span> | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [235-lowest-common-ancestor-of-a-binary-search-tree.cpp](./code/medium/235-lowest-common-ancestor-of-a-binary-search-tree.cpp) | `O(h)` | `O(h) or O(1) with tail-call optimization` |
 | 238 | <span style="color: #ffb800;">Medium</span> | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [238-product-of-array-except-self.cpp](./code/medium/238-product-of-array-except-self.cpp) | `O(n)` | `O(n)` |
+| 268 | <span style="color: #00af9b;">Easy</span> | [Missing Number](https://leetcode.com/problems/missing-number/) | [268-missing-number.cpp](./code/easy/268-missing-number.cpp) | `O(n)` | `O(1)` |
 | 278 | <span style="color: #00af9b;">Easy</span> | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [278-first-bad-version.cpp](./code/easy/278-first-bad-version.cpp) | `O(log(n))` | `O(1)` |
 | 283 | <span style="color: #00af9b;">Easy</span> | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [283-move-zeroes.cpp](./code/easy/283-move-zeroes.cpp) | `O(n)` | `O(1)` |
 | 299 | <span style="color: #ffb800;">Medium</span> | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | [299-bulls-and-cows.cpp](./code/medium/299-bulls-and-cows.cpp) | `O(n)` | `O(1)` |
