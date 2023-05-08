@@ -27,7 +27,7 @@ public:
         }
     }
     
-    void skipCharsFromBack(string::reverse_iterator &rit, const string::reverse_iterator &rend) {
+    void skipCharsFromBack(string::reverse_iterator &rit, string::reverse_iterator rend) {
         std::size_t numOfCharsToDelete = 0;
         
         while (rit != rend) {
