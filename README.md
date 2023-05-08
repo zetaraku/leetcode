@@ -5,7 +5,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 90 / 662
-- <span style="color: #ffb800;">Medium</span>: 78 / 1419
+- <span style="color: #ffb800;">Medium</span>: 79 / 1419
 - <span style="color: #ff2d55;">Hard</span>: 7 / 592
 
 ## Index
@@ -138,6 +138,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 627 | <span style="color: #00af9b;">Easy</span> | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [627-swap-salary.sql](./code/easy/627-swap-salary.sql) | `N/A` | `N/A` |
 | 647 | <span style="color: #ffb800;">Medium</span> | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [647-palindromic-substrings.cpp](./code/medium/647-palindromic-substrings.cpp) | `O(n^2)` | `O(1)` |
 | 678 | <span style="color: #ffb800;">Medium</span> | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [678-valid-parenthesis-string.cpp](./code/medium/678-valid-parenthesis-string.cpp) | `O(n)` | `O(1)` |
+| 692 | <span style="color: #ffb800;">Medium</span> | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [692-top-k-frequent-words.cpp](./code/medium/692-top-k-frequent-words.cpp) | `O(n*log(k))` | `O(n)` |
 | 695 | <span style="color: #ffb800;">Medium</span> | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [695-max-area-of-island.cpp](./code/medium/695-max-area-of-island.cpp) | `O(m*n)` | `O(m*n)` |
 | 704 | <span style="color: #00af9b;">Easy</span> | [Binary Search](https://leetcode.com/problems/binary-search/) | [704-binary-search.cpp](./code/easy/704-binary-search.cpp) | `O(log(n))` | `O(1)` |
 | 724 | <span style="color: #00af9b;">Easy</span> | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [724-find-pivot-index.cpp](./code/easy/724-find-pivot-index.cpp) | `O(n)` | `O(1)` |
