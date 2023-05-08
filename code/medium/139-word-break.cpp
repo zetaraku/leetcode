@@ -19,7 +19,7 @@ public:
         std::fill(this->children.begin(), this->children.end(), nullptr);
     }
     
-    void insert(std::string word) {
+    void insert(const std::string &word) {
         Trie *node = this;
         
         for (char c: word) {
@@ -46,7 +46,7 @@ public:
         }
         
         // put every words into the trie
-        for (std::string word: wordDict) {
+        for (const std::string &word: wordDict) {
             trieRoot->insert(word);
         }
         
