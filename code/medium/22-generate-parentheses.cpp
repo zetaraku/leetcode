@@ -24,8 +24,8 @@ public:
         dp[0] = { "" };
         for (std::size_t k = 1; k <= n; ++k) {
             for (std::size_t i = 1; i <= k; ++i) {
-                for (std::string str1: dp[i-1]) {
-                    for (std::string str2: dp[k-i]) {
+                for (const std::string &str1: dp[i-1]) {
+                    for (const std::string &str2: dp[k-i]) {
                         dp[k].push_back("(" + str1 + ")" + str2);
                     }
                 }
