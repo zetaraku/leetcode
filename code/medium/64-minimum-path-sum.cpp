@@ -5,40 +5,32 @@
 //     Note: You can only move either down or right at any point in time.
 // Link: https://leetcode.com/problems/minimum-path-sum/
 
-// Time complexity: O(n)
-// Space complexity: O(n)
+// Time complexity: O(m*n)
+// Space complexity: O(m*n)
 class Solution {
 public:
-    int minPathSum(vector<vector<int>> &grid) {
-        int r = grid.size();
-        int c = grid.at(0).size();
+    int minPathSum(std::vector<std::vector<int>> &grid) {
+        assert(grid.size() != 0 && grid[0].size() != 0);
+
+        const std::size_t M = grid.size();
+        const std::size_t N = grid[0].size();
         
-        // Dynamic Programming:
-        // dp[i][j] = minimum path sum which starts from (0, 0) to (i, j)
-        vector<vector<int>> minSum(r, vector<int>(c)); {
-            // dp[0][0] = grid[0][0]
-            minSum.at(0).at(0) = grid.at(0).at(0);
-            
-            // dp[i][0] = dp[i-1][0] + grid[i][0]
-            for (int i = 1; i < r; i++)
-                minSum.at(i).at(0) = minSum.at(i-1).at(0) + grid.at(i).at(0);
-            
-            // dp[0][j] = dp[0][j-1] + grid[0][j]
-            for (int j = 1; j < c; j++)
-                minSum.at(0).at(j) = minSum.at(0).at(j-1) + grid.at(0).at(j);
+        /*
+            dp[i][j] = minimum path sum starting from top-left (0, 0) to (i, j)
+        */
+        std::vector<std::vector<int>> dp(M, std::vector<int>(N)); {
+            dp[0][0] = grid[0][0];
+            for (std::size_t i = 1; i < M; ++i) dp[i][0] = dp[i-1][0] + grid[i][0];
+            for (std::size_t j = 1; j < N; ++j) dp[0][j] = dp[0][j-1] + grid[0][j];
         }
         
-        // dp[i][j] = min(dp[i][j-1], dp[i-1][j]) + grid[i][j]
-        for (int i = 1; i < r; i++) {
-            for (int j = 1; j < c; j++) {
-                minSum.at(i).at(j) = std::min(
-                    minSum.at(i).at(j-1),
-                    minSum.at(i-1).at(j)
-                ) + grid.at(i).at(j);
+        for (std::size_t i = 1; i < M; ++i) {
+            for (std::size_t j = 1; j < N; ++j) {
+                dp[i][j] = std::min(dp[i][j-1], dp[i-1][j]) + grid[i][j];
             }
         }
         
-        // the answer is in dp[r-1][c-1], the minimum path sum which starts from (0, 0) to (r-1, c-1)
-        return minSum.at(r-1).at(c-1);
+        // the minimum path sum starting from top-left (0, 0) to bottom-right (M-1, N-1)
+        return dp[M-1][N-1];
     }
 };
