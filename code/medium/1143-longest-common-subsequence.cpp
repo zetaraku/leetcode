@@ -13,35 +13,31 @@
 class Solution {
 public:
     int longestCommonSubsequence(std::string text1, std::string text2) {
-        int n1 = text1.length();
-        int n2 = text2.length();
+        const std::size_t n1 = text1.length();
+        const std::size_t n2 = text2.length();
         
         // dp[i][j] = the length of longest common subsequence of text1[0,i) and text2[0,j)
-        std::vector<std::vector<int>> dp(n1+1, std::vector<int>(n2+1));{
-            // dp[i][0] = 0
-            for (int i = 0; i <= n1; i++) dp.at(i).at(0) = 0;
-            // dp[0][j] = 0
-            for (int j = 0; j <= n2; j++) dp.at(0).at(j) = 0;
+        std::vector<std::vector<int>> dp(1+n1, std::vector<int>(1+n2)); {
+            dp[0][0] = 0;
+            for (std::size_t i = 1; i <= n1; ++i) dp[i][0] = 0;
+            for (std::size_t j = 1; j <= n2; ++j) dp[0][j] = 0;
         }
         
         /*
             dp[i][j] = {
                 dp[i-1][j-1] + 1             if text1[i-1] == text2[j-1]
-                max(dp[i-1][j], dp[i][j-1])  if text1[i-1] != text2[j-1]
+                max(dp[i][j-1], dp[i-1][j])  if text1[i-1] != text2[j-1]
             } for i > 0, j > 0
         */
-        for (int i = 0; i < n1; i++) {
-            for (int j = 0; j < n2; j++) {
-                dp.at(i+1).at(j+1) = (text1.at(i) == text2.at(j) ?
-                    dp.at(i).at(j) + 1 :
-                    std::max(
-                        dp.at(i).at(j+1),
-                        dp.at(i+1).at(j)
-                    )
+        for (std::size_t i = 1; i <= n1; ++i) {
+            for (std::size_t j = 1; j <= n2; ++j) {
+                dp[i][j] = (text1[i-1] == text2[j-1] ?
+                    dp[i-1][j-1] + 1 :
+                    std::max(dp[i][j-1], dp[i-1][j])
                 );
             }
         }
         
-        return dp.at(n1).at(n2);
+        return dp[n1][n2];
     }
 };
