@@ -36,7 +36,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 55 | <span style="color: #ffb800;">Medium</span> | [Jump Game](https://leetcode.com/problems/jump-game/) | [55-jump-game.cpp](./code/medium/55-jump-game.cpp) | `O(n)` | `O(1)` |
 | 62 | <span style="color: #ffb800;">Medium</span> | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [62-unique-paths.cpp](./code/medium/62-unique-paths.cpp) | `O(m*n)` | `O(m*n)` |
 | 63 | <span style="color: #ffb800;">Medium</span> | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [63-unique-paths-ii.cpp](./code/medium/63-unique-paths-ii.cpp) | `O(m*n)` | `O(m*n)` |
-| 64 | <span style="color: #ffb800;">Medium</span> | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [64-minimum-path-sum.cpp](./code/medium/64-minimum-path-sum.cpp) | `O(n)` | `O(n)` |
+| 64 | <span style="color: #ffb800;">Medium</span> | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [64-minimum-path-sum.cpp](./code/medium/64-minimum-path-sum.cpp) | `O(m*n)` | `O(m*n)` |
 | 70 | <span style="color: #00af9b;">Easy</span> | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [70-climbing-stairs.cpp](./code/easy/70-climbing-stairs.cpp) | `O(n)` | `O(n)` |
 | 76 | <span style="color: #ff2d55;">Hard</span> | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [76-minimum-window-substring.cpp](./code/hard/76-minimum-window-substring.cpp) | `O(m+n)` | `O(m)` |
 | 77 | <span style="color: #ffb800;">Medium</span> | [Combinations](https://leetcode.com/problems/combinations/) | [77-combinations.cpp](./code/medium/77-combinations.cpp) | `O(k*C(n,k))` | `O(k*C(n,k))` |
