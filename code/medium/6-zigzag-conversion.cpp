@@ -20,23 +20,26 @@ public:
     //     Y A   H R     ->  [2]  Y  A  H  R  -  -
     //     P     I       ->  [3]  -  P  -  I  -  -
     //                            k1 k2 k1 k2 k1 k2
-    string convert(string s, int numRows) {
-        // special case
-        if (numRows == 1) return s;
-        
-        int delta = (numRows - 1) * 2;
-        int numCols = s.length() / delta + 1;
+    std::string convert(std::string s, int numRows) {
+        assert(numRows > 0);
+
+        const std::size_t N = s.length();
+
+        // special cases
+        if (numRows == 1 || N == 0) return s;
+
+        std::size_t delta = (numRows-1) * 2;
+        std::size_t numCols = (N-1) / delta + 1;
         
         std::string result = "";
-        for (int i = 0; i < numRows; i++) {
-            for (int j = 0; j < numCols; j++) {
-                int k1 = delta * (j + 0) + i;
-                int k2 = delta * (j + 1) - i;
+
+        for (std::size_t i = 0; i != numRows; ++i) {
+            for (std::size_t j = 0; j != numCols; ++j) {
+                std::size_t k1 = delta * (j+0) + i;
+                std::size_t k2 = delta * (j+1) - i;
                 
-                if (k1 < s.length() && i < numRows - 1)
-                    result += s.at(k1);
-                if (k2 < s.length() && i > 0)
-                    result += s.at(k2);
+                if (i != numRows-1 && k1 < N) result += s[k1];
+                if (i != 0 && k2 < N) result += s[k2];
             }
         }
         
