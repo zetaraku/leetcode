@@ -22,18 +22,13 @@ struct LinkListNode {
     int key;
     int value;
     
-    LinkListNode(int key, int value):
-        prev(NULL),
-        next(NULL),
-        key(key),
-        value(value)
-    {}
+    LinkListNode(int key, int value): prev(NULL), next(NULL), key(key), value(value) {}
 };
 
 class LRUCache {
 private:
     int capacity;
-    unordered_map<int,LinkListNode *> nodeLocation;
+    std::unordered_map<int, LinkListNode *> nodeLocation;
     LinkListNode *dummyHead;
     LinkListNode *dummyTail;
     
@@ -51,15 +46,14 @@ private:
     }
     void renewNode(LinkListNode *node) {
         // skip this step if the node is already the newest
-        if (node->next == dummyTail)
-            return;
+        if (node->next == dummyTail) return;
         
         removeNode(node);
         appendNode(node);
     }
     
 public:
-    LRUCache(int capacity) : capacity(capacity) {
+    LRUCache(int capacity): capacity(capacity) {
         dummyHead = new LinkListNode(0xDEAD, 0);
         dummyTail = new LinkListNode(0xBEEF, 0);
         dummyHead->next = dummyTail;
@@ -68,7 +62,7 @@ public:
     
     int get(int key) {
         if (nodeLocation.count(key) != 0) {
-            LinkListNode *node = nodeLocation.at(key);
+            LinkListNode *node = nodeLocation[key];
             renewNode(node);
             return node->value;
         } else {
@@ -78,7 +72,7 @@ public:
     
     void put(int key, int value) {
         if (nodeLocation.count(key) != 0) {
-            LinkListNode *node = nodeLocation.at(key);
+            LinkListNode *node = nodeLocation[key];
             renewNode(node);
             node->value = value;
         } else {
