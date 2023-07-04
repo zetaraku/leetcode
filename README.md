@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 90 / 691
+- <span style="color: #00af9b;">Easy</span>: 91 / 691
 - <span style="color: #ffb800;">Medium</span>: 79 / 1462
 - <span style="color: #ff2d55;">Hard</span>: 7 / 610
 
@@ -188,3 +188,4 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1873 | <span style="color: #00af9b;">Easy</span> | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/) | [1873-calculate-special-bonus.sql](./code/easy/1873-calculate-special-bonus.sql) | `N/A` | `N/A` |
 | 1890 | <span style="color: #00af9b;">Easy</span> | [The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/) | [1890-the-latest-login-in-2020.sql](./code/easy/1890-the-latest-login-in-2020.sql) | `N/A` | `N/A` |
 | 1965 | <span style="color: #00af9b;">Easy</span> | [Employees With Missing Information](https://leetcode.com/problems/employees-with-missing-information/) | [1965-employees-with-missing-information.sql](./code/easy/1965-employees-with-missing-information.sql) | `N/A` | `N/A` |
+| 2667 | <span style="color: #00af9b;">Easy</span> | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | [2667-create-hello-world-function.ts](./code/easy/2667-create-hello-world-function.ts) | `N/A` | `N/A` |
