@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 93 / 691
+- <span style="color: #00af9b;">Easy</span>: 94 / 691
 - <span style="color: #ffb800;">Medium</span>: 79 / 1462
 - <span style="color: #ff2d55;">Hard</span>: 7 / 610
 
@@ -189,5 +189,6 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1890 | <span style="color: #00af9b;">Easy</span> | [The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/) | [1890-the-latest-login-in-2020.sql](./code/easy/1890-the-latest-login-in-2020.sql) | `N/A` | `N/A` |
 | 1965 | <span style="color: #00af9b;">Easy</span> | [Employees With Missing Information](https://leetcode.com/problems/employees-with-missing-information/) | [1965-employees-with-missing-information.sql](./code/easy/1965-employees-with-missing-information.sql) | `N/A` | `N/A` |
 | 2620 | <span style="color: #00af9b;">Easy</span> | [Counter](https://leetcode.com/problems/counter/) | [2620-counter.ts](./code/easy/2620-counter.ts) | `N/A` | `N/A` |
+| 2665 | <span style="color: #00af9b;">Easy</span> | [Counter II](https://leetcode.com/problems/counter-ii/) | [2665-counter-ii.ts](./code/easy/2665-counter-ii.ts) | `N/A` | `N/A` |
 | 2667 | <span style="color: #00af9b;">Easy</span> | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | [2667-create-hello-world-function.ts](./code/easy/2667-create-hello-world-function.ts) | `N/A` | `N/A` |
 | 2704 | <span style="color: #00af9b;">Easy</span> | [To Be Or Not To Be](https://leetcode.com/problems/to-be-or-not-to-be/) | [2704-to-be-or-not-to-be.ts](./code/easy/2704-to-be-or-not-to-be.ts) | `N/A` | `N/A` |
