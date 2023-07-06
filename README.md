@@ -10,6 +10,8 @@ My [LeetCode](https://leetcode.com/) submissions
 
 ## Index
 
+### C++
+
 | No. | Difficulty | Title | Code | Time complexity | Space complexity |
 | ---:| ---------- | ----- | ---- | --------------- | ---------------- |
 | 1 | <span style="color: #00af9b;">Easy</span> | [Two Sum](https://leetcode.com/problems/two-sum/) | [1-two-sum.cpp](./code/easy/1-two-sum.cpp) | `O(n)` | `O(n)` |
@@ -74,16 +76,9 @@ My [LeetCode](https://leetcode.com/) submissions
 | 165 | <span style="color: #ffb800;">Medium</span> | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | [165-compare-version-numbers.cpp](./code/medium/165-compare-version-numbers.cpp) | `O(n1+n2)` | `O(1)` |
 | 167 | <span style="color: #ffb800;">Medium</span> | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [167-two-sum-ii-input-array-is-sorted.cpp](./code/medium/167-two-sum-ii-input-array-is-sorted.cpp) | `O(n)` | `O(1)` |
 | 174 | <span style="color: #ff2d55;">Hard</span> | [Dungeon Game](https://leetcode.com/problems/dungeon-game/) | [174-dungeon-game.cpp](./code/hard/174-dungeon-game.cpp) | `O(m*n)` | `O(m*n)` |
-| 175 | <span style="color: #00af9b;">Easy</span> | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [175-combine-two-tables.sql](./code/easy/175-combine-two-tables.sql) | `N/A` | `N/A` |
-| 176 | <span style="color: #ffb800;">Medium</span> | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | [176-second-highest-salary.sql](./code/medium/176-second-highest-salary.sql) | `N/A` | `N/A` |
-| 182 | <span style="color: #00af9b;">Easy</span> | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | [182-duplicate-emails.sql](./code/easy/182-duplicate-emails.sql) | `N/A` | `N/A` |
-| 183 | <span style="color: #00af9b;">Easy</span> | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | [183-customers-who-never-order.sql](./code/easy/183-customers-who-never-order.sql) | `N/A` | `N/A` |
 | 189 | <span style="color: #ffb800;">Medium</span> | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [189-rotate-array.cpp](./code/medium/189-rotate-array.cpp) | `O(n)` | `O(1)` |
 | 190 | <span style="color: #00af9b;">Easy</span> | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [190-reverse-bits.cpp](./code/easy/190-reverse-bits.cpp) | `O(1)` | `O(1)` |
 | 191 | <span style="color: #00af9b;">Easy</span> | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [191-number-of-1-bits.cpp](./code/easy/191-number-of-1-bits.cpp) | `O(1)` | `O(1)` |
-| 193 | <span style="color: #00af9b;">Easy</span> | [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/) | [193-valid-phone-numbers.bash](./code/easy/193-valid-phone-numbers.bash) | `N/A` | `N/A` |
-| 196 | <span style="color: #00af9b;">Easy</span> | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | [196-delete-duplicate-emails.sql](./code/easy/196-delete-duplicate-emails.sql) | `N/A` | `N/A` |
-| 197 | <span style="color: #00af9b;">Easy</span> | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | [197-rising-temperature.sql](./code/easy/197-rising-temperature.sql) | `N/A` | `N/A` |
 | 198 | <span style="color: #ffb800;">Medium</span> | [House Robber](https://leetcode.com/problems/house-robber/) | [198-house-robber.cpp](./code/medium/198-house-robber.cpp) | `O(n)` | `O(n)` |
 | 200 | <span style="color: #ffb800;">Medium</span> | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [200-number-of-islands.cpp](./code/medium/200-number-of-islands.cpp) | `O(m*n)` | `O(m*n)` |
 | 201 | <span style="color: #ffb800;">Medium</span> | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [201-bitwise-and-of-numbers-range.cpp](./code/medium/201-bitwise-and-of-numbers-range.cpp) | `O(log(n))` | `O(1)` |
@@ -119,7 +114,6 @@ My [LeetCode](https://leetcode.com/) submissions
 | 409 | <span style="color: #00af9b;">Easy</span> | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [409-longest-palindrome.cpp](./code/easy/409-longest-palindrome.cpp) | `O(n)` | `O(1)` |
 | 438 | <span style="color: #ffb800;">Medium</span> | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [438-find-all-anagrams-in-a-string.cpp](./code/medium/438-find-all-anagrams-in-a-string.cpp) | `O(m+n)` | `O(m)` |
 | 509 | <span style="color: #00af9b;">Easy</span> | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [509-fibonacci-number.cpp](./code/easy/509-fibonacci-number.cpp) | `O(log(n))` | `O(log(n))` |
-| 511 | <span style="color: #00af9b;">Easy</span> | [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [511-game-play-analysis-i.sql](./code/easy/511-game-play-analysis-i.sql) | `N/A` | `N/A` |
 | 525 | <span style="color: #ffb800;">Medium</span> | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [525-contiguous-array.cpp](./code/medium/525-contiguous-array.cpp) | `O(n)` | `O(n)` |
 | 542 | <span style="color: #ffb800;">Medium</span> | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [542-01-matrix.cpp](./code/medium/542-01-matrix.cpp) | `O(m*n)` | `O(m*n)` |
 | 543 | <span style="color: #00af9b;">Easy</span> | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [543-diameter-of-binary-tree.cpp](./code/easy/543-diameter-of-binary-tree.cpp) | `O(n)` | `O(n)` |
@@ -128,14 +122,8 @@ My [LeetCode](https://leetcode.com/) submissions
 | 565 | <span style="color: #ffb800;">Medium</span> | [Array Nesting](https://leetcode.com/problems/array-nesting/) | [565-array-nesting.cpp](./code/medium/565-array-nesting.cpp) | `O(n)` | `O(n)` |
 | 566 | <span style="color: #00af9b;">Easy</span> | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [566-reshape-the-matrix.cpp](./code/easy/566-reshape-the-matrix.cpp) | `O(m*n)` | `O(m*n)` |
 | 567 | <span style="color: #ffb800;">Medium</span> | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [567-permutation-in-string.cpp](./code/medium/567-permutation-in-string.cpp) | `O(n1+n2)` | `O(1)` |
-| 584 | <span style="color: #00af9b;">Easy</span> | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [584-find-customer-referee.sql](./code/easy/584-find-customer-referee.sql) | `N/A` | `N/A` |
-| 586 | <span style="color: #00af9b;">Easy</span> | [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | [586-customer-placing-the-largest-number-of-orders.sql](./code/easy/586-customer-placing-the-largest-number-of-orders.sql) | `N/A` | `N/A` |
 | 589 | <span style="color: #00af9b;">Easy</span> | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [589-n-ary-tree-preorder-traversal.cpp](./code/easy/589-n-ary-tree-preorder-traversal.cpp) | `O(n)` | `O(n)` |
-| 595 | <span style="color: #00af9b;">Easy</span> | [Big Countries](https://leetcode.com/problems/big-countries/) | [595-big-countries.sql](./code/easy/595-big-countries.sql) | `N/A` | `N/A` |
-| 607 | <span style="color: #00af9b;">Easy</span> | [Sales Person](https://leetcode.com/problems/sales-person/) | [607-sales-person.sql](./code/easy/607-sales-person.sql) | `N/A` | `N/A` |
-| 608 | <span style="color: #ffb800;">Medium</span> | [Tree Node](https://leetcode.com/problems/tree-node/) | [608-tree-node.sql](./code/medium/608-tree-node.sql) | `N/A` | `N/A` |
 | 617 | <span style="color: #00af9b;">Easy</span> | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [617-merge-two-binary-trees.cpp](./code/easy/617-merge-two-binary-trees.cpp) | `O(n1+n2)` | `O(n1+n2)` |
-| 627 | <span style="color: #00af9b;">Easy</span> | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [627-swap-salary.sql](./code/easy/627-swap-salary.sql) | `N/A` | `N/A` |
 | 647 | <span style="color: #ffb800;">Medium</span> | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [647-palindromic-substrings.cpp](./code/medium/647-palindromic-substrings.cpp) | `O(n^2)` | `O(1)` |
 | 678 | <span style="color: #ffb800;">Medium</span> | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [678-valid-parenthesis-string.cpp](./code/medium/678-valid-parenthesis-string.cpp) | `O(n)` | `O(1)` |
 | 692 | <span style="color: #ffb800;">Medium</span> | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [692-top-k-frequent-words.cpp](./code/medium/692-top-k-frequent-words.cpp) | `O(n*log(k))` | `O(n)` |
@@ -158,27 +146,45 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1008 | <span style="color: #ffb800;">Medium</span> | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [1008-construct-binary-search-tree-from-preorder-traversal.cpp](./code/medium/1008-construct-binary-search-tree-from-preorder-traversal.cpp) | `O(n*log(n)) maybe?` | `O(n)` |
 | 1011 | <span style="color: #ffb800;">Medium</span> | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | [1011-capacity-to-ship-packages-within-d-days.cpp](./code/medium/1011-capacity-to-ship-packages-within-d-days.cpp) | `O(n*log(sum(W)-max(W))), where W = the weights of packages` | `O(1)` |
 | 1046 | <span style="color: #00af9b;">Easy</span> | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [1046-last-stone-weight.cpp](./code/easy/1046-last-stone-weight.cpp) | `O(n*log(n))` | `O(n)` |
-| 1050 | <span style="color: #00af9b;">Easy</span> | [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | [1050-actors-and-directors-who-cooperated-at-least-three-times.sql](./code/easy/1050-actors-and-directors-who-cooperated-at-least-three-times.sql) | `N/A` | `N/A` |
-| 1084 | <span style="color: #00af9b;">Easy</span> | [Sales Analysis III](https://leetcode.com/problems/sales-analysis-iii/) | [1084-sales-analysis-iii.sql](./code/easy/1084-sales-analysis-iii.sql) | `N/A` | `N/A` |
 | 1137 | <span style="color: #00af9b;">Easy</span> | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [1137-n-th-tribonacci-number.cpp](./code/easy/1137-n-th-tribonacci-number.cpp) | `O(n)` | `O(n)` |
-| 1141 | <span style="color: #00af9b;">Easy</span> | [User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | [1141-user-activity-for-the-past-30-days-i.sql](./code/easy/1141-user-activity-for-the-past-30-days-i.sql) | `N/A` | `N/A` |
 | 1143 | <span style="color: #ffb800;">Medium</span> | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [1143-longest-common-subsequence.cpp](./code/medium/1143-longest-common-subsequence.cpp) | `O(n1*n2)` | `O(n1*n2)` |
-| 1148 | <span style="color: #00af9b;">Easy</span> | [Article Views I](https://leetcode.com/problems/article-views-i/) | [1148-article-views-i.sql](./code/easy/1148-article-views-i.sql) | `N/A` | `N/A` |
-| 1158 | <span style="color: #ffb800;">Medium</span> | [Market Analysis I](https://leetcode.com/problems/market-analysis-i/) | [1158-market-analysis-i.sql](./code/medium/1158-market-analysis-i.sql) | `N/A` | `N/A` |
 | 1189 | <span style="color: #00af9b;">Easy</span> | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [1189-maximum-number-of-balloons.cpp](./code/easy/1189-maximum-number-of-balloons.cpp) | `O(n)` | `O(1)` |
-| 1393 | <span style="color: #ffb800;">Medium</span> | [Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/) | [1393-capital-gainloss.sql](./code/medium/1393-capital-gainloss.sql) | `N/A` | `N/A` |
-| 1407 | <span style="color: #00af9b;">Easy</span> | [Top Travellers](https://leetcode.com/problems/top-travellers/) | [1407-top-travellers.sql](./code/easy/1407-top-travellers.sql) | `N/A` | `N/A` |
 | 1426 | <span style="color: #00af9b;">Easy</span> | [Counting Elements](https://leetcode.com/problems/counting-elements/) | [1426-counting-elements.cpp](./code/easy/1426-counting-elements.cpp) | `O(n)` | `O(n)` |
 | 1427 | <span style="color: #00af9b;">Easy</span> | [Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/) | [1427-perform-string-shifts.cpp](./code/easy/1427-perform-string-shifts.cpp) | `O(m+n)` | `O(n)` |
 | 1428 | <span style="color: #ffb800;">Medium</span> | [Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/) | [1428-leftmost-column-with-at-least-a-one.cpp](./code/medium/1428-leftmost-column-with-at-least-a-one.cpp) | `O(r+c)` | `O(1)` |
 | 1429 | <span style="color: #ffb800;">Medium</span> | [First Unique Number](https://leetcode.com/problems/first-unique-number/) | [1429-first-unique-number.cpp](./code/medium/1429-first-unique-number.cpp) | `O(1) for { showFirstUnique(), add(value) }` | `O(n)` |
 | 1430 | <span style="color: #ffb800;">Medium</span> | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/) | [1430-check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp](./code/medium/1430-check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp) | `O(n)` | `O(n)` |
 | 1480 | <span style="color: #00af9b;">Easy</span> | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [1480-running-sum-of-1d-array.cpp](./code/easy/1480-running-sum-of-1d-array.cpp) | `O(n)` | `O(n)` |
+| 1629 | <span style="color: #00af9b;">Easy</span> | [Slowest Key](https://leetcode.com/problems/slowest-key/) | [1629-slowest-key.cpp](./code/easy/1629-slowest-key.cpp) | `O(n)` | `O(1)` |
+
+### SQL
+
+| No. | Difficulty | Title | Code | Time complexity | Space complexity |
+| ---:| ---------- | ----- | ---- | --------------- | ---------------- |
+| 175 | <span style="color: #00af9b;">Easy</span> | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [175-combine-two-tables.sql](./code/easy/175-combine-two-tables.sql) | `N/A` | `N/A` |
+| 176 | <span style="color: #ffb800;">Medium</span> | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | [176-second-highest-salary.sql](./code/medium/176-second-highest-salary.sql) | `N/A` | `N/A` |
+| 182 | <span style="color: #00af9b;">Easy</span> | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | [182-duplicate-emails.sql](./code/easy/182-duplicate-emails.sql) | `N/A` | `N/A` |
+| 183 | <span style="color: #00af9b;">Easy</span> | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | [183-customers-who-never-order.sql](./code/easy/183-customers-who-never-order.sql) | `N/A` | `N/A` |
+| 196 | <span style="color: #00af9b;">Easy</span> | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | [196-delete-duplicate-emails.sql](./code/easy/196-delete-duplicate-emails.sql) | `N/A` | `N/A` |
+| 197 | <span style="color: #00af9b;">Easy</span> | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | [197-rising-temperature.sql](./code/easy/197-rising-temperature.sql) | `N/A` | `N/A` |
+| 511 | <span style="color: #00af9b;">Easy</span> | [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [511-game-play-analysis-i.sql](./code/easy/511-game-play-analysis-i.sql) | `N/A` | `N/A` |
+| 584 | <span style="color: #00af9b;">Easy</span> | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [584-find-customer-referee.sql](./code/easy/584-find-customer-referee.sql) | `N/A` | `N/A` |
+| 586 | <span style="color: #00af9b;">Easy</span> | [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | [586-customer-placing-the-largest-number-of-orders.sql](./code/easy/586-customer-placing-the-largest-number-of-orders.sql) | `N/A` | `N/A` |
+| 595 | <span style="color: #00af9b;">Easy</span> | [Big Countries](https://leetcode.com/problems/big-countries/) | [595-big-countries.sql](./code/easy/595-big-countries.sql) | `N/A` | `N/A` |
+| 607 | <span style="color: #00af9b;">Easy</span> | [Sales Person](https://leetcode.com/problems/sales-person/) | [607-sales-person.sql](./code/easy/607-sales-person.sql) | `N/A` | `N/A` |
+| 608 | <span style="color: #ffb800;">Medium</span> | [Tree Node](https://leetcode.com/problems/tree-node/) | [608-tree-node.sql](./code/medium/608-tree-node.sql) | `N/A` | `N/A` |
+| 627 | <span style="color: #00af9b;">Easy</span> | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [627-swap-salary.sql](./code/easy/627-swap-salary.sql) | `N/A` | `N/A` |
+| 1050 | <span style="color: #00af9b;">Easy</span> | [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | [1050-actors-and-directors-who-cooperated-at-least-three-times.sql](./code/easy/1050-actors-and-directors-who-cooperated-at-least-three-times.sql) | `N/A` | `N/A` |
+| 1084 | <span style="color: #00af9b;">Easy</span> | [Sales Analysis III](https://leetcode.com/problems/sales-analysis-iii/) | [1084-sales-analysis-iii.sql](./code/easy/1084-sales-analysis-iii.sql) | `N/A` | `N/A` |
+| 1141 | <span style="color: #00af9b;">Easy</span> | [User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | [1141-user-activity-for-the-past-30-days-i.sql](./code/easy/1141-user-activity-for-the-past-30-days-i.sql) | `N/A` | `N/A` |
+| 1148 | <span style="color: #00af9b;">Easy</span> | [Article Views I](https://leetcode.com/problems/article-views-i/) | [1148-article-views-i.sql](./code/easy/1148-article-views-i.sql) | `N/A` | `N/A` |
+| 1158 | <span style="color: #ffb800;">Medium</span> | [Market Analysis I](https://leetcode.com/problems/market-analysis-i/) | [1158-market-analysis-i.sql](./code/medium/1158-market-analysis-i.sql) | `N/A` | `N/A` |
+| 1393 | <span style="color: #ffb800;">Medium</span> | [Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/) | [1393-capital-gainloss.sql](./code/medium/1393-capital-gainloss.sql) | `N/A` | `N/A` |
+| 1407 | <span style="color: #00af9b;">Easy</span> | [Top Travellers](https://leetcode.com/problems/top-travellers/) | [1407-top-travellers.sql](./code/easy/1407-top-travellers.sql) | `N/A` | `N/A` |
 | 1484 | <span style="color: #00af9b;">Easy</span> | [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | [1484-group-sold-products-by-the-date.sql](./code/easy/1484-group-sold-products-by-the-date.sql) | `N/A` | `N/A` |
 | 1527 | <span style="color: #00af9b;">Easy</span> | [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | [1527-patients-with-a-condition.sql](./code/easy/1527-patients-with-a-condition.sql) | `N/A` | `N/A` |
 | 1581 | <span style="color: #00af9b;">Easy</span> | [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) | [1581-customer-who-visited-but-did-not-make-any-transactions.sql](./code/easy/1581-customer-who-visited-but-did-not-make-any-transactions.sql) | `N/A` | `N/A` |
 | 1587 | <span style="color: #00af9b;">Easy</span> | [Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/) | [1587-bank-account-summary-ii.sql](./code/easy/1587-bank-account-summary-ii.sql) | `N/A` | `N/A` |
-| 1629 | <span style="color: #00af9b;">Easy</span> | [Slowest Key](https://leetcode.com/problems/slowest-key/) | [1629-slowest-key.cpp](./code/easy/1629-slowest-key.cpp) | `O(n)` | `O(1)` |
 | 1667 | <span style="color: #00af9b;">Easy</span> | [Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | [1667-fix-names-in-a-table.sql](./code/easy/1667-fix-names-in-a-table.sql) | `N/A` | `N/A` |
 | 1693 | <span style="color: #00af9b;">Easy</span> | [Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/) | [1693-daily-leads-and-partners.sql](./code/easy/1693-daily-leads-and-partners.sql) | `N/A` | `N/A` |
 | 1729 | <span style="color: #00af9b;">Easy</span> | [Find Followers Count](https://leetcode.com/problems/find-followers-count/) | [1729-find-followers-count.sql](./code/easy/1729-find-followers-count.sql) | `N/A` | `N/A` |
@@ -188,6 +194,11 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1873 | <span style="color: #00af9b;">Easy</span> | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/) | [1873-calculate-special-bonus.sql](./code/easy/1873-calculate-special-bonus.sql) | `N/A` | `N/A` |
 | 1890 | <span style="color: #00af9b;">Easy</span> | [The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/) | [1890-the-latest-login-in-2020.sql](./code/easy/1890-the-latest-login-in-2020.sql) | `N/A` | `N/A` |
 | 1965 | <span style="color: #00af9b;">Easy</span> | [Employees With Missing Information](https://leetcode.com/problems/employees-with-missing-information/) | [1965-employees-with-missing-information.sql](./code/easy/1965-employees-with-missing-information.sql) | `N/A` | `N/A` |
+
+### TypeScript
+
+| No. | Difficulty | Title | Code | Time complexity | Space complexity |
+| ---:| ---------- | ----- | ---- | --------------- | ---------------- |
 | 2620 | <span style="color: #00af9b;">Easy</span> | [Counter](https://leetcode.com/problems/counter/) | [2620-counter.ts](./code/easy/2620-counter.ts) | `N/A` | `N/A` |
 | 2623 | <span style="color: #ffb800;">Medium</span> | [Memoize](https://leetcode.com/problems/memoize/) | [2623-memoize.ts](./code/medium/2623-memoize.ts) | `N/A` | `N/A` |
 | 2626 | <span style="color: #00af9b;">Easy</span> | [Array Reduce Transformation](https://leetcode.com/problems/array-reduce-transformation/) | [2626-array-reduce-transformation.ts](./code/easy/2626-array-reduce-transformation.ts) | `N/A` | `N/A` |
