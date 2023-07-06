@@ -32,6 +32,7 @@ foreach my $difficulty ('easy', 'medium', 'hard') {
   foreach my $filepath (<code/$difficulty/*>) {
     my $filename = basename($filepath);
     my ($no) = $filename =~ /^(\d+)/;
+    my ($ext) = $filename =~ /\.(\w+)$/;
     my ($title, $link, $tc, $sc);
 
     open my $fd, '<', $filepath or die "Can't open $filepath: $!";
@@ -55,6 +56,7 @@ foreach my $difficulty ('easy', 'medium', 'hard') {
       link => $link || undef,
       filename => $filename,
       filepath => $filepath,
+      ext => $ext,
       tc => $tc // 'N/A',
       sc => $sc // 'N/A',
     };
@@ -75,16 +77,29 @@ My [LeetCode](https://leetcode.com/) submissions
 - $dtag{hard}: $dcount{hard} / $dtotal{hard}
 
 ## Index
+EOF
+
+my @languages = (
+  { name => 'C++', ext => 'cpp' },
+  { name => 'SQL', ext => 'sql' },
+  { name => 'TypeScript', ext => 'ts' },
+);
+
+foreach my $language (@languages) {
+  print <<EOF;
+
+### $language->{name}
 
 | No. | Difficulty | Title | Code | Time complexity | Space complexity |
 | ---:| ---------- | ----- | ---- | --------------- | ---------------- |
 EOF
 
-foreach (sort { $a->{no} <=> $b->{no} } @fileinfo) {
-  my $title = defined $_->{link} ? "[$_->{title}]($_->{link})" : "$_->{title}";
-  my $code = "[$_->{filename}](./$_->{filepath})";
+  foreach (sort { $a->{no} <=> $b->{no} } grep { $_->{ext} eq $language->{ext} } @fileinfo) {
+    my $title = defined $_->{link} ? "[$_->{title}]($_->{link})" : "$_->{title}";
+    my $code = "[$_->{filename}](./$_->{filepath})";
 
-  print <<LINE;
+    print <<LINE;
 | $_->{no} | $_->{difficulty} | $title | $code | `$_->{tc}` | `$_->{sc}` |
 LINE
+  }
 }
