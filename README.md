@@ -4,8 +4,8 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 97 / 691
-- <span style="color: #ffb800;">Medium</span>: 79 / 1462
+- <span style="color: #00af9b;">Easy</span>: 98 / 691
+- <span style="color: #ffb800;">Medium</span>: 79 / 1463
 - <span style="color: #ff2d55;">Hard</span>: 7 / 610
 
 ## Index
@@ -190,6 +190,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1965 | <span style="color: #00af9b;">Easy</span> | [Employees With Missing Information](https://leetcode.com/problems/employees-with-missing-information/) | [1965-employees-with-missing-information.sql](./code/easy/1965-employees-with-missing-information.sql) | `N/A` | `N/A` |
 | 2620 | <span style="color: #00af9b;">Easy</span> | [Counter](https://leetcode.com/problems/counter/) | [2620-counter.ts](./code/easy/2620-counter.ts) | `N/A` | `N/A` |
 | 2626 | <span style="color: #00af9b;">Easy</span> | [Array Reduce Transformation](https://leetcode.com/problems/array-reduce-transformation/) | [2626-array-reduce-transformation.ts](./code/easy/2626-array-reduce-transformation.ts) | `N/A` | `N/A` |
+| 2629 | <span style="color: #00af9b;">Easy</span> | [Function Composition](https://leetcode.com/problems/function-composition/) | [2629-function-composition.ts](./code/easy/2629-function-composition.ts) | `N/A` | `N/A` |
 | 2634 | <span style="color: #00af9b;">Easy</span> | [Filter Elements from Array](https://leetcode.com/problems/filter-elements-from-array/) | [2634-filter-elements-from-array.ts](./code/easy/2634-filter-elements-from-array.ts) | `N/A` | `N/A` |
 | 2635 | <span style="color: #00af9b;">Easy</span> | [Apply Transform Over Each Element in Array](https://leetcode.com/problems/apply-transform-over-each-element-in-array/) | [2635-apply-transform-over-each-element-in-array.ts](./code/easy/2635-apply-transform-over-each-element-in-array.ts) | `N/A` | `N/A` |
 | 2665 | <span style="color: #00af9b;">Easy</span> | [Counter II](https://leetcode.com/problems/counter-ii/) | [2665-counter-ii.ts](./code/easy/2665-counter-ii.ts) | `N/A` | `N/A` |
