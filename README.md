@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 103 / 691
+- <span style="color: #00af9b;">Easy</span>: 104 / 691
 - <span style="color: #ffb800;">Medium</span>: 80 / 1463
 - <span style="color: #ff2d55;">Hard</span>: 7 / 610
 
@@ -213,3 +213,4 @@ My [LeetCode](https://leetcode.com/) submissions
 | 2704 | <span style="color: #00af9b;">Easy</span> | [To Be Or Not To Be](https://leetcode.com/problems/to-be-or-not-to-be/) | [2704-to-be-or-not-to-be.ts](./code/easy/2704-to-be-or-not-to-be.ts) | `N/A` | `N/A` |
 | 2715 | <span style="color: #00af9b;">Easy</span> | [Execute Cancellable Function With Delay](https://leetcode.com/problems/execute-cancellable-function-with-delay/) | [2715-execute-cancellable-function-with-delay.ts](./code/easy/2715-execute-cancellable-function-with-delay.ts) | `N/A` | `N/A` |
 | 2723 | <span style="color: #00af9b;">Easy</span> | [Add Two Promises](https://leetcode.com/problems/add-two-promises/) | [2723-add-two-promises.ts](./code/easy/2723-add-two-promises.ts) | `N/A` | `N/A` |
+| 2725 | <span style="color: #00af9b;">Easy</span> | [Interval Cancellation](https://leetcode.com/problems/interval-cancellation/) | [2725-interval-cancellation.ts](./code/easy/2725-interval-cancellation.ts) | `N/A` | `N/A` |
