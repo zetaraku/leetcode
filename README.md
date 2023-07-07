@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 100 / 691
+- <span style="color: #00af9b;">Easy</span>: 101 / 691
 - <span style="color: #ffb800;">Medium</span>: 80 / 1463
 - <span style="color: #ff2d55;">Hard</span>: 7 / 610
 
@@ -210,3 +210,4 @@ My [LeetCode](https://leetcode.com/) submissions
 | 2667 | <span style="color: #00af9b;">Easy</span> | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | [2667-create-hello-world-function.ts](./code/easy/2667-create-hello-world-function.ts) | `N/A` | `N/A` |
 | 2703 | <span style="color: #00af9b;">Easy</span> | [Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed/) | [2703-return-length-of-arguments-passed.ts](./code/easy/2703-return-length-of-arguments-passed.ts) | `N/A` | `N/A` |
 | 2704 | <span style="color: #00af9b;">Easy</span> | [To Be Or Not To Be](https://leetcode.com/problems/to-be-or-not-to-be/) | [2704-to-be-or-not-to-be.ts](./code/easy/2704-to-be-or-not-to-be.ts) | `N/A` | `N/A` |
+| 2723 | <span style="color: #00af9b;">Easy</span> | [Add Two Promises](https://leetcode.com/problems/add-two-promises/) | [2723-add-two-promises.ts](./code/easy/2723-add-two-promises.ts) | `N/A` | `N/A` |
