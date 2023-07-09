@@ -5,7 +5,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 109 / 693
-- <span style="color: #ffb800;">Medium</span>: 84 / 1469
+- <span style="color: #ffb800;">Medium</span>: 85 / 1469
 - <span style="color: #ff2d55;">Hard</span>: 7 / 610
 
 ## Index
@@ -219,6 +219,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 2704 | <span style="color: #00af9b;">Easy</span> | [To Be Or Not To Be](https://leetcode.com/problems/to-be-or-not-to-be/) | [2704-to-be-or-not-to-be.ts](./code/easy/2704-to-be-or-not-to-be.ts) | `N/A` | `N/A` |
 | 2715 | <span style="color: #00af9b;">Easy</span> | [Execute Cancellable Function With Delay](https://leetcode.com/problems/execute-cancellable-function-with-delay/) | [2715-execute-cancellable-function-with-delay.ts](./code/easy/2715-execute-cancellable-function-with-delay.ts) | `N/A` | `N/A` |
 | 2721 | <span style="color: #ffb800;">Medium</span> | [Execute Asynchronous Functions in Parallel](https://leetcode.com/problems/execute-asynchronous-functions-in-parallel/) | [2721-execute-asynchronous-functions-in-parallel.ts](./code/medium/2721-execute-asynchronous-functions-in-parallel.ts) | `N/A` | `N/A` |
+| 2722 | <span style="color: #ffb800;">Medium</span> | [Join Two Arrays by ID](https://leetcode.com/problems/join-two-arrays-by-id/) | [2722-join-two-arrays-by-id.ts](./code/medium/2722-join-two-arrays-by-id.ts) | `N/A` | `N/A` |
 | 2723 | <span style="color: #00af9b;">Easy</span> | [Add Two Promises](https://leetcode.com/problems/add-two-promises/) | [2723-add-two-promises.ts](./code/easy/2723-add-two-promises.ts) | `N/A` | `N/A` |
 | 2724 | <span style="color: #00af9b;">Easy</span> | [Sort By](https://leetcode.com/problems/sort-by/) | [2724-sort-by.ts](./code/easy/2724-sort-by.ts) | `N/A` | `N/A` |
 | 2725 | <span style="color: #00af9b;">Easy</span> | [Interval Cancellation](https://leetcode.com/problems/interval-cancellation/) | [2725-interval-cancellation.ts](./code/easy/2725-interval-cancellation.ts) | `N/A` | `N/A` |
