@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 107 / 692
+- <span style="color: #00af9b;">Easy</span>: 108 / 692
 - <span style="color: #ffb800;">Medium</span>: 83 / 1466
 - <span style="color: #ff2d55;">Hard</span>: 7 / 610
 
@@ -199,6 +199,7 @@ My [LeetCode](https://leetcode.com/) submissions
 
 | No. | Difficulty | Title | Code | Time complexity | Space complexity |
 | ---:| ---------- | ----- | ---- | --------------- | ---------------- |
+| 2619 | <span style="color: #00af9b;">Easy</span> | [Array Prototype Last](https://leetcode.com/problems/array-prototype-last/) | [2619-array-prototype-last.ts](./code/easy/2619-array-prototype-last.ts) | `N/A` | `N/A` |
 | 2620 | <span style="color: #00af9b;">Easy</span> | [Counter](https://leetcode.com/problems/counter/) | [2620-counter.ts](./code/easy/2620-counter.ts) | `N/A` | `N/A` |
 | 2621 | <span style="color: #00af9b;">Easy</span> | [Sleep](https://leetcode.com/problems/sleep/) | [2621-sleep.ts](./code/easy/2621-sleep.ts) | `N/A` | `N/A` |
 | 2622 | <span style="color: #ffb800;">Medium</span> | [Cache With Time Limit](https://leetcode.com/problems/cache-with-time-limit/) | [2622-cache-with-time-limit.ts](./code/medium/2622-cache-with-time-limit.ts) | `N/A` | `N/A` |
