@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 108 / 693
+- <span style="color: #00af9b;">Easy</span>: 109 / 693
 - <span style="color: #ffb800;">Medium</span>: 84 / 1469
 - <span style="color: #ff2d55;">Hard</span>: 7 / 610
 
@@ -220,5 +220,6 @@ My [LeetCode](https://leetcode.com/) submissions
 | 2715 | <span style="color: #00af9b;">Easy</span> | [Execute Cancellable Function With Delay](https://leetcode.com/problems/execute-cancellable-function-with-delay/) | [2715-execute-cancellable-function-with-delay.ts](./code/easy/2715-execute-cancellable-function-with-delay.ts) | `N/A` | `N/A` |
 | 2721 | <span style="color: #ffb800;">Medium</span> | [Execute Asynchronous Functions in Parallel](https://leetcode.com/problems/execute-asynchronous-functions-in-parallel/) | [2721-execute-asynchronous-functions-in-parallel.ts](./code/medium/2721-execute-asynchronous-functions-in-parallel.ts) | `N/A` | `N/A` |
 | 2723 | <span style="color: #00af9b;">Easy</span> | [Add Two Promises](https://leetcode.com/problems/add-two-promises/) | [2723-add-two-promises.ts](./code/easy/2723-add-two-promises.ts) | `N/A` | `N/A` |
+| 2724 | <span style="color: #00af9b;">Easy</span> | [Sort By](https://leetcode.com/problems/sort-by/) | [2724-sort-by.ts](./code/easy/2724-sort-by.ts) | `N/A` | `N/A` |
 | 2725 | <span style="color: #00af9b;">Easy</span> | [Interval Cancellation](https://leetcode.com/problems/interval-cancellation/) | [2725-interval-cancellation.ts](./code/easy/2725-interval-cancellation.ts) | `N/A` | `N/A` |
 | 2727 | <span style="color: #00af9b;">Easy</span> | [Is Object Empty](https://leetcode.com/problems/is-object-empty/) | [2727-is-object-empty.ts](./code/easy/2727-is-object-empty.ts) | `N/A` | `N/A` |
