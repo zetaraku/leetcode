@@ -5,7 +5,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 109 / 693
-- <span style="color: #ffb800;">Medium</span>: 85 / 1469
+- <span style="color: #ffb800;">Medium</span>: 86 / 1469
 - <span style="color: #ff2d55;">Hard</span>: 7 / 610
 
 ## Index
@@ -204,6 +204,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 2621 | <span style="color: #00af9b;">Easy</span> | [Sleep](https://leetcode.com/problems/sleep/) | [2621-sleep.ts](./code/easy/2621-sleep.ts) | `N/A` | `N/A` |
 | 2622 | <span style="color: #ffb800;">Medium</span> | [Cache With Time Limit](https://leetcode.com/problems/cache-with-time-limit/) | [2622-cache-with-time-limit.ts](./code/medium/2622-cache-with-time-limit.ts) | `N/A` | `N/A` |
 | 2623 | <span style="color: #ffb800;">Medium</span> | [Memoize](https://leetcode.com/problems/memoize/) | [2623-memoize.ts](./code/medium/2623-memoize.ts) | `N/A` | `N/A` |
+| 2625 | <span style="color: #ffb800;">Medium</span> | [Flatten Deeply Nested Array](https://leetcode.com/problems/flatten-deeply-nested-array/) | [2625-flatten-deeply-nested-array.ts](./code/medium/2625-flatten-deeply-nested-array.ts) | `N/A` | `N/A` |
 | 2626 | <span style="color: #00af9b;">Easy</span> | [Array Reduce Transformation](https://leetcode.com/problems/array-reduce-transformation/) | [2626-array-reduce-transformation.ts](./code/easy/2626-array-reduce-transformation.ts) | `N/A` | `N/A` |
 | 2627 | <span style="color: #ffb800;">Medium</span> | [Debounce](https://leetcode.com/problems/debounce/) | [2627-debounce.ts](./code/medium/2627-debounce.ts) | `N/A` | `N/A` |
 | 2629 | <span style="color: #00af9b;">Easy</span> | [Function Composition](https://leetcode.com/problems/function-composition/) | [2629-function-composition.ts](./code/easy/2629-function-composition.ts) | `N/A` | `N/A` |
