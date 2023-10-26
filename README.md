@@ -4,9 +4,9 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 111 / 739
-- <span style="color: #ffb800;">Medium</span>: 88 / 1532
-- <span style="color: #ff2d55;">Hard</span>: 7 / 636
+- <span style="color: #00af9b;">Easy</span>: 112 / 740
+- <span style="color: #ffb800;">Medium</span>: 88 / 1534
+- <span style="color: #ff2d55;">Hard</span>: 7 / 638
 
 ## Index
 
@@ -20,6 +20,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 5 | <span style="color: #ffb800;">Medium</span> | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [5-longest-palindromic-substring.cpp](./code/medium/5-longest-palindromic-substring.cpp) | `O(n^2)` | `O(n)` |
 | 6 | <span style="color: #ffb800;">Medium</span> | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [6-zigzag-conversion.cpp](./code/medium/6-zigzag-conversion.cpp) | `O(n)` | `O(n)` |
 | 8 | <span style="color: #ffb800;">Medium</span> | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [8-string-to-integer-atoi.cpp](./code/medium/8-string-to-integer-atoi.cpp) | `O(n)` | `O(1)` |
+| 9 | <span style="color: #00af9b;">Easy</span> | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [9-palindrome-number.cpp](./code/easy/9-palindrome-number.cpp) | `O(1)` | `O(1)` |
 | 19 | <span style="color: #ffb800;">Medium</span> | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [19-remove-nth-node-from-end-of-list.cpp](./code/medium/19-remove-nth-node-from-end-of-list.cpp) | `O(n)` | `O(1)` |
 | 20 | <span style="color: #00af9b;">Easy</span> | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [20-valid-parentheses.cpp](./code/easy/20-valid-parentheses.cpp) | `O(n)` | `O(n)` |
 | 21 | <span style="color: #00af9b;">Easy</span> | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [21-merge-two-sorted-lists.cpp](./code/easy/21-merge-two-sorted-lists.cpp) | `O(min(n1, n2))` | `O(1)` |
