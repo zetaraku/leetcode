@@ -4,9 +4,9 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 112 / 750
-- <span style="color: #ffb800;">Medium</span>: 88 / 1558
-- <span style="color: #ff2d55;">Hard</span>: 7 / 651
+- <span style="color: #00af9b;">Easy</span>: 112 / 751
+- <span style="color: #ffb800;">Medium</span>: 88 / 1561
+- <span style="color: #ff2d55;">Hard</span>: 7 / 652
 
 ## Index
 
