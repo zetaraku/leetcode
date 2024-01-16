@@ -4,9 +4,9 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 112 / 761
-- <span style="color: #ffb800;">Medium</span>: 88 / 1580
-- <span style="color: #ff2d55;">Hard</span>: 7 / 663
+- <span style="color: #00af9b;">Easy</span>: 113 / 762
+- <span style="color: #ffb800;">Medium</span>: 88 / 1582
+- <span style="color: #ff2d55;">Hard</span>: 7 / 664
 
 ## Index
 
@@ -155,6 +155,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1428 | <span style="color: #ffb800;">Medium</span> | [Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/) | [1428-leftmost-column-with-at-least-a-one.cpp](./code/medium/1428-leftmost-column-with-at-least-a-one.cpp) | `O(r+c)` | `O(1)` |
 | 1429 | <span style="color: #ffb800;">Medium</span> | [First Unique Number](https://leetcode.com/problems/first-unique-number/) | [1429-first-unique-number.cpp](./code/medium/1429-first-unique-number.cpp) | `O(1) for { showFirstUnique(), add(value) }` | `O(n)` |
 | 1430 | <span style="color: #ffb800;">Medium</span> | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/) | [1430-check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp](./code/medium/1430-check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.cpp) | `O(n)` | `O(n)` |
+| 1475 | <span style="color: #00af9b;">Easy</span> | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [1475-final-prices-with-a-special-discount-in-a-shop.cpp](./code/easy/1475-final-prices-with-a-special-discount-in-a-shop.cpp) | `O(n)` | `O(n)` |
 | 1480 | <span style="color: #00af9b;">Easy</span> | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [1480-running-sum-of-1d-array.cpp](./code/easy/1480-running-sum-of-1d-array.cpp) | `O(n)` | `O(n)` |
 | 1629 | <span style="color: #00af9b;">Easy</span> | [Slowest Key](https://leetcode.com/problems/slowest-key/) | [1629-slowest-key.cpp](./code/easy/1629-slowest-key.cpp) | `O(n)` | `O(1)` |
 
