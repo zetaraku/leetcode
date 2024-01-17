@@ -6,7 +6,7 @@ My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 113 / 762
 - <span style="color: #ffb800;">Medium</span>: 88 / 1582
-- <span style="color: #ff2d55;">Hard</span>: 7 / 664
+- <span style="color: #ff2d55;">Hard</span>: 8 / 664
 
 ## Index
 
@@ -158,6 +158,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1475 | <span style="color: #00af9b;">Easy</span> | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [1475-final-prices-with-a-special-discount-in-a-shop.cpp](./code/easy/1475-final-prices-with-a-special-discount-in-a-shop.cpp) | `O(n)` | `O(n)` |
 | 1480 | <span style="color: #00af9b;">Easy</span> | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [1480-running-sum-of-1d-array.cpp](./code/easy/1480-running-sum-of-1d-array.cpp) | `O(n)` | `O(n)` |
 | 1629 | <span style="color: #00af9b;">Easy</span> | [Slowest Key](https://leetcode.com/problems/slowest-key/) | [1629-slowest-key.cpp](./code/easy/1629-slowest-key.cpp) | `O(n)` | `O(1)` |
+| 1944 | <span style="color: #ff2d55;">Hard</span> | [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/) | [1944-number-of-visible-people-in-a-queue.cpp](./code/hard/1944-number-of-visible-people-in-a-queue.cpp) | `O(n)` | `O(n)` |
 
 ### SQL
 
