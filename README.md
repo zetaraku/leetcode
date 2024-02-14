@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 113 / 768
+- <span style="color: #00af9b;">Easy</span>: 114 / 768
 - <span style="color: #ffb800;">Medium</span>: 88 / 1596
 - <span style="color: #ff2d55;">Hard</span>: 8 / 672
 
@@ -189,6 +189,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1581 | <span style="color: #00af9b;">Easy</span> | [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) | [1581-customer-who-visited-but-did-not-make-any-transactions.sql](./code/easy/1581-customer-who-visited-but-did-not-make-any-transactions.sql) | `N/A` | `N/A` |
 | 1587 | <span style="color: #00af9b;">Easy</span> | [Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/) | [1587-bank-account-summary-ii.sql](./code/easy/1587-bank-account-summary-ii.sql) | `N/A` | `N/A` |
 | 1667 | <span style="color: #00af9b;">Easy</span> | [Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | [1667-fix-names-in-a-table.sql](./code/easy/1667-fix-names-in-a-table.sql) | `N/A` | `N/A` |
+| 1683 | <span style="color: #00af9b;">Easy</span> | [Invalid Tweets](https://leetcode.com/problems/invalid-tweets/) | [1683-invalid-tweets.sql](./code/easy/1683-invalid-tweets.sql) | `N/A` | `N/A` |
 | 1693 | <span style="color: #00af9b;">Easy</span> | [Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/) | [1693-daily-leads-and-partners.sql](./code/easy/1693-daily-leads-and-partners.sql) | `N/A` | `N/A` |
 | 1729 | <span style="color: #00af9b;">Easy</span> | [Find Followers Count](https://leetcode.com/problems/find-followers-count/) | [1729-find-followers-count.sql](./code/easy/1729-find-followers-count.sql) | `N/A` | `N/A` |
 | 1741 | <span style="color: #00af9b;">Easy</span> | [Find Total Time Spent by Each Employee](https://leetcode.com/problems/find-total-time-spent-by-each-employee/) | [1741-find-total-time-spent-by-each-employee.sql](./code/easy/1741-find-total-time-spent-by-each-employee.sql) | `N/A` | `N/A` |
