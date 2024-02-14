@@ -4,4 +4,4 @@
 --     <Indent every line.>
 -- Link: <Put the link to the problem here>
 
--- Write your MySQL query statement below
+-- Write your PostgreSQL query statement below
