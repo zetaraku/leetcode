@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 115 / 768
+- <span style="color: #00af9b;">Easy</span>: 116 / 768
 - <span style="color: #ffb800;">Medium</span>: 88 / 1596
 - <span style="color: #ff2d55;">Hard</span>: 8 / 673
 
@@ -178,6 +178,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 608 | <span style="color: #ffb800;">Medium</span> | [Tree Node](https://leetcode.com/problems/tree-node/) | [608-tree-node.sql](./code/medium/608-tree-node.sql) | `N/A` | `N/A` |
 | 627 | <span style="color: #00af9b;">Easy</span> | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [627-swap-salary.sql](./code/easy/627-swap-salary.sql) | `N/A` | `N/A` |
 | 1050 | <span style="color: #00af9b;">Easy</span> | [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | [1050-actors-and-directors-who-cooperated-at-least-three-times.sql](./code/easy/1050-actors-and-directors-who-cooperated-at-least-three-times.sql) | `N/A` | `N/A` |
+| 1068 | <span style="color: #00af9b;">Easy</span> | [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | [1068-product-sales-analysis-i.sql](./code/easy/1068-product-sales-analysis-i.sql) | `N/A` | `N/A` |
 | 1084 | <span style="color: #00af9b;">Easy</span> | [Sales Analysis III](https://leetcode.com/problems/sales-analysis-iii/) | [1084-sales-analysis-iii.sql](./code/easy/1084-sales-analysis-iii.sql) | `N/A` | `N/A` |
 | 1141 | <span style="color: #00af9b;">Easy</span> | [User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | [1141-user-activity-for-the-past-30-days-i.sql](./code/easy/1141-user-activity-for-the-past-30-days-i.sql) | `N/A` | `N/A` |
 | 1148 | <span style="color: #00af9b;">Easy</span> | [Article Views I](https://leetcode.com/problems/article-views-i/) | [1148-article-views-i.sql](./code/easy/1148-article-views-i.sql) | `N/A` | `N/A` |
