@@ -1,6 +1,8 @@
 #!/usr/bin/bash
 
-curl 'https://leetcode.com/api/problems/all/' | jq '
+# update problems.json manually from 'https://leetcode.com/api/problems/all/'
+
+cat ./problems.json | jq '
   [
     .stat_status_pairs[] | {
       no: .stat.frontend_question_id,
