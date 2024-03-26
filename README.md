@@ -5,7 +5,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 118 / 780
-- <span style="color: #ffb800;">Medium</span>: 90 / 1614
+- <span style="color: #ffb800;">Medium</span>: 91 / 1614
 - <span style="color: #ff2d55;">Hard</span>: 8 / 683
 
 ## Index
@@ -203,6 +203,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1795 | <span style="color: #00af9b;">Easy</span> | [Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/) | [1795-rearrange-products-table.sql](./code/easy/1795-rearrange-products-table.sql) | `N/A` | `N/A` |
 | 1873 | <span style="color: #00af9b;">Easy</span> | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/) | [1873-calculate-special-bonus.sql](./code/easy/1873-calculate-special-bonus.sql) | `N/A` | `N/A` |
 | 1890 | <span style="color: #00af9b;">Easy</span> | [The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/) | [1890-the-latest-login-in-2020.sql](./code/easy/1890-the-latest-login-in-2020.sql) | `N/A` | `N/A` |
+| 1934 | <span style="color: #ffb800;">Medium</span> | [Confirmation Rate](https://leetcode.com/problems/confirmation-rate/) | [1934-confirmation-rate.sql](./code/medium/1934-confirmation-rate.sql) | `N/A` | `N/A` |
 | 1965 | <span style="color: #00af9b;">Easy</span> | [Employees With Missing Information](https://leetcode.com/problems/employees-with-missing-information/) | [1965-employees-with-missing-information.sql](./code/easy/1965-employees-with-missing-information.sql) | `N/A` | `N/A` |
 
 ### TypeScript
