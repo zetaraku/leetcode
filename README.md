@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 116 / 780
+- <span style="color: #00af9b;">Easy</span>: 117 / 780
 - <span style="color: #ffb800;">Medium</span>: 89 / 1614
 - <span style="color: #ff2d55;">Hard</span>: 8 / 683
 
@@ -171,6 +171,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 196 | <span style="color: #00af9b;">Easy</span> | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | [196-delete-duplicate-emails.sql](./code/easy/196-delete-duplicate-emails.sql) | `N/A` | `N/A` |
 | 197 | <span style="color: #00af9b;">Easy</span> | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | [197-rising-temperature.sql](./code/easy/197-rising-temperature.sql) | `N/A` | `N/A` |
 | 511 | <span style="color: #00af9b;">Easy</span> | [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [511-game-play-analysis-i.sql](./code/easy/511-game-play-analysis-i.sql) | `N/A` | `N/A` |
+| 577 | <span style="color: #00af9b;">Easy</span> | [Employee Bonus](https://leetcode.com/problems/employee-bonus/) | [577-employee-bonus.sql](./code/easy/577-employee-bonus.sql) | `N/A` | `N/A` |
 | 584 | <span style="color: #00af9b;">Easy</span> | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [584-find-customer-referee.sql](./code/easy/584-find-customer-referee.sql) | `N/A` | `N/A` |
 | 586 | <span style="color: #00af9b;">Easy</span> | [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | [586-customer-placing-the-largest-number-of-orders.sql](./code/easy/586-customer-placing-the-largest-number-of-orders.sql) | `N/A` | `N/A` |
 | 595 | <span style="color: #00af9b;">Easy</span> | [Big Countries](https://leetcode.com/problems/big-countries/) | [595-big-countries.sql](./code/easy/595-big-countries.sql) | `N/A` | `N/A` |
