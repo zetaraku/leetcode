@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 118 / 780
+- <span style="color: #00af9b;">Easy</span>: 119 / 780
 - <span style="color: #ffb800;">Medium</span>: 91 / 1614
 - <span style="color: #ff2d55;">Hard</span>: 8 / 683
 
@@ -114,6 +114,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 394 | <span style="color: #ffb800;">Medium</span> | [Decode String](https://leetcode.com/problems/decode-string/) | [394-decode-string.cpp](./code/medium/394-decode-string.cpp) | `O(n)` | `O(n)` |
 | 409 | <span style="color: #00af9b;">Easy</span> | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [409-longest-palindrome.cpp](./code/easy/409-longest-palindrome.cpp) | `O(n)` | `O(1)` |
 | 438 | <span style="color: #ffb800;">Medium</span> | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [438-find-all-anagrams-in-a-string.cpp](./code/medium/438-find-all-anagrams-in-a-string.cpp) | `O(m+n)` | `O(m)` |
+| 496 | <span style="color: #00af9b;">Easy</span> | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [496-next-greater-element-i.cpp](./code/easy/496-next-greater-element-i.cpp) | `O(n1+n2)` | `O(n1+n2)` |
 | 509 | <span style="color: #00af9b;">Easy</span> | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [509-fibonacci-number.cpp](./code/easy/509-fibonacci-number.cpp) | `O(log(n))` | `O(log(n))` |
 | 525 | <span style="color: #ffb800;">Medium</span> | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [525-contiguous-array.cpp](./code/medium/525-contiguous-array.cpp) | `O(n)` | `O(n)` |
 | 542 | <span style="color: #ffb800;">Medium</span> | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [542-01-matrix.cpp](./code/medium/542-01-matrix.cpp) | `O(m*n)` | `O(m*n)` |
