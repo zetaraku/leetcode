@@ -28,7 +28,7 @@ public:
             */
 
             // for each number in nums, from right to left
-            for (std::size_t i: std::views::iota(0uz, nums.size()) | std::views::reverse) {
+            for (std::size_t i: std::views::iota((std::size_t) 0, nums.size()) | std::views::reverse) {
                 int num = nums[i];
                 
                 // pop out equal or smaller numbers so the right stack maintains an (strictly) increasing order
