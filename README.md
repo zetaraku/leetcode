@@ -5,7 +5,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 119 / 780
-- <span style="color: #ffb800;">Medium</span>: 93 / 1614
+- <span style="color: #ffb800;">Medium</span>: 94 / 1614
 - <span style="color: #ff2d55;">Hard</span>: 8 / 683
 
 ## Index
@@ -134,6 +134,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 704 | <span style="color: #00af9b;">Easy</span> | [Binary Search](https://leetcode.com/problems/binary-search/) | [704-binary-search.cpp](./code/easy/704-binary-search.cpp) | `O(log(n))` | `O(1)` |
 | 724 | <span style="color: #00af9b;">Easy</span> | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [724-find-pivot-index.cpp](./code/easy/724-find-pivot-index.cpp) | `O(n)` | `O(1)` |
 | 733 | <span style="color: #00af9b;">Easy</span> | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [733-flood-fill.cpp](./code/easy/733-flood-fill.cpp) | `O(m*n)` | `O(m*n)` |
+| 739 | <span style="color: #ffb800;">Medium</span> | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [739-daily-temperatures.cpp](./code/medium/739-daily-temperatures.cpp) | `O(n)` | `O(n)` |
 | 746 | <span style="color: #00af9b;">Easy</span> | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [746-min-cost-climbing-stairs.cpp](./code/easy/746-min-cost-climbing-stairs.cpp) | `O(n)` | `O(n)` |
 | 764 | <span style="color: #ffb800;">Medium</span> | [Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/) | [764-largest-plus-sign.cpp](./code/medium/764-largest-plus-sign.cpp) | `O(n^2)` | `O(n^2)` |
 | 784 | <span style="color: #ffb800;">Medium</span> | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [784-letter-case-permutation.cpp](./code/medium/784-letter-case-permutation.cpp) | `O(n*2^n)` | `O(n*2^n)` |
