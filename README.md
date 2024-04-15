@@ -6,7 +6,7 @@ My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 119 / 780
 - <span style="color: #ffb800;">Medium</span>: 94 / 1614
-- <span style="color: #ff2d55;">Hard</span>: 8 / 683
+- <span style="color: #ff2d55;">Hard</span>: 9 / 683
 
 ## Index
 
@@ -125,6 +125,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 565 | <span style="color: #ffb800;">Medium</span> | [Array Nesting](https://leetcode.com/problems/array-nesting/) | [565-array-nesting.cpp](./code/medium/565-array-nesting.cpp) | `O(n)` | `O(n)` |
 | 566 | <span style="color: #00af9b;">Easy</span> | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [566-reshape-the-matrix.cpp](./code/easy/566-reshape-the-matrix.cpp) | `O(m*n)` | `O(m*n)` |
 | 567 | <span style="color: #ffb800;">Medium</span> | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [567-permutation-in-string.cpp](./code/medium/567-permutation-in-string.cpp) | `O(n1+n2)` | `O(1)` |
+| 587 | <span style="color: #ff2d55;">Hard</span> | [Erect the Fence](https://leetcode.com/problems/erect-the-fence/) | [587-erect-the-fence.cpp](./code/hard/587-erect-the-fence.cpp) | `O(n*log(n))` | `O(n)` |
 | 589 | <span style="color: #00af9b;">Easy</span> | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [589-n-ary-tree-preorder-traversal.cpp](./code/easy/589-n-ary-tree-preorder-traversal.cpp) | `O(n)` | `O(n)` |
 | 617 | <span style="color: #00af9b;">Easy</span> | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [617-merge-two-binary-trees.cpp](./code/easy/617-merge-two-binary-trees.cpp) | `O(n1+n2)` | `O(n1+n2)` |
 | 647 | <span style="color: #ffb800;">Medium</span> | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [647-palindromic-substrings.cpp](./code/medium/647-palindromic-substrings.cpp) | `O(n^2)` | `O(1)` |
