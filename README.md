@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 119 / 780
+- <span style="color: #00af9b;">Easy</span>: 120 / 780
 - <span style="color: #ffb800;">Medium</span>: 94 / 1614
 - <span style="color: #ff2d55;">Hard</span>: 9 / 683
 
@@ -183,6 +183,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 595 | <span style="color: #00af9b;">Easy</span> | [Big Countries](https://leetcode.com/problems/big-countries/) | [595-big-countries.sql](./code/easy/595-big-countries.sql) | `N/A` | `N/A` |
 | 607 | <span style="color: #00af9b;">Easy</span> | [Sales Person](https://leetcode.com/problems/sales-person/) | [607-sales-person.sql](./code/easy/607-sales-person.sql) | `N/A` | `N/A` |
 | 608 | <span style="color: #ffb800;">Medium</span> | [Tree Node](https://leetcode.com/problems/tree-node/) | [608-tree-node.sql](./code/medium/608-tree-node.sql) | `N/A` | `N/A` |
+| 620 | <span style="color: #00af9b;">Easy</span> | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | [620-not-boring-movies.sql](./code/easy/620-not-boring-movies.sql) | `N/A` | `N/A` |
 | 627 | <span style="color: #00af9b;">Easy</span> | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [627-swap-salary.sql](./code/easy/627-swap-salary.sql) | `N/A` | `N/A` |
 | 1050 | <span style="color: #00af9b;">Easy</span> | [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | [1050-actors-and-directors-who-cooperated-at-least-three-times.sql](./code/easy/1050-actors-and-directors-who-cooperated-at-least-three-times.sql) | `N/A` | `N/A` |
 | 1068 | <span style="color: #00af9b;">Easy</span> | [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | [1068-product-sales-analysis-i.sql](./code/easy/1068-product-sales-analysis-i.sql) | `N/A` | `N/A` |
