@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 120 / 780
+- <span style="color: #00af9b;">Easy</span>: 121 / 780
 - <span style="color: #ffb800;">Medium</span>: 94 / 1614
 - <span style="color: #ff2d55;">Hard</span>: 9 / 683
 
@@ -68,6 +68,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 127 | <span style="color: #ff2d55;">Hard</span> | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [127-word-ladder.cpp](./code/hard/127-word-ladder.cpp) | `O(m*n^2)` | `O(m*n)` |
 | 136 | <span style="color: #00af9b;">Easy</span> | [Single Number](https://leetcode.com/problems/single-number/) | [136-single-number.cpp](./code/easy/136-single-number.cpp) | `O(n)` | `O(1)` |
 | 139 | <span style="color: #ffb800;">Medium</span> | [Word Break](https://leetcode.com/problems/word-break/) | [139-word-break.cpp](./code/medium/139-word-break.cpp) | `O(m*n)` | `O(n)` |
+| 141 | <span style="color: #00af9b;">Easy</span> | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [141-linked-list-cycle.cpp](./code/easy/141-linked-list-cycle.cpp) | `O(n)` | `O(1)` |
 | 142 | <span style="color: #ffb800;">Medium</span> | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [142-linked-list-cycle-ii.cpp](./code/medium/142-linked-list-cycle-ii.cpp) | `O(n)` | `O(1)` |
 | 144 | <span style="color: #00af9b;">Easy</span> | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [144-binary-tree-preorder-traversal.cpp](./code/easy/144-binary-tree-preorder-traversal.cpp) | `O(n)` | `O(n)` |
 | 145 | <span style="color: #00af9b;">Easy</span> | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [145-binary-tree-postorder-traversal.cpp](./code/easy/145-binary-tree-postorder-traversal.cpp) | `O(n)` | `O(n)` |
