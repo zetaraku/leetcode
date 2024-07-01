@@ -9,7 +9,7 @@
 //         "2" is the second-largest integer, and "1" is the third-largest integer.
 // Link: https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/
 
-// Time complexity: O(n)
+// Time complexity: O(n), on average
 // Space complexity: O(1)
 class Solution {
 public:
