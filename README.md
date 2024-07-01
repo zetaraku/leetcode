@@ -165,7 +165,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 1480 | <span style="color: #00af9b;">Easy</span> | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [1480-running-sum-of-1d-array.cpp](./code/easy/1480-running-sum-of-1d-array.cpp) | `O(n)` | `O(n)` |
 | 1629 | <span style="color: #00af9b;">Easy</span> | [Slowest Key](https://leetcode.com/problems/slowest-key/) | [1629-slowest-key.cpp](./code/easy/1629-slowest-key.cpp) | `O(n)` | `O(1)` |
 | 1944 | <span style="color: #ff2d55;">Hard</span> | [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/) | [1944-number-of-visible-people-in-a-queue.cpp](./code/hard/1944-number-of-visible-people-in-a-queue.cpp) | `O(n)` | `O(n)` |
-| 1985 | <span style="color: #ffb800;">Medium</span> | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/) | [1985-find-the-kth-largest-integer-in-the-array.cpp](./code/medium/1985-find-the-kth-largest-integer-in-the-array.cpp) | `O(n)` | `O(1)` |
+| 1985 | <span style="color: #ffb800;">Medium</span> | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/) | [1985-find-the-kth-largest-integer-in-the-array.cpp](./code/medium/1985-find-the-kth-largest-integer-in-the-array.cpp) | `O(n), on average` | `O(1)` |
 | 2487 | <span style="color: #ffb800;">Medium</span> | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | [2487-remove-nodes-from-linked-list.cpp](./code/medium/2487-remove-nodes-from-linked-list.cpp) | `O(n)` | `O(1)` |
 
 ### SQL
