@@ -5,7 +5,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 121 / 806
-- <span style="color: #ffb800;">Medium</span>: 94 / 1679
+- <span style="color: #ffb800;">Medium</span>: 95 / 1679
 - <span style="color: #ff2d55;">Hard</span>: 9 / 713
 
 ## Index
@@ -89,6 +89,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 206 | <span style="color: #00af9b;">Easy</span> | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [206-reverse-linked-list.cpp](./code/easy/206-reverse-linked-list.cpp) | `O(n)` | `O(1)` |
 | 208 | <span style="color: #ffb800;">Medium</span> | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [208-implement-trie-prefix-tree.cpp](./code/medium/208-implement-trie-prefix-tree.cpp) | `O(n) for { insert(word), search(word), startsWith(prefix) }` | `O(n)` |
 | 213 | <span style="color: #ffb800;">Medium</span> | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [213-house-robber-ii.cpp](./code/medium/213-house-robber-ii.cpp) | `O(n)` | `O(n)` |
+| 215 | <span style="color: #ffb800;">Medium</span> | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [215-kth-largest-element-in-an-array.cpp](./code/medium/215-kth-largest-element-in-an-array.cpp) | `O(n*log(k))` | `O(k)` |
 | 217 | <span style="color: #00af9b;">Easy</span> | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [217-contains-duplicate.cpp](./code/easy/217-contains-duplicate.cpp) | `O(n)` | `O(n)` |
 | 218 | <span style="color: #ff2d55;">Hard</span> | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [218-the-skyline-problem.cpp](./code/hard/218-the-skyline-problem.cpp) | `O(n*log(n))` | `O(n)` |
 | 221 | <span style="color: #ffb800;">Medium</span> | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [221-maximal-square.cpp](./code/medium/221-maximal-square.cpp) | `O(m*n)` | `O(m*n)` |
