@@ -13,34 +13,34 @@
 class Solution {
 public:
     int findMin(std::vector<int> &nums) {
-        // this function only works with non-empty input
         assert(nums.size() != 0);
+
+        auto head = nums.begin(), tail = nums.end() - 1;
         
-        return findMin(nums, 0, nums.size() - 1);
-    }
-    
-    int findMin(std::vector<int> &nums, std::size_t headIndex, std::size_t tailIndex) {
-        // if the range contains exactly one element
-        if (headIndex == tailIndex) {
-            // the minimum element is the only element
-            return nums[headIndex];
-        }
-        
-        // locate the mid index (if odd) or the left-mid index (if even)
-        std::size_t midIndex = headIndex + (tailIndex - headIndex) / 2;
-        
-        if (nums[midIndex] < nums[tailIndex]) {
-            // if [midIndex, tailIndex] is in ascending order (no decending happens within)
+        // until the range has exact one element
+        while (head != tail) {
+            // calculate the mid point
+            auto mid = head + (tail - head) / 2;
             
-            // the minimum element cannot be in (midIndex, tailIndex],
-            // we can omit (midIndex, tailIndex] and search in [headIndex, midIndex] instead
-            return findMin(nums, headIndex, midIndex);
-        } else {
-            // otherwise, a decending must happens somewhere within [midIndex, tailIndex]
-            
-            // the minimum element must be in (midIndex, tailIndex],
-            // we can omit [headIndex, midIndex] and search in (midIndex, tailIndex] instead
-            return findMin(nums, midIndex + 1, tailIndex);
+            if (*mid < *tail) {
+                // if *mid < *tail, then no decending can happen within (mid, tail]
+                // so the minimum element cannot be in (mid, tail]
+
+                // we can omit (mid, tail] and search in [head, mid] instead
+                tail = mid;
+            } else if (*mid > *tail) {
+                // if *mid > *tail, then a decending must happen somewhere within (mid, tail]
+                // so the minimum element must be in (mid, tail]
+
+                // we can omit [head, mid] and search in (mid, tail] instead
+                head = mid + 1;
+            } else /* if (*mid == *tail) */ {
+                // This cannot happen. (All the integers of nums are unique.)
+                assert(false);
+            }
         }
+
+        // return the only element
+        return *head;
     }
 };
