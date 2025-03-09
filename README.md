@@ -5,7 +5,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 121 / 847
-- <span style="color: #ffb800;">Medium</span>: 97 / 1777
+- <span style="color: #ffb800;">Medium</span>: 98 / 1777
 - <span style="color: #ff2d55;">Hard</span>: 9 / 786
 
 ## Index
@@ -144,6 +144,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 784 | <span style="color: #ffb800;">Medium</span> | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [784-letter-case-permutation.cpp](./code/medium/784-letter-case-permutation.cpp) | `O(n*2^n)` | `O(n*2^n)` |
 | 844 | <span style="color: #00af9b;">Easy</span> | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [844-backspace-string-compare.cpp](./code/easy/844-backspace-string-compare.cpp) | `O(n)` | `O(1)` |
 | 848 | <span style="color: #ffb800;">Medium</span> | [Shifting Letters](https://leetcode.com/problems/shifting-letters/) | [848-shifting-letters.cpp](./code/medium/848-shifting-letters.cpp) | `O(n)` | `O(n)` |
+| 865 | <span style="color: #ffb800;">Medium</span> | [Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/) | [865-smallest-subtree-with-all-the-deepest-nodes.cpp](./code/medium/865-smallest-subtree-with-all-the-deepest-nodes.cpp) | `O(n)` | `O(n)` |
 | 876 | <span style="color: #00af9b;">Easy</span> | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [876-middle-of-the-linked-list.cpp](./code/easy/876-middle-of-the-linked-list.cpp) | `O(n)` | `O(1)` |
 | 899 | <span style="color: #ff2d55;">Hard</span> | [Orderly Queue](https://leetcode.com/problems/orderly-queue/) | [899-orderly-queue.cpp](./code/hard/899-orderly-queue.cpp) | `O(n^2)` | `O(n)` |
 | 917 | <span style="color: #00af9b;">Easy</span> | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | [917-reverse-only-letters.cpp](./code/easy/917-reverse-only-letters.cpp) | `O(n)` | `O(n)` |
