@@ -6,7 +6,7 @@ My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 122 / 847
 - <span style="color: #ffb800;">Medium</span>: 98 / 1777
-- <span style="color: #ff2d55;">Hard</span>: 9 / 786
+- <span style="color: #ff2d55;">Hard</span>: 10 / 786
 
 ## Index
 
@@ -230,6 +230,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 2626 | <span style="color: #00af9b;">Easy</span> | [Array Reduce Transformation](https://leetcode.com/problems/array-reduce-transformation/) | [2626-array-reduce-transformation.ts](./code/easy/2626-array-reduce-transformation.ts) | `N/A` | `N/A` |
 | 2627 | <span style="color: #ffb800;">Medium</span> | [Debounce](https://leetcode.com/problems/debounce/) | [2627-debounce.ts](./code/medium/2627-debounce.ts) | `N/A` | `N/A` |
 | 2629 | <span style="color: #00af9b;">Easy</span> | [Function Composition](https://leetcode.com/problems/function-composition/) | [2629-function-composition.ts](./code/easy/2629-function-composition.ts) | `N/A` | `N/A` |
+| 2630 | <span style="color: #ff2d55;">Hard</span> | [Memoize II](https://leetcode.com/problems/memoize-ii/) | [2630-memoize-ii.ts](./code/hard/2630-memoize-ii.ts) | `N/A` | `N/A` |
 | 2631 | <span style="color: #ffb800;">Medium</span> | [Group By](https://leetcode.com/problems/group-by/) | [2631-group-by.ts](./code/medium/2631-group-by.ts) | `N/A` | `N/A` |
 | 2634 | <span style="color: #00af9b;">Easy</span> | [Filter Elements from Array](https://leetcode.com/problems/filter-elements-from-array/) | [2634-filter-elements-from-array.ts](./code/easy/2634-filter-elements-from-array.ts) | `N/A` | `N/A` |
 | 2635 | <span style="color: #00af9b;">Easy</span> | [Apply Transform Over Each Element in Array](https://leetcode.com/problems/apply-transform-over-each-element-in-array/) | [2635-apply-transform-over-each-element-in-array.ts](./code/easy/2635-apply-transform-over-each-element-in-array.ts) | `N/A` | `N/A` |
