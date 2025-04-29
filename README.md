@@ -5,7 +5,7 @@
 My [LeetCode](https://leetcode.com/) submissions
 
 - <span style="color: #00af9b;">Easy</span>: 122 / 873
-- <span style="color: #ffb800;">Medium</span>: 98 / 1835
+- <span style="color: #ffb800;">Medium</span>: 99 / 1835
 - <span style="color: #ff2d55;">Hard</span>: 10 / 827
 
 ## Index
@@ -236,6 +236,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | 2635 | <span style="color: #00af9b;">Easy</span> | [Apply Transform Over Each Element in Array](https://leetcode.com/problems/apply-transform-over-each-element-in-array/) | [2635-apply-transform-over-each-element-in-array.ts](./code/easy/2635-apply-transform-over-each-element-in-array.ts) | `N/A` | `N/A` |
 | 2637 | <span style="color: #ffb800;">Medium</span> | [Promise Time Limit](https://leetcode.com/problems/promise-time-limit/) | [2637-promise-time-limit.ts](./code/medium/2637-promise-time-limit.ts) | `N/A` | `N/A` |
 | 2648 | <span style="color: #00af9b;">Easy</span> | [Generate Fibonacci Sequence](https://leetcode.com/problems/generate-fibonacci-sequence/) | [2648-generate-fibonacci-sequence.ts](./code/easy/2648-generate-fibonacci-sequence.ts) | `N/A` | `N/A` |
+| 2649 | <span style="color: #ffb800;">Medium</span> | [Nested Array Generator](https://leetcode.com/problems/nested-array-generator/) | [2649-nested-array-generator.ts](./code/medium/2649-nested-array-generator.ts) | `N/A` | `N/A` |
 | 2665 | <span style="color: #00af9b;">Easy</span> | [Counter II](https://leetcode.com/problems/counter-ii/) | [2665-counter-ii.ts](./code/easy/2665-counter-ii.ts) | `N/A` | `N/A` |
 | 2666 | <span style="color: #00af9b;">Easy</span> | [Allow One Function Call](https://leetcode.com/problems/allow-one-function-call/) | [2666-allow-one-function-call.ts](./code/easy/2666-allow-one-function-call.ts) | `N/A` | `N/A` |
 | 2667 | <span style="color: #00af9b;">Easy</span> | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | [2667-create-hello-world-function.ts](./code/easy/2667-create-hello-world-function.ts) | `N/A` | `N/A` |
