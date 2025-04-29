@@ -4,7 +4,7 @@
 
 My [LeetCode](https://leetcode.com/) submissions
 
-- <span style="color: #00af9b;">Easy</span>: 122 / 873
+- <span style="color: #00af9b;">Easy</span>: 123 / 873
 - <span style="color: #ffb800;">Medium</span>: 99 / 1835
 - <span style="color: #ff2d55;">Hard</span>: 10 / 827
 
@@ -176,6 +176,7 @@ My [LeetCode](https://leetcode.com/) submissions
 | ---:| ---------- | ----- | ---- | --------------- | ---------------- |
 | 175 | <span style="color: #00af9b;">Easy</span> | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [175-combine-two-tables.sql](./code/easy/175-combine-two-tables.sql) | `N/A` | `N/A` |
 | 176 | <span style="color: #ffb800;">Medium</span> | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | [176-second-highest-salary.sql](./code/medium/176-second-highest-salary.sql) | `N/A` | `N/A` |
+| 181 | <span style="color: #00af9b;">Easy</span> | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | [181-employees-earning-more-than-their-managers.sql](./code/easy/181-employees-earning-more-than-their-managers.sql) | `N/A` | `N/A` |
 | 182 | <span style="color: #00af9b;">Easy</span> | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | [182-duplicate-emails.sql](./code/easy/182-duplicate-emails.sql) | `N/A` | `N/A` |
 | 183 | <span style="color: #00af9b;">Easy</span> | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | [183-customers-who-never-order.sql](./code/easy/183-customers-who-never-order.sql) | `N/A` | `N/A` |
 | 196 | <span style="color: #00af9b;">Easy</span> | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | [196-delete-duplicate-emails.sql](./code/easy/196-delete-duplicate-emails.sql) | `N/A` | `N/A` |
